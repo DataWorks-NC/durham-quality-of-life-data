@@ -48,10 +48,12 @@ let dataConfig = {
   "mAVEAGE": {
     "metric": "AVEAGE",
     "category": "Health",
-    "raw_label": "years",
+    //"raw_label": "years",
     "title": "Average Age of Death",
     "decimals": 1,
-    "type": "weighted",
+    "type": "mean",
+      "world_val": {"y_2009": 69.1,"y_2014":69.6
+    },
     "geographies": [
       "blockgroup",
       "tract"
@@ -61,8 +63,8 @@ let dataConfig = {
     "metric": "BACH",
     "category": "Education",
     "suffix": "%",
-    "raw_label": "Percent",
-    "title": "Percent Adults with at least a Bachelor\"s Degree",
+    //"raw_label": "Percent",
+    "title": "Percent Adults with at least a Bachelors Degree",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -74,7 +76,7 @@ let dataConfig = {
     "accuracy": "true",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "people",
+    //"raw_label": "people",
     "title": "Commuting to work by Bicycle",
     "decimals": 1,
     "type": "weighted",
@@ -134,7 +136,7 @@ let dataConfig = {
     "metric": "CPMTS",
     "category": "Economy",
     "prefix": "$",
-    "raw_label": "total dollars",
+    //"raw_label": "total dollars",
     "title": "Commercial Building Permit Values Per Sq Mile",
     "decimals": 0,
     "type": "weighted",
@@ -149,7 +151,7 @@ let dataConfig = {
     "category": "Environment",
     "title": "Single-Occupancy Commuters",
     "suffix": "%",
-    "raw_label": "commuters",
+   // "raw_label": "commuters",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -176,7 +178,7 @@ let dataConfig = {
     "prefix": "$",
     "raw_label": "",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "tract"
     ]
@@ -187,7 +189,7 @@ let dataConfig = {
     "title": "Avg. Monthly Household Electricity Use",
     "suffix": " kwh",
     "decimals": 1,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -198,7 +200,7 @@ let dataConfig = {
     "suffix": "",
     "title": "Land Use Diversity",
     "decimals": 1,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -209,7 +211,7 @@ let dataConfig = {
     "prefix": "$",
     "title": "Average Residential Building Permit Value",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup",
       "neighborhood"
@@ -221,7 +223,7 @@ let dataConfig = {
     "category": "Demographics",
     "title": "Median Age",
     "decimals": 1,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -234,7 +236,7 @@ let dataConfig = {
     "prefix": "$",
     "raw_label": "",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "tract"
     ]
@@ -246,7 +248,7 @@ let dataConfig = {
     "prefix": "$",
     "raw_label": "",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "tract"
     ]
@@ -258,7 +260,7 @@ let dataConfig = {
     "raw_label": "",
     "title": "Median Household Income",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup",
       "tract"
@@ -271,7 +273,7 @@ let dataConfig = {
     "prefix": "$",
     "raw_label": "",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -283,7 +285,7 @@ let dataConfig = {
     "prefix": "$",
     "title": "Per Capita Income",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -294,7 +296,7 @@ let dataConfig = {
     "category": "Environment",
     "title": "Long Commute Times",
     "suffix": "%",
-    "raw_label": "commuters",
+   // "raw_label": "commuters",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -318,7 +320,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Renter-Occupied Housing",
     "suffix": "%",
-    "raw_label": "households",
+   // "raw_label": "households",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -330,7 +332,7 @@ let dataConfig = {
     "accuracy": "true",
     "category": "Economy",
     "suffix": "%",
-    "raw_label": "people",
+    //"raw_label": "people",
     "title": "Supplemental Security Income",
     "decimals": 1,
     "type": "weighted",
@@ -364,7 +366,7 @@ let dataConfig = {
   "mPOPDENS": {
     "metric": "POPDENS",
     "category": "Demographics",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "Population Density",
     "decimals": 0,
     "type": "weighted",
@@ -376,7 +378,7 @@ let dataConfig = {
     "metric": "PROXBANK",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "households",
+   // "raw_label": "households",
     "title": "Homes Near Banks or Credit Unions",
     "decimals": 1,
     "type": "weighted",
@@ -388,7 +390,7 @@ let dataConfig = {
     "metric": "PROXBUS",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "households",
+   // "raw_label": "households",
     "title": "Homes Near Bus Stops",
     "decimals": 1,
     "type": "weighted",
@@ -401,7 +403,7 @@ let dataConfig = {
     "metric": "PROXGR",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "households",
+   // "raw_label": "households",
     "title": "Homes Near Grocery Stores",
     "decimals": 1,
     "type": "weighted",
@@ -413,7 +415,7 @@ let dataConfig = {
     "metric": "PROXPH",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "households",
+   // "raw_label": "households",
     "title": "Homes Near Pharmacies",
     "decimals": 1,
     "type": "weighted",
@@ -426,7 +428,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Poor or Unsound State of Repair",
     "suffix": "%",
-    "raw_label": "dwelling units",
+    //"raw_label": "dwelling units",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -438,7 +440,7 @@ let dataConfig = {
     "category": "Demographics",
     "title": "Retirement-Age Population",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -449,7 +451,7 @@ let dataConfig = {
     "metric": "PTASNL",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "Asian",
     "decimals": 0,
     "type": "weighted",
@@ -462,7 +464,7 @@ let dataConfig = {
     "metric": "PTBLKNL",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "Black or African American",
     "decimals": 0,
     "type": "weighted",
@@ -476,7 +478,7 @@ let dataConfig = {
     "category": "Engagement",
     "title": "General Election Participation",
     "suffix": "%",
-    "raw_label": "voters",
+   // "raw_label": "voters",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -487,7 +489,7 @@ let dataConfig = {
     "metric": "PTLAT",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "Hispanic/Latino",
     "decimals": 0,
     "type": "weighted",
@@ -500,7 +502,7 @@ let dataConfig = {
     "metric": "PTOTHNL",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "Other Race",
     "decimals": 0,
     "type": "weighted",
@@ -513,7 +515,7 @@ let dataConfig = {
     "category": "Engagement",
     "title": "Primary Election Participation",
     "suffix": "%",
-    "raw_label": "voters",
+    //"raw_label": "voters",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -525,7 +527,7 @@ let dataConfig = {
     "category": "Demographics",
     "title": "Youth Population",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -536,7 +538,7 @@ let dataConfig = {
     "metric": "PTWHNL",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+   // "raw_label": "People",
     "title": "White or Caucasian",
     "decimals": 0,
     "type": "weighted",
@@ -565,7 +567,7 @@ let dataConfig = {
     "prefix": "",
     "raw_label": "",
     "decimals": 0,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup",
       "neighborhood"
@@ -591,7 +593,7 @@ let dataConfig = {
     "suffix": "",
     "raw_label": "",
     "decimals": 2,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup"
     ]
@@ -602,7 +604,7 @@ let dataConfig = {
     "title": "Tax Value Change",
     "suffix": "%",
     "decimals": 1,
-    "type": "weighted",
+    "type": "mean",
     "geographies": [
       "blockgroup",
       "neighborhood"
@@ -612,7 +614,7 @@ let dataConfig = {
     "metric": "RPMTS",
     "category": "Economy",
     "prefix": "$",
-    "raw_label": "total dollars",
+    //raw_label": "total dollars",
     "title": "Residential Building Permit Values Per Sq Mile",
     "decimals": 0,
     "type": "weighted",
@@ -650,7 +652,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Cost-Burdened Mortgage Holders",
     "suffix": "%",
-    "raw_label": "households",
+    //"raw_label": "households",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -663,7 +665,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Cost-Burdened Renters",
     "suffix": "%",
-    "raw_label": "households",
+    //"raw_label": "households",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -712,7 +714,7 @@ let dataConfig = {
     "accuracy": "true",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "people",
+   // "raw_label": "people",
     "title": "Working from Home",
     "decimals": 1,
     "type": "weighted",
@@ -725,7 +727,7 @@ let dataConfig = {
     "accuracy": "true",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
-    "raw_label": "people",
+   // "raw_label": "people",
     "title": "Walking to Work",
     "decimals": 1,
     "type": "weighted",

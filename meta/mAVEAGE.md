@@ -2,7 +2,7 @@
 Average Age of Death
 
 ### Why is this important?
-[test]
+Average age of death is equivalent to life expectancy. It has been widely reported that people in different ZIP Codes can expect to have different life expectancies but ZIP codes cover large areas that mask more local variations.   
 
 ### About the Data
 The average age of death here is reported for 2009 (reflecting records from 2005-2009) and 2014 (reflecting records from 2010-2014).

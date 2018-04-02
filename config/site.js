@@ -37,25 +37,25 @@ let siteConfig = {
   qolreportURL: '/report.html',
   qoldashboardURL: 'https://compass.durhamnc.gov/',
   contactForm: '-',
-  contacts: 'john@dataworksnc.org',
+  contacts: 'johnkilleen@dataworks-nc.org',
   whatsnew: [
   ],
   links: [
     {
-      href: 'http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx',
+      href: 'http://www.dataworks-nc.org',
       text: 'About'
     },
     {
-      href: 'downloads/qol-data.zip',
-      text: 'Download Data'
+      href: 'http://www.opendurham.org/',
+      text: 'Open Durham - Neighborhood Histories'
     },
+      {
+          href: 'http://www.durhamhoods.com/',
+          text: 'Durham Hoods - Neighborhood Maps and Mailing List Hub'
+      },
     {
-      href: 'http://maps.co.mecklenburg.nc.us/openmapping/',
-      text: 'Mecklenburg County Open Mapping'
-    },
-    {
-      href: 'http://clt.charlotte.opendata.arcgis.com/',
-      text: 'City of Charlotte Open Data Portal'
+      href: 'https://opendurham.nc.gov/pages/home/',
+      text: 'City of Durham Open Data Portal'
     }
   ],
   geographies: [
