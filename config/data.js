@@ -89,6 +89,7 @@ let dataConfig = {
     "suffix": "%",
     "title": "Child Care Centers with 4 or 5 Star Ratings",
     "decimals": 1,
+    "raw_label": "Centers",
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -99,8 +100,9 @@ let dataConfig = {
     "metric": "CCC",
     "category": "Education",
     "title": "Child Care Centers per Square Mile",
-    "label": "centers",
-    "decimals": 0,
+    "label": "centers per sq mi",
+    "raw_label": "centers",
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -110,9 +112,10 @@ let dataConfig = {
   "mCOB": {
     "metric": "COB",
     "category": "Economy",
-    "label": "COs",
+    "label": "certificates per sq mi",
+    "raw_label": "certificates",
     "title": "Commercial Certificates of Occupancy",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup"
@@ -121,9 +124,10 @@ let dataConfig = {
   "mCOR": {
     "metric": "COR",
     "category": "Economy",
-    "label": "COs",
+    "label": "certificates per sq mi",
+    "raw_label": "certificates",
     "title": "Residential Certificates of Occupancy",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup"
@@ -133,7 +137,8 @@ let dataConfig = {
     "metric": "CPMTS",
     "category": "Economy",
     "prefix": "$",
-    "raw_label": "total dollars",
+    "label": "permits per sq mi",
+    "raw_label": "permits",
     "title": "Commercial Building Permit Values Per Sq Mile",
     "decimals": 0,
     "type": "weighted",
@@ -159,7 +164,8 @@ let dataConfig = {
     "metric": "D_SQM",
     "category": "Safety",
     "title": "Drug Crimes per Square Mile",
-    "label": "incidents",
+    "label": "incidents per sq mi",
+    "raw_label": "incidents",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -215,6 +221,7 @@ let dataConfig = {
     "metric": "MEDAGE",
     "accuracy": "true",
     "category": "Demographics",
+    "label": "years",
     "title": "Median Age",
     "decimals": 1,
     "type": "mean",
@@ -310,7 +317,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Renter-Occupied Housing",
     "suffix": "%",
-    "raw_label": "households",
+    "raw_label": "renter households",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -322,7 +329,7 @@ let dataConfig = {
     "accuracy": "true",
     "category": "Economy",
     "suffix": "%",
-    "raw_label": "people",
+    "raw_label": "people receiving SSI",
     "title": "Supplemental Security Income",
     "decimals": 1,
     "type": "weighted",
@@ -356,7 +363,7 @@ let dataConfig = {
   "mPOPDENS": {
     "metric": "POPDENS",
     "category": "Demographics",
-    "raw_label": "People",
+    "label": "People per sq mi",
     "title": "Population Density",
     "decimals": 0,
     "type": "weighted",
@@ -418,7 +425,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Poor or Unsound State of Repair",
     "suffix": "%",
-    "raw_label": "dwelling units",
+    "raw_label": "dwelling units in poor or unsound state of repair",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -443,7 +450,7 @@ let dataConfig = {
     "suffix": "%",
     "raw_label": "people",
     "title": "Asian",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -456,7 +463,7 @@ let dataConfig = {
     "suffix": "%",
     "raw_label": "people",
     "title": "Black or African American",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -481,7 +488,7 @@ let dataConfig = {
     "suffix": "%",
     "raw_label": "People",
     "title": "Hispanic/Latino",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -494,7 +501,7 @@ let dataConfig = {
     "suffix": "%",
     "raw_label": "People",
     "title": "Other Race",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup"
@@ -517,7 +524,7 @@ let dataConfig = {
     "category": "Demographics",
     "title": "Youth Population",
     "suffix": "%",
-    "raw_label": "People",
+    "raw_label": "young people",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -530,7 +537,7 @@ let dataConfig = {
     "suffix": "%",
     "raw_label": "People",
     "title": "White or Caucasian",
-    "decimals": 0,
+    "decimals": 1,
     "type": "weighted",
     "geographies": [
       "blockgroup",
@@ -541,7 +548,8 @@ let dataConfig = {
     "metric": "P_SQM",
     "category": "Safety",
     "title": "Property Crimes per Square Mile",
-    "raw_label": "incidents",
+    "label": "crimes per sq mi",
+    "raw_label": "crimes",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -554,6 +562,7 @@ let dataConfig = {
     "category": "Housing",
     "title": "Average Year of Residential Construction",
     "decimals": 0,
+    "commas": false,
     "type": "mean",
     "geographies": [
       "blockgroup",
@@ -563,7 +572,8 @@ let dataConfig = {
   "mRCODE": {
     "metric": "RCODE",
     "category": "Housing",
-    "title": "Minimum Housing Code Violations",
+    "title": "Minimum Housing Code Violations per Square Mile",
+    "label": "violations per sq mi",
     "raw_label": "violations",
     "decimals": 1,
     "type": "weighted",
@@ -598,8 +608,9 @@ let dataConfig = {
     "metric": "RPMTS",
     "category": "Economy",
     "prefix": "$",
+    "title": "Residential Building Permit Value Per Sq Mile",
+    "label": "per sq mi",
     "raw_label": "total dollars",
-    "title": "Residential Building Permit Values Per Sq Mile",
     "decimals": 0,
     "type": "weighted",
     "geographies": [
@@ -610,6 +621,7 @@ let dataConfig = {
     "metric": "SUMEJECT",
     "category": "Housing",
     "title": "Summary Ejectments Per Square Mile",
+    "label": "evictions per sq mi",
     "raw_label": "Evictions",
     "decimals": 0,
     "type": "weighted",
@@ -622,6 +634,7 @@ let dataConfig = {
     "category": "Infrastructure and Amenities",
     "suffix": "%",
     "title": "Sidewalks to Roadways",
+    "label": "ratio of sidewalks to roadways",
     "decimals": 0,
     "type": "weighted",
     "geographies": [
@@ -659,6 +672,7 @@ let dataConfig = {
     "metric": "VCODE",
     "category": "Environment",
     "title": "Automotive Code Violations",
+    "label": "violations per sq mi",
     "raw_label": "violations",
     "decimals": 1,
     "type": "weighted",
@@ -670,6 +684,7 @@ let dataConfig = {
     "metric": "V_SQM",
     "category": "Safety",
     "title": "Violent Crimes per Square Mile",
+    "label": "incidents per sq mi",
     "raw_label": "incidents",
     "decimals": 1,
     "type": "weighted",
@@ -682,6 +697,7 @@ let dataConfig = {
     "metric": "WCODE",
     "category": "Environment",
     "title": "Unmaintained Property Violations",
+    "label": "violations per sq mi",
     "raw_label": "violations",
     "decimals": 1,
     "type": "weighted",
