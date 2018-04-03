@@ -41,4 +41,6 @@ yarn.lock
 *.sh
 
 config/private.js
+.DS_Store
+.Rhistory
 
