@@ -258,10 +258,11 @@ let dataConfig = {
     "prefix": "$",
     "title": "Median Household Income",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
+    "accuracy": "true",
     "geographies": [
       "blockgroup",
-      "tract"
+  //    "tract"
     ]
   },
   "mMEDSV": {
