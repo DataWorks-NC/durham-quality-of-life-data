@@ -580,7 +580,7 @@ let dataConfig = {
     "type": "weighted",
     "geographies": [
       "blockgroup",
-      "neighborhood"
+  //    "neighborhood"
     ]
   },
   "mREDIV": {
