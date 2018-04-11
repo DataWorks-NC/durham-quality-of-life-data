@@ -39,7 +39,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm run build
+      - run: npm run build > npm-build-output.txt
+      - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
       - run: mkdir /tmp/workspace
       - persist_to_workspace:
           root: .
