@@ -109,13 +109,14 @@ In particular, you will also want to change the Mapbox GL JS `/gl-style/style.js
 
 ### Creating private configuration file
 
-The file `private.js` stores your mapbox GL access token. It is not checked into version control. Although be aware that this access token will be accessible to users via the javascript debug console. 
+The file `private.js` stores your mapbox GL access token and (optionally) rollbar access token. It is not checked into version control. Although be aware that this access token will be accessible to users via the javascript debug console.
 
 The first time you check out the repo, create a file `config/private.js`, with the following syntax:
 
 ```
 let privateConfig = {
   mapboxAccessToken: 'YOUR-ACCESS-TOKEN',
+  rollbarAccessToken: 'ROLLBAR-ACCESS-TOKEN or false'
 };
 
 module.exports = privateConfig;
