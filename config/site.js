@@ -36,7 +36,7 @@ let siteConfig = {
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
   qolreportURL: '/report.html',
   qoldashboardURL: 'https://compass.dataworks-nc.org/',
-  contactForm: '-',
+  contactForm: false,
   contacts: 'johnkilleen@dataworks-nc.org',
   whatsnew: [
   ],
