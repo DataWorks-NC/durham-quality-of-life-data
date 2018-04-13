@@ -26,7 +26,7 @@
 //
 
 let siteConfig = {
-  gaKey: '',
+  gaKey: 'UA-46577629-3',
   keywords:
     'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
   author: 'John Killeen and Tim Stallmann at DataWorks NC',
@@ -35,8 +35,8 @@ let siteConfig = {
   description:
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
   qolreportURL: '/report.html',
-  qoldashboardURL: 'https://compass.durhamnc.gov/',
-  contactForm: '-',
+  qoldashboardURL: 'https://compass.dataworks-nc.org/',
+  contactForm: false,
   contacts: 'johnkilleen@dataworks-nc.org',
   whatsnew: [
   ],
