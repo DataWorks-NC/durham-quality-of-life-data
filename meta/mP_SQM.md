@@ -14,6 +14,7 @@ Source: Durham Police Department and Durham County Sheriff
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
 |[Open Data Policing NC](https://opendatapolicingnc.com/)| Open Data Policing NC aggregates, visualizes, and publishes public records related to all known traffic stops to have occurred in North Carolina since January 1, 2002.
+|[Durham Civilian Police Review Board](https://durhamnc.gov/277/Civilian-Police-Review-Board)| The Civilian Police Review Board hears appeals of complaints submitted by residents concerning actions taken by police officers. This Board meets quarterly, generally on the 4th Wednesday of the last month of a quarter. They meet at City Hall at 5:30.
 |[RAIDS Online](http://raidsonline.com)| An online portal for viewing custom filters of crime data.
 |[Durham Police Department](http://durhamnc.gov/149/Police-Department)| The vision of the Durham Police Department is to be a progressive law enforcement agency committed to reducing crime by providing the best quality of service, fostering public confidence and maintaining the highest standards of excellence as a community partner for positive change.
 |[Durham County Office of the Sheriff](http://dconc.gov/government/departments-f-z/sheriff-s-office)| The quality of neighborhood life, its safety and welfare comes from the commitment of each of its citizens. The Durham County Sheriff’s Office takes pride in its role as a citizen of the community; partners with its members in the delivery of quality law enforcement services. 

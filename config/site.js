@@ -95,8 +95,7 @@ let siteConfig = {
       'mAVEAGE',
       'mREVAL',
       'mV_SQM',
-      'CCC',
-  ],
+  ]
 };
 
 module.exports = siteConfig;
