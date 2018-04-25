@@ -94,7 +94,7 @@ let siteConfig = {
       'mSUMEJECT',
       'mAVEAGE',
       'mREVAL',
-      'mV_SQM',
+      'mUNFRENT',
   ]
 };
 
