@@ -30,17 +30,19 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: npm install
+      - run: npm install --only=dev
+
       # Manual fix for error in Mapbox GL SDK, see https://github.com/mapbox/mapbox-sdk-js/issues/181
-      - run: sed -i 's_'\''rest'\''_'\''rest/browser.js'\''_' node_modules/mapbox/lib/client.js
+      - run: sed -i 's_require('\''rest'\'');_require('\''rest/browser.js'\'');_' node_modules/mapbox/lib/client.js
 
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
 
       # run tests!
       - run: npm run build > npm-build-output.txt
+      - run: cat npm-build-output.txt
       - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
       - run: mkdir /tmp/workspace
       - persist_to_workspace:
