@@ -473,7 +473,7 @@ let dataConfig = {
   },
   "mPTGNRL": {
     "metric": "PTGNRL",
-    "category": "Engagement",
+    "category": "Civic Engagement",
     "title": "General Election Participation",
     "suffix": "%",
     "raw_label": "voters",
@@ -510,7 +510,7 @@ let dataConfig = {
   },
   "mPTPRIM": {
     "metric": "PTPRIM",
-    "category": "Engagement",
+    "category": "Civic Engagement",
     "title": "Primary Election Participation",
     "suffix": "%",
     "raw_label": "voters",

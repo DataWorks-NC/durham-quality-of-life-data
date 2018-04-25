@@ -77,14 +77,14 @@ let siteConfig = {
       },
       description: 'Description of Blockgroups',
     },
-    {
-      id: 'neighborhood',
-      name: 'Neighborhoods',
-      label: function(id) {
-        return id;
-      },
-      description: 'Description of Neighborhoods',
-    },
+    // {
+    //   id: 'neighborhood',
+    //   name: 'Neighborhoods',
+    //   label: function(id) {
+    //     return id;
+    //   },
+    //   description: 'Description of Neighborhoods',
+    // },
   ],
 
   // Report config.
