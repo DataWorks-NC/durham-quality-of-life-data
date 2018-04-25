@@ -13,6 +13,6 @@ Source: Environmental Protection Agency, EnviroAtlas
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[EPA EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/index.html) | . 
-|[EnviroAtlas Glossary](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) | .
-|[Benefits of Neighborhood Tree Coverage](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percenttreecover.pdf) | .
+|[EPA EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/index.html) | EnviroAtlas interactive tools allow users to discover, analyze, and download data and maps related to ecosystem services, or the benefits people receive from nature.  Ecosystem services underpin most aspects of human well-being, including water, security, and the economy. 
+|[EnviroAtlas Glossary](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) | Terms and definitions used throughout the EnviroAtlas website, fact sheets, and other resources.
+|[Benefits of Neighborhood Tree Coverage](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percenttreecover.pdf) | A factsheet from the Environmental Protection Agency (EPA).

@@ -13,6 +13,6 @@ Source: Environmental Protection Agency, EnviroAtlas
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[EPA EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/index.html) | . 
-|[EnviroAtlas Glossary](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) | .
-|[Why Is Percent Impervious Area Important?](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percentimperviousarea.pdf) | .
+|[EPA EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/index.html) | EnviroAtlas interactive tools allow users to discover, analyze, and download data and maps related to ecosystem services, or the benefits people receive from nature.  Ecosystem services underpin most aspects of human well-being, including water, security, and the economy. 
+|[EnviroAtlas Glossary](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) | Terms and definitions used throughout the EnviroAtlas website, fact sheets, and other resources.
+|[Why Is Percent Impervious Area Important?](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percentimperviousarea.pdf) | A factsheet from the Environmental Protection Agency (EPA).

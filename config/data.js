@@ -214,7 +214,7 @@ let dataConfig = {
     "type": "mean",
     "geographies": [
       "blockgroup",
-      "neighborhood"
+  //    "neighborhood"
     ]
   },
   "mMEDAGE": {
@@ -236,7 +236,7 @@ let dataConfig = {
     "title": "Median Gross Rent",
     "prefix": "$",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
     "geographies": [
       "tract"
     ]
