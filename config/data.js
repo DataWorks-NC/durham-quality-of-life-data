@@ -336,7 +336,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
+     "tract"
     ]
   },
   "mPCTTREE": {
