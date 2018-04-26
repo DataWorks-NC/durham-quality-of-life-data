@@ -254,6 +254,7 @@ let dataConfig = {
   },
   "mMEDINC": {
     "metric": "MEDINC",
+    "accuracy": "true",
     "category": "Economy",
     "prefix": "$",
     "title": "Median Household Income",

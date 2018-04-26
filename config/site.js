@@ -90,7 +90,7 @@ let siteConfig = {
   // Report config.
   summaryMetrics: [
       'mPOP',
-      'MEDAGE',
+      'mMEDAGE',
       'mSUMEJECT',
       'mAVEAGE',
       'mREVAL',
