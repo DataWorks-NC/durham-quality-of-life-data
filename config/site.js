@@ -90,10 +90,12 @@ let siteConfig = {
   // Report config.
   summaryMetrics: [
       'mPOP',
-      'mBIKEWK',
-      'mMEDINC',
-      'mV_SQM',
-  ],
+      'mAVEAGE',
+      'mHMINC',
+      'mSUMEJECT',
+      'mREVAL',
+      'mMEDGRENT',
+  ]
 };
 
 module.exports = siteConfig;

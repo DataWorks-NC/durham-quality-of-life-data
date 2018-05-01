@@ -214,7 +214,7 @@ let dataConfig = {
     "type": "mean",
     "geographies": [
       "blockgroup",
-      "neighborhood"
+  //    "neighborhood"
     ]
   },
   "mMEDAGE": {
@@ -236,7 +236,7 @@ let dataConfig = {
     "title": "Median Gross Rent",
     "prefix": "$",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
     "geographies": [
       "tract"
     ]
@@ -254,6 +254,7 @@ let dataConfig = {
   },
   "mMEDINC": {
     "metric": "MEDINC",
+    "accuracy": "true",
     "category": "Economy",
     "prefix": "$",
     "title": "Median Household Income",
@@ -335,7 +336,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
+     "tract"
     ]
   },
   "mPCTTREE": {

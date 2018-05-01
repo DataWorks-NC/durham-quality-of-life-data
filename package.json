@@ -19,7 +19,9 @@
     "url": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data/issues"
   },
   "homepage": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data#readme",
-  "dependencies": {},
+  "dependencies": {
+    "node-rest-client": "^3.1.0"
+  },
   "devDependencies": {
     "fast-csv": "^2.2.0",
     "lodash": "^4.16.2",
