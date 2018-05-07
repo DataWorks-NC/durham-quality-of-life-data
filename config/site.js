@@ -91,9 +91,9 @@ let siteConfig = {
   summaryMetrics: [
       'mPOP',
       'mAVEAGE',
-      'mHMINC',
+      'mMEDINC',
       'mSUMEJECT',
-      'mREVAL',
+      'mUNFRENT',
       'mMEDGRENT',
   ]
 };

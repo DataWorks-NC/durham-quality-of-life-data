@@ -238,7 +238,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "tract"
+      "tract",
+        "blockgroup"
     ]
   },
   "mMEDHV": {
@@ -260,10 +261,9 @@ let dataConfig = {
     "title": "Median Household Income",
     "decimals": 0,
     "type": "weighted",
-    "accuracy": "true",
     "geographies": [
       "blockgroup",
-  //    "tract"
+      "tract"
     ]
   },
   "mMEDSV": {
@@ -628,7 +628,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
+      "blockgroup",
+        "tract"
     ]
   },
   "mSWTORD": {
@@ -667,7 +668,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
+      "blockgroup",
+        "tract"
     ]
   },
   "mVCODE": {
