@@ -398,7 +398,19 @@ let dataConfig = {
       "neighborhood"
     ]
   },
-  "mPROXGR": {
+    "mPROXCF": {
+        "metric": "PROXCF",
+        "category": "Infrastructure and Amenities",
+        "suffix": "%",
+        "raw_label": "households",
+        "title": "Homes Near Fast Food & Convenience Stores",
+        "decimals": 1,
+        "type": "weighted",
+        "geographies": [
+            "blockgroup"
+        ]
+    },
+    "mPROXGR": {
     "metric": "PROXGR",
     "category": "Infrastructure and Amenities",
     "suffix": "%",

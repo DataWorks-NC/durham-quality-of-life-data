@@ -1,11 +1,11 @@
-## HHouseholds Within Walking Distance to Full Service Grocers
-Households Within Walking Distance to Full Service Grocers
+## HHouseholds Within Walking Distance to Fast Food and Convenience Stores
+Households Within Walking Distance to Fast Food and Convenience Stores
 
 ### Why is this important?
-Grocery stores are among the core services a community needs, providing reliable access to basic foods: dry goods, meat, fresh produce, and dairy. Neighborhoods without easy access to grocers are transportation-dependent for core needs, leading to higher costs of living and reliance on inadequate convenience food sources.
+Everyone needs healthy food options. This includes not only being able to purchase or receive foods but also getting to food outlets safely, whether on foot, bike, by transit or car. People without access to cars - between 10,000 and 11,000 households in Durham County (American Community Survey, 2016) - are especially likely to rely on fast food and convenience food locations when full service grocers and farmers markets are not nearby. 
 
 ### About the Data
-Full service grocers include chain grocery stores and independent full-service stores but do not include farmers' markets. Full service grocers are identified primarily by North American Industry Classification System (NAICS) code 44511. The 1/4 mile distance is Euclidean, or as-the-crow-flies.
+Fast food and convenience store locations include fast food chains, gas station/convenience stores, dollar stores and pizza places. These are identified first by using North American Industry Classification System (NAICS) codes for convenience stores and fast food in the InfoUSA data set and then conducting a qualitative scan of additional community businesses. The 1/4 mile distance is Euclidean, or as-the-crow-flies.
 
 Source: City of Durham Transportation, DataWorks NC.
 
