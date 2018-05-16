@@ -50,7 +50,6 @@ let siteConfig = {
     "<div id=\"mc_embed_signup\">\n" +
     "<form action=\"https://dataworks-nc.us18.list-manage.com/subscribe/post?u=9b69fbf4536829ebc21196618&amp;id=4d721e6adc\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
     "<div id=\"mc_embed_signup_scroll\">\n" +
-    "<div class=\"indicates-required\"><span class=\"asterisk\"></span> indicates required</div>\n" +
     "<div class=\"mc-field-group\">\n" +
     "<label for=\"mce-EMAIL\">Email Address <span class=\"asterisk\"></span>\n" +
     "</label>\n" +
