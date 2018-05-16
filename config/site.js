@@ -38,6 +38,34 @@ let siteConfig = {
   qoldashboardURL: 'https://compass.dataworks-nc.org/',
   contactForm: false,
   contacts: 'johnkilleen@dataworks-nc.org',
+  feedbackUrl: 'https://www.surveymonkey.com/r/BHT5VP5?sm=8D2cIz7y%2bauvPg%2bI6xuv4Q%3d%3d',
+  signupEmbed: "<!-- Begin MailChimp Signup Form -->\n" +
+    "<link href=\"//cdn-images.mailchimp.com/embedcode/classic-10_7.css\" rel=\"stylesheet\" type=\"text/css\">\n" +
+    "<style type=\"text/css\">\n" +
+    "#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n" +
+    "#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n" +
+    "#mc_embed_signup .mc-field-group{width: 100%;}\n"+
+    "#mc_embed_signup .button{float: right;}\n"+
+    "</style>\n" +
+    "<div id=\"mc_embed_signup\">\n" +
+    "<form action=\"https://dataworks-nc.us18.list-manage.com/subscribe/post?u=9b69fbf4536829ebc21196618&amp;id=4d721e6adc\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
+    "<div id=\"mc_embed_signup_scroll\">\n" +
+    "<div class=\"mc-field-group\">\n" +
+    "<label for=\"mce-EMAIL\">Email Address <span class=\"asterisk\"></span>\n" +
+    "</label>\n" +
+    "<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n" +
+    "</div>\n" +
+    "<div id=\"mce-responses\" class=\"clear\">\n" +
+    "<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n" +
+    "<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n" +
+    "</div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n" +
+    "<div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_9b69fbf4536829ebc21196618_4d721e6adc\" tabindex=\"-1\" value=\"\"></div>\n" +
+    "<div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n" +
+    "</div>\n" +
+    "</form>\n" +
+    "</div>\n" +
+    "<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>\n" +
+    "<!--End mc_embed_signup-->",
   whatsnew: [
   ],
   links: [
