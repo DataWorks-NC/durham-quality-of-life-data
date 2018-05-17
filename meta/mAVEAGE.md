@@ -15,5 +15,6 @@ Source: North Carolina State Center for Health Statistics
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[American Community Survey (ACS)](https://www.census.gov/acs/www/) | The source of information about and data from the American Community Survey (ACS).
-
+|[Healing Our Divided Society](http://www.eisenhowerfoundation.org/link1a) | The Eisenhower Foundation's 50th anniversary update to the 1968 Kerner Commission report, which Dr. Martin Luther King Jr. described at the time as a "physician's warning of approaching death, with a prescription for life."
+|[Centers for Disease Control and Prevention](https://www.cdc.gov/nchs/fastats/life-expectancy.htm) | The CDC is a component of the US Department of Health and Human Services. This link leads to their current FastStats on life expectancy.
+|[North Carolina State Center for Health Statistics](http://www.schs.state.nc.us/) | North Carolina's state government resource for interactive health stats, reports and vital records.
