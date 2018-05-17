@@ -2,7 +2,9 @@
 Average Age of Death
 
 ### Why is this important?
-Average age of death is equivalent to life expectancy. It has been widely reported that people in different ZIP Codes can expect to have different life expectancies but ZIP codes cover large areas that mask more local variations.   
+Health, as defined in the 2018 book<a href=http://www.eisenhowerfoundation.org/link1a>Healing Our Divided Society</a>, is "the state of physical, mental, spiritual and socio-economic well-being of the individual and thus their community, not simply the absence of disease or infirmity". And the<a href=http://www.who.int/about/mission/en/>Constitution of the World Health Organization</a>states that "the enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition."
+
+Average age of death is equivalent to life expectancy at birth. It has been widely reported by the<a href=https://www.rwjf.org/en/library/interactives/whereyouliveaffectshowlongyoulive.html>Robert Wood Johnson Foundation</a>that people living in different ZIP Codes can expect to have different life expectancies. But ZIP codes cover large areas that mask more local variations across neighborhoods. A study led by<a href=https://jamanetwork.com/journals/jama/fullarticle/2513561>Raj Chetty</a>- which analyzed deidentified records for every person with a valid Social Security number between 1999 and 2014 - documented how income influences longevity, with the life expectancy gap between the wealthiest 1% and the poorest 1% in the United States being 14.6 years. 
 
 ### About the Data
 The average age of death here is reported for 2009 (reflecting records from 2005-2009) and 2014 (reflecting records from 2010-2014).
