@@ -5,7 +5,7 @@ Child Care Centers with 4 or 5 Star Ratings
 Star ratings issued by the NC Division of Child Development and Early Education are based primarily on a licensed program’s staff education and program standards. They reflect the strengths of child care programs in these two areas, above and beyond basic compliance with state child care regulations.  For more information about licensing and the star rating system see the links in Additional Resources.
 
 ### About the Data
-This measure includes both child care centers and family child care homes which are licensed by the state of North Carolina’s Division of Child Care and Early Development. It does not include unlicensed locations. Data was collected in April 2014 and reflects a snapshot of the calendar year’s licensed centers.
+This measure includes both child care centers and family child care homes which are licensed by the state of North Carolina’s Division of Child Care and Early Development. It does not include unlicensed locations. Data is collected each year in April and reflects a snapshot of the calendar year’s licensed centers.
 
 Source: NC Division of Child Care and Early Development 
 
