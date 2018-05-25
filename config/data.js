@@ -357,6 +357,7 @@ let dataConfig = {
     "title": "Population",
     "decimals": 0,
     "type": "sum",
+    "city_val":{"y_2010": 228,330, "y_2017": 267,743},
     "geographies": [
       "blockgroup",
       "tract"
