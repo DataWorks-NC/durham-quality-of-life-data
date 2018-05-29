@@ -109,6 +109,19 @@ let dataConfig = {
       "neighborhood"
     ]
   },
+  "mCLINIC": {
+    "metric": "CLINIC",
+    "category": "Health",
+    "suffix": "%",
+    "title": "Homes Near Health Care Clinics",
+    "label": "of households",
+    "raw_label": "homes near clinics",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "blockgroup"
+        ]
+  },
   "mCOB": {
     "metric": "COB",
     "category": "Economy",
@@ -119,9 +132,9 @@ let dataConfig = {
     "type": "weighted",
     "geographies": [
       "blockgroup"
-    ]
+        ]
   },
-  "mCOR": {
+    "mCOR": {
     "metric": "COR",
     "category": "Economy",
     "label": "certificates per sq mi",
@@ -211,9 +224,9 @@ let dataConfig = {
     "prefix": "$",
     "title": "Average Residential Building Permit Value",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
     "geographies": [
-      "blockgroup",
+      "blockgroup"
   //    "neighborhood"
     ]
   },
@@ -357,6 +370,7 @@ let dataConfig = {
     "title": "Population",
     "decimals": 0,
     "type": "sum",
+    //"city_val":{"y_2010": 228,330, "y_2017": 267,743},
     "geographies": [
       "blockgroup",
       "tract"
