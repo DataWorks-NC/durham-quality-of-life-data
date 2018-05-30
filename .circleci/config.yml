@@ -49,6 +49,8 @@ jobs:
           root: .
           paths:
             - public/*
+            - .circleci/deploy.py
+            - .circleci/robots.txt
   # Note: Auto-pushes of data only deploy to dev; you will need to manually trigger a rebuild of the master branch
   # of the dashboard to deploy to prod.
   deploy_dev:
@@ -58,8 +60,9 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run: pip install python-dotenv
+      - run: cp .circleci/robots.txt public/robots.txt
       - run:
-          command: python deploy.py
+          command: python .circleci/deploy.py
           working_directory: /tmp/workspace/
           environment:
             AZURE_DESTINATION_BLOB: "dev"
