@@ -274,17 +274,17 @@ let dataConfig = {
       "tract"
     ]
   },
-  "mMEDSV": {
-    "metric": "MEDSV",
-    "category": "Housing",
-    "title": "Median Sale Price",
-    "prefix": "$",
-    "decimals": 0,
-    "type": "mean",
-    "geographies": [
-      "blockgroup"
-    ]
-  },
+//  "mMEDSV": {
+//  "metric": "MEDSV",
+//    "category": "Housing",
+//    "title": "Median Sale Price",
+//    "prefix": "$",
+//    "decimals": 0,
+//    "type": "mean",
+//    "geographies": [
+//      "blockgroup"
+//    ]
+//  },
   "mPCI": {
     "metric": "PCI",
     "accuracy": "true",
