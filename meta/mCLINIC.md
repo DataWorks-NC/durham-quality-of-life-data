@@ -2,7 +2,7 @@
 Households Within Walking Distance to Health Clinics
 
 ### Why is this important?
-Health, as defined in the 2018 book [Healing Our Divided Society](http://www.eisenhowerfoundation.org/link1a), is "the state of physical, mental, spiritual and socio-economic well-being of the individual and thus their community, not simply the absence of disease or infirmity". And the [Constitution of the World Health Organization](http://www.who.int/about/mission/en/)states that "the enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition."
+Health, as defined in the 2018 book [Healing Our Divided Society](http://www.eisenhowerfoundation.org/link1a), is "the state of physical, mental, spiritual and socio-economic well-being of the individual and thus their community, not simply the absence of disease or infirmity". And the [Constitution of the World Health Organization](http://www.who.int/about/mission/en/) states that "the enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition."
 
 Being close to hospitals, clinics and pharmacies is one part of accessing the services required to maintain health and prevent or treat an illness. This means being able to walk, ride a bike or bus, or drive a short distance to each of these. What are some barriers you experience to these services?
 
