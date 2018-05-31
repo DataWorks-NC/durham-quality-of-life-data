@@ -63,7 +63,7 @@ let dataConfig = {
     "category": "Education",
     "suffix": "%",
     "raw_label": "adults",
-    "title": "Percent Adults with at least a Bachelors Degree",
+    "title": "Percent of Adults with a Bachelors Degree or More",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -76,7 +76,7 @@ let dataConfig = {
     "category": "Infrastructure and Amenities",
     "suffix": "%",
     "raw_label": "people",
-    "title": "Commuting to work by Bicycle",
+    "title": "Commuting to Work by Bicycle",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -92,8 +92,7 @@ let dataConfig = {
     "raw_label": "Centers",
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mCCC": {
@@ -105,8 +104,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mCLINIC": {
@@ -156,8 +154,7 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mDRALONE": {
@@ -182,8 +179,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mHMINC": {
@@ -227,7 +223,6 @@ let dataConfig = {
     "type": "weighted",
     "geographies": [
       "blockgroup"
-  //    "neighborhood"
     ]
   },
   "mMEDAGE": {
@@ -297,9 +292,10 @@ let dataConfig = {
     "prefix": "$",
     "title": "Per Capita Income",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
     "geographies": [
-      "blockgroup"
+      "blockgroup",
+        "tract"
     ]
   },
   "mPCTC30": {
@@ -408,8 +404,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
     "mPROXCF": {
@@ -581,8 +576,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mRAVGYR": {
@@ -593,8 +587,7 @@ let dataConfig = {
     "commas": false,
     "type": "mean",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mRCODE": {
@@ -606,8 +599,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-  //    "neighborhood"
+      "blockgroup"
     ]
   },
   "mREDIV": {
@@ -628,8 +620,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "mean",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mRPMTS": {
@@ -667,8 +658,7 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mUNFOWN": {
@@ -719,8 +709,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup",
-      "neighborhood"
+      "blockgroup"
     ]
   },
   "mWCODE": {
