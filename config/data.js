@@ -256,7 +256,7 @@ let dataConfig = {
     "title": "Median Home Value",
     "prefix": "$",
     "decimals": 0,
-    "type": "mean",
+    "type": "weighted",
     "geographies": [
       "tract"
     ]
