@@ -68,6 +68,18 @@ jobs:
           working_directory: /tmp/workspace/
           environment:
             AZURE_DESTINATION_BLOB: "dev"
+  deploy_prod:
+    docker:
+      - image: microsoft/azure-cli
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+      - run: pip install python-dotenv
+      - run:
+          command: python .circleci/deploy.py
+          working_directory: /tmp/workspace/
+          environment:
+            AZURE_DESTINATION_BLOB: "prod"
 
 workflows:
   version: 2
@@ -81,3 +93,10 @@ workflows:
             branches:
               only:
                 master
+      - hold:
+          type: approval
+          requires:
+            - deploy_dev
+      - deploy_prod:
+          requires:
+            - hold
