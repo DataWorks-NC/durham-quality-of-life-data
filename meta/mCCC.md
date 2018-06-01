@@ -18,4 +18,3 @@ Source: NC Division of Child Care and Early Development
 |[Durham's Partnership for Children](http://www.dpfc.net/) | Mobilizing and unifying the Durham community to create and support innovative and successful collaborative approaches to serving the needs of young children birth to age 5 and their families.
 |[More About Star Ratings](http://ncchildcare.nc.gov/providers/pv_sn2_hpae.asp) | How does the star rating system work?
 |[Smart Start NC](http://www.smartstart.org/) | Smart Start brings together all the people involved in a young child’s life—families, teachers, doctors, caregivers, social workers, and many others—to ensure every child has all they need for healthy growth and development.
-|[Local Resources for Families with Young Children](http://www.dpfc.net/localresources.aspx) | Links to general family services, child care, health and development, parent education and family support.   
