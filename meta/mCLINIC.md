@@ -8,7 +8,7 @@ Being close to hospitals, clinics and pharmacies is one part of accessing the se
 
 
 ### About the Data
-Clinic locations are current as of May 2018 and sourced from the Durham County Social Services Department, Lincoln Community Health and Duke Division of Community Health. The 1/4 mile "walking distance" is Euclidean, or as-the-crow-flies.
+Clinic locations are current as of May 2018 and sourced from the Durham County Social Services Department, Lincoln Community Health and Duke Division of Community Health. Households are identified in this case as parcels with dwelling units and the 1/4 mile distance is Euclidean, or as-the-crow-flies. The rate is calculated by dividing the number of dwelling units within a 1/4 mile of health clinics by the total number of dwelling units in the blockgroup.
 
 Source: Durham County Social Services, Lincoln Community Health Center, Duke Division of Community Health, Durham County Tax Administration, and City-County Planning
 

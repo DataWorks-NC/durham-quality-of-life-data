@@ -5,7 +5,7 @@ Households Within Walking Distance to Full Service Grocers
 Grocery stores are among the core services a community needs, providing reliable access to basic foods: dry goods, meat, fresh produce, and dairy. Neighborhoods without easy access to grocers are transportation-dependent for core needs, leading to higher costs of living and reliance on inadequate convenience food sources.
 
 ### About the Data
-Full service grocers include chain grocery stores and independent full-service stores but do not include farmers' markets. Full service grocers are identified primarily by North American Industry Classification System (NAICS) code 44511. The 1/4 mile distance is Euclidean, or as-the-crow-flies.
+Full service grocers include chain grocery stores and independent full-service stores but do not include farmers' markets. Full service grocers are identified primarily by North American Industry Classification System (NAICS) code 44511 and then conducting a qualitative scan of additional community businesses. Households are identified in this case as parcels with dwelling units and the 1/4 mile distance is Euclidean, or as-the-crow-flies. The rate is calculated by dividing the number of dwelling units within a 1/4 mile of grocers by the total number of dwelling units in the blockgroup. Which blockgroup a parcel belongs to is determined by where its centroid is placed.
 
 Source: City of Durham Transportation, DataWorks NC.
 
