@@ -5,7 +5,7 @@ Households Within Walking Distance to Banks
 Banking is a core community service, providing financial planning, savings, and management services to households. Neighborhoods without easy access to such core services are transportation dependent for primary needs, leading to higher costs of living and reliance on inadequate convenience services.
 
 ### About the Data
-This measurement includes both commercial bank locations and credit unions. These are identified primarily by North American Industry Classification System (NAICS) codes 52211 and 52213. The 1/4 mile distance is Euclidean, or as-the-crow-flies.
+This measurement includes both commercial bank locations and credit unions. These are identified primarily by North American Industry Classification System (NAICS) codes 52211 and 52213 and then conducting a qualitative scan of additional community businesses. Households are identified in this case as parcels with dwelling units and the 1/4 mile distance is Euclidean, or as-the-crow-flies. The rate is calculated by dividing the number of dwelling units within a 1/4 mile of banks or credit unions by the total number of dwelling units in the blockgroup. Which blockgroup a parcel belongs to is determined by where its centroid is placed.
 
 Source: City of Durham Transportation, Tax Administration/City-County GIS
 
