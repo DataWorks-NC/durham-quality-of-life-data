@@ -7,7 +7,7 @@ Total population indicates the number of people living in a selected area. It is
 ### About the Data
 This data is from the 2010 Decennial Census. The Neighborhood Compass will report 100% population counts from the 2010 Decennial Census until population estimates for blockgroups and incorporate mid-decade updates from the American Community Survey (ACS) for Census tracts. This will allow for the best-available data at the sub-county level.
 
-Source: U.S. Decennial Census, 2010 
+Source: U.S. Decennial Census, 2010; Source: US 2010, Census 2010 tract-normalized population data; American Community Survey (ACS) for years between each decennial Census.
 
 ### Additional Resources
 
@@ -19,3 +19,5 @@ Source: U.S. Decennial Census, 2010
 |[Durham City-County Planning](http://durhamnc.gov/338/City-County-Planning) | The Durham City-County Planning Department is the planning agency for the City and County of Durham. The Department works with the community to develop long-range and special area plans containing policies to direct growth.
 |[Triangle J Council of Governments](http://www.tjcog.org/) | Serving Chatham, Durham, Johnston, Lee, Moore, Orange and Wake counties. In this diverse seven-county region, TJCOG promotes collaboration among local governments, stakeholders and partners, tackling challenges that cross jurisdictional lines.
 |[Decennial Census 2010](http://www.census.gov/2010census/) | The source of information about and data from the U.S. Decennial Census.
+|[US2010](http://www.s4.brown.edu/us2010/Researcher/Bridging.htm) | The Longitudinal Tract Data Base (LTDB) provides public-use tools to create estimates within 2010 tract boundaries for any tract-level data (from the census or other sources) that are available for prior years as early as 1970.
+|[American Community Survey (ACS)](https://www.census.gov/acs/www/) | A primary source of neighborhood-level data for the whole country, provided by the US Census Bureau.
