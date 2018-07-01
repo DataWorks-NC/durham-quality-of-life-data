@@ -362,7 +362,7 @@ let dataConfig = {
   "mPOP": {
     "metric": "POP",
     "category": "Demographics",
-    "label": "People",
+    "label": "people",
     "title": "Population",
     "decimals": 0,
     "type": "sum",
@@ -406,19 +406,19 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-    "mPROXCF": {
-        "metric": "PROXCF",
-        "category": "Infrastructure and Amenities",
-        "suffix": "%",
-        "raw_label": "households",
-        "title": "Homes Near Fast Food & Convenience Stores",
-        "decimals": 1,
-        "type": "weighted",
-        "geographies": [
-            "blockgroup"
-        ]
-    },
-    "mPROXGR": {
+  "mPROXCF": {
+     "metric": "PROXCF",
+     "category": "Infrastructure and Amenities",
+     "suffix": "%",
+     "raw_label": "households",
+     "title": "Homes Near Fast Food & Convenience Stores",
+     "decimals": 1,
+     "type": "weighted",
+     "geographies": [
+         "blockgroup"
+     ]
+  },
+  "mPROXGR": {
     "metric": "PROXGR",
     "category": "Infrastructure and Amenities",
     "suffix": "%",
@@ -459,7 +459,7 @@ let dataConfig = {
     "category": "Demographics",
     "title": "Retirement-Age Population",
     "suffix": "%",
-    "raw_label": "People",
+    "raw_label": "people",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -468,6 +468,7 @@ let dataConfig = {
   },
   "mPTASNL": {
     "metric": "PTASNL",
+    "accuracy": "true",
     "category": "Demographics",
     "suffix": "%",
     "raw_label": "people",
@@ -481,6 +482,7 @@ let dataConfig = {
   },
   "mPTBLKNL": {
     "metric": "PTBLKNL",
+    "accuracy": "true",
     "category": "Demographics",
     "suffix": "%",
     "raw_label": "people",
@@ -506,9 +508,10 @@ let dataConfig = {
   },
   "mPTLAT": {
     "metric": "PTLAT",
+    "accuracy": "true",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+    "raw_label": "people",
     "title": "Hispanic/Latino",
     "decimals": 1,
     "type": "weighted",
@@ -519,9 +522,10 @@ let dataConfig = {
   },
   "mPTOTHNL": {
     "metric": "PTOTHNL",
+    "accuracy": "true",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+    "raw_label": "people",
     "title": "Other Race",
     "decimals": 1,
     "type": "weighted",
@@ -555,9 +559,10 @@ let dataConfig = {
   },
   "mPTWHNL": {
     "metric": "PTWHNL",
+    "accuracy": "true",
     "category": "Demographics",
     "suffix": "%",
-    "raw_label": "People",
+    "raw_label": "people",
     "title": "White or Caucasian",
     "decimals": 1,
     "type": "weighted",
