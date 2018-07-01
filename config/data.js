@@ -361,7 +361,6 @@ let dataConfig = {
   },
   "mPOP": {
     "metric": "POP",
-    "accuracy": "true",
     "category": "Demographics",
     "label": "people",
     "title": "Population",
