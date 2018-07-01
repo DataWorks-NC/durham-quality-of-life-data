@@ -2,12 +2,12 @@
 Summary Ejectment Filings
 
 ### Why is this important?
-Summary ejectments are the first of two court processes for formally evicting a tenant (the second being the writ of possession). Evictions happen for a wide variety of direct reasons, from a tenant violating the terms of a lease to a landlord wrongfully displacing a tenant. Economic pressures are increasingly a driver of displacement nationally, with inner city rents escalating, residential [property flipping](http://www.heraldsun.com/news/business/article205977779.html) and incomes stagnating.  
+Summary ejectments are the first of two court processes for formally evicting a tenant (the second being the writ of possession). In 2016 there were an average 906 summary ejectments filed per month in Durham County and that declined to 790 per month in 2017. Between 2010 and 2017 the percentage of these resulting in judgments against a tenant declined from 59% to 51.8% (data from NC Courts). Writs of possession (when a tenant and their belongings are removed and the unit padlocked) are issued much less frequently and only after a judgment has been issued against a tenant. In 2017 2,564 writs of possession were issued by the Sheriff's Department. It is unclear how many "informal" evictions occur, when a tenant is removed by "self help" eviction or without going through a court process.
 
-While on average ~900 summary ejectments are filed in a month in Durham County, between 2010 and 2017 the percentage of these resulting in judgments against a tenant declined from 59% to 51.8% (data from NC Courts) it is unclear how many informal evictions occur.  
+Evictions happen for a wide variety of direct reasons, from a tenant violating the terms of a lease to a landlord wrongfully displacing a tenant. But economic pressures are increasingly a driver of displacement nationally, with inner city rents escalating, residential [property flipping](http://www.heraldsun.com/news/business/article205977779.html) and incomes stagnating.  
 
 ### About the Data
-DataWorks acquired 5 years of summary ejectment records from the Durham County Sheriff's Department and geolocated them for use at the neighborhood level. These are records of the Sheriff's Department notifications to tenants and do not include any personally-identifiable information. The number of these summary ejectment filings per Census blockgroup is divided by the area of the blockgroup in square miles. 
+DataWorks acquires civil process records from the Durham County Sheriff's Department for use at the neighborhood level. These are records of the Sheriff's Department notifications to tenants and do not include any personally-identifiable information. The number of these summary ejectment filings per Census blockgroup is divided by the area of the blockgroup in square miles. 
 
 Source: Durham County Sheriff's Department  
 
