@@ -32,8 +32,8 @@ let mapConfig = {
     maxBounds: [[-80, 35],[-77, 37]],
     minZoom: 8,
     preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1,  // fix for Firefox print
-    neighborhoodsSelectedBefore: 'water_label',
-    neighborhoodsBefore: 'building'
+    neighborhoodsSelectedBefore: 'water_name_line',
+    neighborhoodsBefore: 'waterway_river'
 };
 
 module.exports = mapConfig;
