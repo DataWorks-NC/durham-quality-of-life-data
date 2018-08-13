@@ -1,0 +1,6 @@
+let privateConfig = {
+  mapboxAccessToken: "MAPBOX_ACCESS_TOKEN",
+  rollbarAccessToken: "ROLLBAR_ACCESS_TOKEN",
+};
+
+module.exports = privateConfig;
