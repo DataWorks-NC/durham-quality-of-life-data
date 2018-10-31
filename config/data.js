@@ -170,6 +170,54 @@ let dataConfig = {
       "blockgroup"
     ]
   },
+  "mDIABETES_ASIAN": {
+    "metric": "DIABETES_ASIAN",
+    "category": "Health",
+    "title": "Diabetes Rate (Asian Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mDIABETES_BLACK": {
+    "metric": "DIABETES_BLACK",
+    "category": "Health",
+    "title": "Diabetes Rate (Black or African American Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mDIABETES_HISPANIC": {
+    "metric": "DIABETES_HISPANIC",
+    "category": "Health",
+    "title": "Diabetes Rate (Hispanic or Latino/a Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+    },
+  "mDIABETES_WHITE": {
+    "metric": "DIABETES_WHITE",
+    "category": "Health",
+    "title": "Diabetes Rate (White Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+    },
   "mD_SQM": {
     "metric": "D_SQM",
     "category": "Safety",
