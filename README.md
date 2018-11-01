@@ -10,15 +10,18 @@ Durham County data for the Quality of Life Dashboard. Fork of Tobin Bradley's Me
 
 ## Get Started
 
-This project requires [NodeJS](http://nodejs.org/). In the root quality-of-life dashboard/report/embed directory, run:
+Follow the instructions at https://github.com/DataWorks-NC/quality-of-life-dashboard/blob/develop/README.md to install the main
+Quality of Life Dashboard repository. This project is not meant to stand alone.
 
-``` bash
-git clone https://github.com/DataWorks-NC/durham-quality-of-life-data.git data
-cd data
-npm install
-```
+Further documentation available in the DataWorks NC Technical Manual.
 
-It isn't meant as a stand-alone repository, but rather to be used with the other Quality of Life projects.
+### Creating private configuration file
+
+The file `private.js` stores your mapbox GL access token and (optionally) rollbar access token. It is not checked into version control.
+Although be aware that this access token will be accessible to users via the javascript debug console.
+
+The first time you check out the repo, copy the file `config/private.js.example` to `config/private.js`, and fill in tokens as required.
+Just delete the rollbar_access_token line entirely if you don't want Rollbar to run locally.
 
 ## Customizing your Data
 
@@ -105,22 +108,6 @@ Each file contains definitions and instructions. For features that you don't wan
 The `/config/legacy` folder is for an earlier version of the project.
 
 In particular, you will also want to change the Mapbox GL JS `/gl-style/style.json` pointer in `map.js` to your own tiles, Mapbox tiles, OSM2VectorTiles tiles, or what have you. The tiles we use don't cover much of the planet beyond our needs. The excellent [OSM-Liberty](https://github.com/lukasmartinelli/osm-liberty) is provided as a drop-in replacement.
-
-
-### Creating private configuration file
-
-The file `private.js` stores your mapbox GL access token and (optionally) rollbar access token. It is not checked into version control. Although be aware that this access token will be accessible to users via the javascript debug console.
-
-The first time you check out the repo, create a file `config/private.js`, with the following syntax:
-
-```
-let privateConfig = {
-  mapboxAccessToken: 'YOUR-ACCESS-TOKEN',
-  rollbarAccessToken: 'ROLLBAR-ACCESS-TOKEN or false'
-};
-
-module.exports = privateConfig;
-```
 
 ### Tips and Gotchas
 
