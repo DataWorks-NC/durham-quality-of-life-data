@@ -170,8 +170,8 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-  "mDBTS_A": {
-    "metric": "DBTS_A",
+  "mDIABETES_ASIAN": {
+    "metric": "DIABETES_ASIAN",
     "category": "Health",
     "title": "Diabetes Rate (Asian Population)",
     "suffix": "%",
@@ -182,8 +182,8 @@ let dataConfig = {
       "tract"
         ]
   },
-  "mDBTS_B": {
-    "metric": "DBTS_B",
+  "mDIABETES_BLACK": {
+    "metric": "DIABETES_BLACK",
     "category": "Health",
     "title": "Diabetes Rate (Black or African American Population)",
     "suffix": "%",
@@ -194,8 +194,8 @@ let dataConfig = {
       "tract"
         ]
   },
-  "mDBTS_H": {
-    "metric": "DBTS_H",
+  "mDIABETES_HISPANIC": {
+    "metric": "DIABETES_HISPANIC",
     "category": "Health",
     "title": "Diabetes Rate (Hispanic or Latino/a Population)",
     "suffix": "%",
@@ -206,8 +206,8 @@ let dataConfig = {
       "tract"
         ]
     },
-  "mDBTS_W": {
-    "metric": "DBTS_W",
+  "mDIABETES_WHITE": {
+    "metric": "DIABETES_WHITE",
     "category": "Health",
     "title": "Diabetes Rate (White Population)",
     "suffix": "%",
