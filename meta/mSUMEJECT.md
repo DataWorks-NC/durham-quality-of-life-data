@@ -1,8 +1,10 @@
 ## Summary Ejectment Filings
-Summary Ejectment Filings
+Summary Ejectment (Eviction) Filings
 
 ### Why is this important?
-Summary ejectments are the first of two court processes for formally evicting a tenant (the second being the writ of possession). In 2016 there were an average 906 summary ejectments filed per month in Durham County and that declined to 790 per month in 2017. Between 2010 and 2017 the percentage of these resulting in judgments against a tenant declined from 59% to 51.8% (data from NC Courts). Writs of possession (when a tenant and their belongings are removed and the unit padlocked) are issued much less frequently and only after a judgment has been issued against a tenant. In 2017 2,564 writs of possession were issued by the Sheriff's Department. It is unclear how many "informal" evictions occur, when a tenant is removed by "self help" eviction or without going through a court process.
+Summary ejectments are the first of two court processes for formally evicting a tenant. In 2016 there were an average 906 summary ejectments filed per month in Durham County and that declined to 790 per month in 2017 (NC Administrative of Office of the Courts). Between 2010 and 2017 the percentage of these resulting in judgments against a tenant declined from 59% to 51.8% (data from NC Courts). 
+
+The second court process is the writ of possession, served by the Sheriff's Department to remove a tenant and their belongings from a unit. Writs of possession are issued less frequently and only after a judgment has been issued against a tenant. In 2017 2,564 writs of possession were issued by the Sheriff's Department. It is unclear how many "informal" evictions occur, when a tenant is removed by "self help" eviction or without going through a court process.
 
 Evictions happen for a wide variety of direct reasons, from a tenant violating the terms of a lease to a landlord wrongfully displacing a tenant. But economic pressures are increasingly a driver of displacement nationally, with inner city rents escalating, residential [property flipping](http://www.heraldsun.com/news/business/article205977779.html) and incomes stagnating.  
 
