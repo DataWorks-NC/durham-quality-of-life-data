@@ -170,6 +170,54 @@ let dataConfig = {
       "blockgroup"
     ]
   },
+  "mDBTS_A": {
+    "metric": "DBTS_A",
+    "category": "Health",
+    "title": "Diabetes Rate (Asian Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mDBTS_B": {
+    "metric": "DBTS_B",
+    "category": "Health",
+    "title": "Diabetes Rate (Black or African American Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mDBTS_H": {
+    "metric": "DBTS_H",
+    "category": "Health",
+    "title": "Diabetes Rate (Hispanic or Latino/a Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+    },
+  "mDBTS_W": {
+    "metric": "DBTS_W",
+    "category": "Health",
+    "title": "Diabetes Rate (White Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+    },
   "mD_SQM": {
     "metric": "D_SQM",
     "category": "Safety",
@@ -361,6 +409,7 @@ let dataConfig = {
   },
   "mPOP": {
     "metric": "POP",
+    "accuracy":"true",
     "category": "Demographics",
     "label": "people",
     "title": "Population",
