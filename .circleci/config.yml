@@ -62,7 +62,9 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
-      - run: pip install python-dotenv
+      - run:
+          command: pip install -r .circleci/requirements.txt
+          working_directory: /tmp/workspace/
       - run:
           command: cp .circleci/robots.txt public/robots.txt
           working_directory: /tmp/workspace/
