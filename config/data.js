@@ -170,6 +170,19 @@ let dataConfig = {
       "blockgroup"
     ]
   },
+  "mDIABETES_TOTAL": {
+    "metric": "DIABETES_TOTAL",
+    "category": "Health",
+    "title": "Diabetes Rate",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "blockgroup",
+      "tract"
+    ]
+  },
   "mDIABETES_ASIAN": {
     "metric": "DIABETES_ASIAN",
     "category": "Health",
