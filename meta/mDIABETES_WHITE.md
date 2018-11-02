@@ -1,15 +1,15 @@
-## Diabetes Rates (White Population)
-Diabetes Rates (White Population) 
+## Diabetes Rate (White Population)
+Diabetes Rate (White Population) 
 
 ### Why is this important?
 There are two types of diabetes: type 1 and type 2. Both can occur at any age for a person, but type 2 is more common. According to the [Centers for Disease Control and Prevention](https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report.pdf), more than 30 million Americans had diabetes in 2015 and 80.4 million were prediabetic. But 1 in 4 diabetics did not know they had it, and nearly 90% of prediabetics were unaware of their condition.  
 
-In 2015, 10.9% of Durham County's adult white patients had diabetes. Diabetes is a chronic condition in which our bodies can't process sugars effectively, leading to high blood sugar (or glucose) levels. Without management, over time this can burden our kidneys and cause damage across the systems of our bodies. People can be more at risk for reasons they can control (like diet, activity level, stress) or for reasons they can't control (like race, environmental influences, or age). But diabetes can be managed through a variety of diet, exercise, stress management and pharmaceutical treatments. 
+In 2017, 9.23% of Durham County's adult white patients had diabetes. Diabetes is a chronic condition in which our bodies can't process sugars effectively, leading to high blood sugar (or glucose) levels. Without management, over time this can burden our kidneys and cause damage across the systems of our bodies. People can be more at risk for reasons they can control (like diet, activity level, stress) or for reasons they can't control (like race, environmental influences, or age). But diabetes can be managed through a variety of diet, exercise, stress management and pharmaceutical treatments. 
 
 To learn more about the community-level influences on chronic conditions like diabetes visit Durham's [Health Indicators](https://health.dataworks-nc.org) site.
 
 ### About the Data
-This information is from Duke Health and Lincoln Community Health Center. These diabetes rates are based on health care visits documented in this combined dataset, including a total of 175,852 adults of a countywide total of 230,857 (2015).
+This information is from Duke Health and Lincoln Community Health Center. These diabetes rates are based on health care visits documented in this combined dataset, including a total of 169,115 adults of a countywide total of 245,572 (2017).
 
 When a patient has an interaction with a healthcare provider, this is called an encounter. An encounter can be a single, brief event (such as a regular primary care appointment) or it can be across multiple days (such as a hospital stay). To determine metrics for a particular year, Duke Health Technology only includes adult patients who had an encounter in that same calendar year. If a patient had a hospitalization that lasted multiple days across two calendar years (e.g. 12/15/15 – 1/15/16), DHT used the discharge date to determine their inclusion.
 

@@ -205,7 +205,19 @@ let dataConfig = {
     "geographies": [
       "tract"
         ]
-    },
+  },
+  "mDIABETES_TOTAL": {
+    "metric": "DIABETES_TOTAL",
+    "category": "Health",
+    "title": "Diabetes Rate (Adult Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
   "mDIABETES_WHITE": {
     "metric": "DIABETES_WHITE",
     "category": "Health",
