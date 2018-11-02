@@ -52,8 +52,7 @@ jobs:
           root: .
           paths:
             - public/*
-            - .circleci/deploy.py
-            - .circleci/robots.txt
+            - .circleci/*
   # Note: Auto-pushes of data only deploy to dev; you will need to manually trigger a rebuild of the master branch
   # of the dashboard to deploy to prod.
   deploy_dev:
