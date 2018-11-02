@@ -77,7 +77,9 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
-      - run: pip install python-dotenv
+      - run:
+          command: pip install -r .circleci/requirements.txt
+          working_directory: /tmp/workspace/
       - run:
           command: python .circleci/deploy.py /tmp/workspace/public
           working_directory: /tmp/workspace/
