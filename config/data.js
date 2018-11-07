@@ -194,10 +194,34 @@ let dataConfig = {
       "tract"
         ]
   },
+  "mDIABETES_FEMALE": {
+    "metric": "DIABETES_FEMALE",
+    "category": "Health",
+    "title": "Diabetes Rate (Female)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
   "mDIABETES_HISPANIC": {
     "metric": "DIABETES_HISPANIC",
     "category": "Health",
     "title": "Diabetes Rate (Hispanic or Latino/a Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mDIABETES_MALE": {
+    "metric": "DIABETES_MALE",
+    "category": "Health",
+    "title": "Diabetes Rate (Male)",
     "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
