@@ -239,7 +239,7 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "tract",
+      "tract"
         ]
   },
   "mDIABETES_WHITE": {
