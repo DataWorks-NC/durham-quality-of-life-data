@@ -1,10 +1,10 @@
-## Diabetes Rate (Male) 
-Diabetes Rate (Male) 
+## Chronic Kidney Disease Rate (Adult Population) 
+Chronic Kidney Disease Rate (Adult Population) 
 
 ### Why is this important?
 There are two types of diabetes: type 1 and type 2. Both can occur at any age for a person, but type 2 is more common. According to the [Centers for Disease Control and Prevention](https://www.cdc.gov/diabetes/pdfs/data/statistics/national-diabetes-statistics-report.pdf), more than 30 million Americans had diabetes in 2015 and 80.4 million were prediabetic. But 1 in 4 diabetics did not know they had it, and nearly 90% of prediabetics were unaware of their condition.  
 
-In 2017, 14.15% of Durham County's adult patients had type 2 diabetes. Diabetes is a chronic condition in which our bodies can't process sugars effectively, leading to high blood sugar (or glucose) levels. Without management, over time this can burden our kidneys and cause damage across the systems of our bodies. People can be more at risk for reasons they can control (like diet, activity level, stress) or for reasons they can't control (like race, environmental influences, or age). But diabetes can be managed through a variety of diet, exercise, stress management and pharmaceutical treatments. 
+In 2017, 12.86% of Durham County's adult patients had type 2 diabetes. Diabetes is a chronic condition in which our bodies can't process sugars effectively, leading to high blood sugar (or glucose) levels. Without management, over time this can burden our kidneys and cause damage across the systems of our bodies. People can be more at risk for reasons they can control (like diet, activity level, stress) or for reasons they can't control (like race, environmental influences, or age). But diabetes can be managed through a variety of diet, exercise, stress management and pharmaceutical treatments. 
 
 To learn more about the community-level influences on chronic conditions like diabetes visit Durham's [Health Indicators](https://health.dataworks-nc.org) site.
 
@@ -25,5 +25,5 @@ Source: Duke Health and Lincoln Community Health Center
 |[Duke Health Diabetes Resources](https://www.dukehealth.org/treatments/endocrinology/diabetes)| Information on comprehensive care strategies and resources for learning more about how to manage diabetes.
 |[Duke Center for Community and Population Health Improvement](http://www.dukehealthimprovement.org/)|The Duke Center for Community and Population Health Improvement is a multi-disciplinary center that leverages academic, health system, and community partnerships to improve community and population health.
 |[Durham County Network of Care](http://durham.nc.networkofcare.org/mh/)| The Durham Network of Care provides comprehensive information on local services and organizations and a Learning Center dedicated to topics related to health and well-being, as well as the ability to create a confidential and secure Personal Health Record to keep information on helpful services, contacts and your medical history.
-|[Partnership for a Healthy Durham Obesity, Diabetes, and Food Access Committee](http://healthydurham.org/committees/obesity-and-chronic-illness-committee) | Get involved by participating in monthly work group meetings focusing on increasing access to healthy foods; increasing physical activity opportunities including Healthy Mile Trails; and coordinating chronic disease education resources in Durham County.
+|[Partnership for a Healthy Durham Obesity and Chronic Illness Committee](http://healthydurham.org/committees/obesity-and-chronic-illness-committee) | Get involved by participating in monthly work group meetings focusing on increasing access to healthy foods; increasing physical activity opportunities including Healthy Mile Trails; and coordinating chronic disease education resources in Durham County.
 |[Health Indicators](http://health.dataworks-nc.org)| The Health Indicators Project site for chronic conditions data, neighborhood influences on health and resources for learning more and taking action.
