@@ -91,7 +91,7 @@ let siteConfig = {
       id: 'tract',
       name: 'Census Tracts',
       label: function(id) {
-        let decimalPart = Number(id.substring(id.length-2));
+        let decimalPart = id.substring(id.length-2);
         return "Tract " + Number(id.substring(id.length-6, id.length-2)) + (decimalPart ? "." + decimalPart : '');
       },
       description: 'Description of tracts',
@@ -100,8 +100,8 @@ let siteConfig = {
       id: 'blockgroup',
       name: 'Census Blockgroups',
       label: function(id) {
-        let decimalPart = Number(id.substring(id.length-3, id.length-1));
-        return "Tract " + Number(id.substring(id.length-7, id.length-3)) + (decimalPart ? "." + decimalPart : '') + ", Block Group " + Number(id.substring(id.length-1));
+        let decimalPart = id.substring(id.length-3, id.length-1);
+        return "Tract " + Number(id.substring(id.length-7, id.length-3)) + (decimalPart ? "." + decimalPart : '') + ", Block Group " + id.substring(id.length-1);
       },
       description: 'Description of Blockgroups',
     },
