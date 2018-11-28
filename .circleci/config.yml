@@ -66,9 +66,6 @@ jobs:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
       - run:
-          command: cp .circleci/robots.txt public/robots.txt
-          working_directory: /tmp/workspace/
-      - run:
           command: python .circleci/deploy.py /tmp/workspace/public
           working_directory: /tmp/workspace/
           environment:
@@ -82,6 +79,9 @@ jobs:
       - run:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
+
+      # Copy production robots.txt file.
+      - run: cp /tmp/workspace/.circleci/robots-prod.txt /tmp/workspace/public/robots.txt
       - run:
           command: python .circleci/deploy.py /tmp/workspace/public
           working_directory: /tmp/workspace/
