@@ -18,6 +18,7 @@ jobs:
 
     steps:
       - run: git clone https://github.com/DataWorks-NC/quality-of-life-dashboard.git .
+      - run: git checkout master
       - checkout:
           path: ~/repo/data
       - run: sed -i "s/MAPBOX_ACCESS_TOKEN/$MAPBOX_ACCESS_TOKEN/" .circleci/config.private.js
@@ -65,9 +66,6 @@ jobs:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
       - run:
-          command: cp .circleci/robots.txt public/robots.txt
-          working_directory: /tmp/workspace/
-      - run:
           command: python .circleci/deploy.py /tmp/workspace/public
           working_directory: /tmp/workspace/
           environment:
@@ -81,6 +79,9 @@ jobs:
       - run:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
+
+      # Copy production robots.txt file.
+      - run: cp /tmp/workspace/.circleci/robots-prod.txt /tmp/workspace/public/robots.txt
       - run:
           command: python .circleci/deploy.py /tmp/workspace/public
           working_directory: /tmp/workspace/
