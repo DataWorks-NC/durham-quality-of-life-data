@@ -35,7 +35,7 @@ let siteConfig = {
   description:
     'Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.',
   qolreportURL: '/report.html',
-  qoldashboardURL: 'https://compass.dataworks-nc.org/',
+  qoldashboardURL: 'https://compass.durhamnc.gov/',
   contactForm: false,
   contacts: 'johnkilleen@dataworks-nc.org',
   feedbackUrl: 'https://www.surveymonkey.com/r/BHT5VP5?sm=8D2cIz7y%2bauvPg%2bI6xuv4Q%3d%3d',
