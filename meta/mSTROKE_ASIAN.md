@@ -6,6 +6,8 @@ As the [CDC points out](https://www.cdc.gov/stroke/index.htm) more than three qu
 
 In 2017, 1.2% of Durham County's adult Asian patients had a stroke. Stroke is a condition in which blood flow to the brain is blocked or a blood vessel actually bursts and bleeds into the brain. This causes brain cells to die leading to confusion, numbness in the body, and vision, speech or mobility impairments. People can be more at risk for reasons they can control (smoking, high blood pressure and elevated cholesterol) or for reasons they can't control (like racism, sex, environmental influences, or age). But stroke can be treated through a variety of prevention, therapy, and rehab. 
                                                                     
+Stroke is a condition in which blood flow to the brain is blocked or a blood vessel actually bursts and bleeds into the brain, causing brain cells to die. This leads to confusion, numbness in the body, and vision, speech or mobility impairments. People can be more at risk for reasons they have more control over (stress, smoking, alcohol consumption, high blood pressure and elevated cholesterol) or for reasons they can't control (like racism, sex, environmental influences, stress or age). Preventive steps include:  increasing physical activity, eating a healthy diet, managing stress, managing diabetes, decreasing cholesterol, and decreasing hypertension. Rehabilitation can help a person to regain some function after a stroke occurs.
+
 To learn more about the community-level influences on chronic conditions like stroke visit Durham's [Health Indicators](https://health.dataworks-nc.org) site.
                                                                     
 ### About the Data
