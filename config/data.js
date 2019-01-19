@@ -273,19 +273,19 @@ let dataConfig = {
       "blockgroup"
         ]
   },
-  "mHEARTATTACK_ASIAN": {
-   "metric": "HEARTATTACK_ASIAN",
-    "category": "Health",
-    "title": "Heart Attack (Asian Population)",
-   "suffix":"%",
-    "raw_label": "adults",
-    "decimals": 1,
-    "type": "weighted",
-    "world_val": {"y_2015": 0.70,"y_2017":0.63},
-    "geographies": [
-      "tract"
-        ]
-  },
+//  "mHEARTATTACK_ASIAN": {
+//   "metric": "HEARTATTACK_ASIAN",
+//    "category": "Health",
+//    "title": "Heart Attack (Asian Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//    "world_val": {"y_2015": 0.70,"y_2017":0.63},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
   "mHEARTATTACK_BLACK": {
     "metric": "HEARTATTACK_BLACK",
     "category": "Health",
@@ -312,19 +312,19 @@ let dataConfig = {
       "tract"
         ]
   },
-  "mHEARTATTACK_HISPANIC": {
-    "metric": "HEARTATTACK_HISPANIC",
-    "category": "Health",
-    "title": "Heart Attack (Hispanic or Latino/a Population)",
-   "suffix":"%",
-    "raw_label": "adults",
-    "decimals": 1,
-    "type": "weighted",
-   "world_val": {"y_2015": 0.47,"y_2017":0.43},
-    "geographies": [
-      "tract"
-        ]
-  },
+//  "mHEARTATTACK_HISPANIC": {
+//    "metric": "HEARTATTACK_HISPANIC",
+//   "category": "Health",
+//   "title": "Heart Attack (Hispanic or Latino/a Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//   "world_val": {"y_2015": 0.47,"y_2017":0.43},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
   "mHEARTATTACK_MALE": {
     "metric": "HEARTATTACK_MALE",
     "category": "Health",
@@ -823,19 +823,19 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-  "mSTROKE_ASIAN": {
-   "metric": "STROKE_ASIAN",
-    "category": "Health",
-    "title": "Stroke (Asian Population)",
-   "suffix":"%",
-    "raw_label": "adults",
-    "decimals": 1,
-    "type": "weighted",
-    "world_val": {"y_2015": 1.22,"y_2017":1.21},
-    "geographies": [
-      "tract"
-        ]
-  },
+//  "mSTROKE_ASIAN": {
+//   "metric": "STROKE_ASIAN",
+//    "category": "Health",
+//    "title": "Stroke (Asian Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//    "world_val": {"y_2015": 1.22,"y_2017":1.21},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
   "mSTROKE_BLACK": {
     "metric": "STROKE_BLACK",
     "category": "Health",
@@ -862,19 +862,19 @@ let dataConfig = {
       "tract"
         ]
   },
-  "mSTROKE_HISPANIC": {
-    "metric": "STROKE_HISPANIC",
-    "category": "Health",
-    "title": "Stroke (Hispanic or Latino/a Population)",
-   "suffix":"%",
-    "raw_label": "adults",
-    "decimals": 1,
-    "type": "weighted",
-   "world_val": {"y_2015": 0.82,"y_2017":0.65},
-    "geographies": [
-      "tract"
-        ]
-  },
+//  "mSTROKE_HISPANIC": {
+//    "metric": "STROKE_HISPANIC",
+//    "category": "Health",
+//    "title": "Stroke (Hispanic or Latino/a Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//   "world_val": {"y_2015": 0.82,"y_2017":0.65},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
   "mSTROKE_MALE": {
     "metric": "STROKE_MALE",
    "category": "Health",
