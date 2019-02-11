@@ -4,7 +4,7 @@ Chronic Kidney Disease Rate (Adult Population)
 ### Why is this important?
 Roughly [30 million](https://www.cdc.gov/kidneydisease/basics.html) American adults have chronic kidney disease, or CKD. And according to the Centers for Disease Control and Prevention, 48% of people not already treating their advanced chronic kidney disease don't even know they have it. 
 
-In 2017, 3.35% of Durham County's adult patients had chronic kidney disease at Stage 3 or higher (with 60% or less of kidney function). It is not until stage 4, the last stage before kidney failure, that severe outward symptoms present themselves. People with diabetes, heart disease, high blood pressure, or obesity are at greater risk of developing CKD.
+In 2017, 3.55% of Durham County's adult white patients had chronic kidney disease at Stage 3 or higher (with 60% or less of kidney function). It is not until stage 4, the last stage before kidney failure, that severe outward symptoms present themselves. People with diabetes, heart disease, high blood pressure, or obesity are at greater risk of developing CKD.
 
 To learn more about community-level influences on health visit Durham's [Health Indicators](https://health.dataworks-nc.org) site.
 

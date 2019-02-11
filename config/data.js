@@ -107,6 +107,97 @@ let dataConfig = {
       "blockgroup"
     ]
   },
+  "mCKD_ASIAN": {
+    "metric": "CKD_ASIAN",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Asian Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 1.2,"y_2017":1.15},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_BLACK": {
+    "metric": "CKD_BLACK",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Black or African American Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.73,"y_2017":4.08},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_FEMALE": {
+    "metric": "CKD_FEMALE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Female)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.06,"y_2017":3.35},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_HISPANIC": {
+    "metric": "CKD_HISPANIC",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Hispanic or Latino/a Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 0.86,"y_2017":1.04},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_MALE": {
+    "metric": "CKD_MALE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Male)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.15,"y_2017":3.37},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_TOTAL": {
+    "metric": "CKD_TOTAL",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Adult Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.09,"y_2017":3.35},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_WHITE": {
+    "metric": "CKD_WHITE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (White Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.27,"y_2017":3.55},
+    "geographies": [
+      "tract"
+    ]
+  },
   "mCLINIC": {
     "metric": "CLINIC",
     "category": "Health",
