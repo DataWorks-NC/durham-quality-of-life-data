@@ -115,7 +115,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 1.2,"y_2017":1.15},
+    "world_val": {"y_2015": 3.08,"y_2017":3.7},
     "geographies": [
       "tract"
     ]
@@ -128,7 +128,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.73,"y_2017":4.08},
+    "world_val": {"y_2015": 9.11,"y_2017":9.87},
     "geographies": [
       "tract"
     ]
@@ -141,7 +141,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.06,"y_2017":3.35},
+    "world_val": {"y_2015": 8.41,"y_2017":9.38},
     "geographies": [
       "tract"
     ]
@@ -154,7 +154,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 0.86,"y_2017":1.04},
+    "world_val": {"y_2015": 2.53,"y_2017":3.11},
     "geographies": [
       "tract"
     ]
@@ -167,7 +167,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.15,"y_2017":3.37},
+    "world_val": {"y_2015": 8.51,"y_2017":9.13},
     "geographies": [
       "tract"
     ]
@@ -180,7 +180,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.09,"y_2017":3.35},
+    "world_val": {"y_2015": 8.43,"y_2017":9.26},
     "geographies": [
       "tract"
     ]
@@ -193,7 +193,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.27,"y_2017":3.55},
+    "world_val": {"y_2015": 3.27,"y_2017":10.75},
     "geographies": [
       "tract"
     ]
