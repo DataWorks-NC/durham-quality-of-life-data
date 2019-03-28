@@ -216,7 +216,7 @@ let dataConfig = {
     "category": "Economy",
     "label": "certificates per sq mi",
     "raw_label": "certificates",
-    "title": "Commercial Certificates of Occupancy",
+    "title": "Commercial Certificates of Occupancy per Sq Mile",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -228,7 +228,7 @@ let dataConfig = {
     "category": "Economy",
     "label": "certificates per sq mi",
     "raw_label": "certificates",
-    "title": "Residential Certificates of Occupancy",
+    "title": "Residential Certificates of Occupancy per Sq Mile",
     "decimals": 1,
     "type": "weighted",
     "geographies": [
@@ -1084,7 +1084,7 @@ let dataConfig = {
   "mWCODE": {
     "metric": "WCODE",
     "category": "Environment",
-    "title": "Unmaintained Property Violations",
+    "title": "Unmaintained Property Violations per Sq Mile",
     "label": "violations per sq mi",
     "raw_label": "violations",
     "decimals": 1,
