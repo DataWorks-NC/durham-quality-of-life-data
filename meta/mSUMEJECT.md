@@ -11,6 +11,8 @@ Evictions happen for a wide variety of direct reasons, from a tenant violating t
 ### About the Data
 DataWorks acquires civil process records from the Durham County Sheriff's Department for use at the neighborhood level. These are records of the Sheriff's Department notifications to tenants and do not include any personally-identifiable information. The number of these summary ejectment filings per Census blockgroup is divided by the area of the blockgroup in square miles. 
 
+NOTE: Summary ejectment counts published here are revised as of May 17, 2019. These counts represent a modest increase across the county per year with the largest change (an additional 203 summary ejectments) in 2013. Among the blockgroups of the county, these new counts vary from previous summaries published here, with 81% of blockgroups seeing less than a 10-count change in any given year. These Compass summaries are now managed within our databases to ensure future stability in counts and reproducibility. To learn more about this change and how we manage evictions data contact tech@dataworks-nc.org.  
+
 Source: Durham County Sheriff's Department  
 
 ### Additional Resources
