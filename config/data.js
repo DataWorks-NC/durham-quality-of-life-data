@@ -52,11 +52,11 @@ let dataConfig = {
     "title": "Average Age of Death",
     "decimals": 1,
     "type": "mean",
-      "world_val": {"y_2009": 69.1,"y_2014":69.6},
+    "world_val": {"y_2009": 69.1, "y_2014": 69.6},
     "geographies": [
       "blockgroup",
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mBACH": {
     "metric": "BACH",
@@ -240,8 +240,8 @@ let dataConfig = {
     "raw_label": "Centers",
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mCCC": {
     "metric": "CCC",
@@ -252,8 +252,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mCKD_ASIAN": {
     "metric": "CKD_ASIAN",
@@ -263,10 +263,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.08,"y_2017":3.7},
+    "world_val": {"y_2015": 3.08, "y_2017": 3.7},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_BLACK": {
     "metric": "CKD_BLACK",
@@ -276,10 +276,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 9.11,"y_2017":9.87},
+    "world_val": {"y_2015": 9.11, "y_2017": 9.87},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_FEMALE": {
     "metric": "CKD_FEMALE",
@@ -289,10 +289,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 8.41,"y_2017":9.38},
+    "world_val": {"y_2015": 8.41, "y_2017": 9.38},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_HISPANIC": {
     "metric": "CKD_HISPANIC",
@@ -302,10 +302,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 2.53,"y_2017":3.11},
+    "world_val": {"y_2015": 2.53, "y_2017": 3.11},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_MALE": {
     "metric": "CKD_MALE",
@@ -315,10 +315,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 8.51,"y_2017":9.13},
+    "world_val": {"y_2015": 8.51, "y_2017": 9.13},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_TOTAL": {
     "metric": "CKD_TOTAL",
@@ -328,10 +328,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 8.43,"y_2017":9.26},
+    "world_val": {"y_2015": 8.43, "y_2017": 9.26},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCKD_WHITE": {
     "metric": "CKD_WHITE",
@@ -341,10 +341,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.27,"y_2017":10.75},
+    "world_val": {"y_2015": 3.27, "y_2017": 10.75},
     "geographies": [
-      "tract"
-    ]
+      "tract",
+    ],
   },
   "mCLINIC": {
     "metric": "CLINIC",
@@ -393,8 +393,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mDRALONE": {
     "metric": "DRALONE",
@@ -491,10 +491,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 8.32,"y_2017":7.81},
+    "world_val": {"y_2015": 8.32, "y_2017": 7.81},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_BLACK": {
     "metric": "DIABETES_BLACK",
@@ -504,10 +504,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 18.99,"y_2017":18.36},
+    "world_val": {"y_2015": 18.99, "y_2017": 18.36},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_FEMALE": {
     "metric": "DIABETES_FEMALE",
@@ -517,10 +517,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 12.36,"y_2017":12.04},
+    "world_val": {"y_2015": 12.36, "y_2017": 12.04},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_HISPANIC": {
     "metric": "DIABETES_HISPANIC",
@@ -530,10 +530,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 13.95,"y_2017":13.25},
+    "world_val": {"y_2015": 13.95, "y_2017": 13.25},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_MALE": {
     "metric": "DIABETES_MALE",
@@ -543,10 +543,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 14.67,"y_2017":14.15},
+    "world_val": {"y_2015": 14.67, "y_2017": 14.15},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_TOTAL": {
     "metric": "DIABETES_TOTAL",
@@ -556,10 +556,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 13.42,"y_2017":12.86},
+    "world_val": {"y_2015": 13.42, "y_2017": 12.86},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mDIABETES_WHITE": {
     "metric": "DIABETES_WHITE",
@@ -569,10 +569,10 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 9.69,"y_2017":9.23},
+    "world_val": {"y_2015": 9.69, "y_2017": 9.23},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mD_SQM": {
     "metric": "D_SQM",
@@ -583,8 +583,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-        ]
+      "blockgroup",
+    ],
   },
 //  "mHEARTATTACK_ASIAN": {
 //   "metric": "HEARTATTACK_ASIAN",
@@ -603,27 +603,27 @@ let dataConfig = {
     "metric": "HEARTATTACK_BLACK",
     "category": "Health",
     "title": "Heart Attack (Black or African American Population)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 2.38,"y_2017":2.16},
+    "world_val": {"y_2015": 2.38, "y_2017": 2.16},
     "geographies": [
-      "tract"
-         ]
+      "tract",
+    ],
   },
   "mHEARTATTACK_FEMALE": {
     "metric": "HEARTATTACK_FEMALE",
     "category": "Health",
     "title": "Heart Attack (Female)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 1.47,"y_2017":1.31},
+    "world_val": {"y_2015": 1.47, "y_2017": 1.31},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
 //  "mHEARTATTACK_HISPANIC": {
 //    "metric": "HEARTATTACK_HISPANIC",
@@ -642,40 +642,40 @@ let dataConfig = {
     "metric": "HEARTATTACK_MALE",
     "category": "Health",
     "title": "Heart Attack (Male)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.02,"y_2017":2.70},
+    "world_val": {"y_2015": 3.02, "y_2017": 2.70},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mHEARTATTACK_TOTAL": {
     "metric": "HEARTATTACK_TOTAL",
     "category": "Health",
     "title": "Heart Attack (Adult Population)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 2.08,"y_2017":1.86},
+    "world_val": {"y_2015": 2.08, "y_2017": 1.86},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mHEARTATTACK_WHITE": {
     "metric": "HEARTATTACK_WHITE",
     "category": "Health",
     "title": "Heart Attack (White Population)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 2.33,"y_2017":2.08},
+    "world_val": {"y_2015": 2.33, "y_2017": 2.08},
     "geographies": [
-      "tract"
-       ]
+      "tract",
+    ],
   },
   "mHMINC": {
     "metric": "HMINC",
@@ -685,8 +685,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "mean",
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mKWH": {
     "metric": "KWH",
@@ -696,8 +696,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "mean",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mLUDIV": {
     "metric": "LUDIV",
@@ -706,8 +706,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "mean",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mMEANRPMT": {
     "metric": "MEANRPMT",
@@ -717,8 +717,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mMEDAGE": {
     "metric": "MEDAGE",
@@ -1024,8 +1024,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPCTRENT": {
     "metric": "PCTRENT",
@@ -1118,8 +1118,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-     "tract"
-    ]
+      "tract",
+    ],
   },
   "mPCTTREE": {
     "metric": "PCTTREE",
@@ -1203,8 +1203,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPROXBANK": {
     "metric": "PROXBANK",
@@ -1215,8 +1215,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPROXBUS": {
     "metric": "PROXBUS",
@@ -1227,20 +1227,20 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPROXCF": {
-     "metric": "PROXCF",
-     "category": "Infrastructure and Amenities",
-     "suffix": "%",
-     "raw_label": "households",
-     "title": "Homes Near Fast Food & Convenience Stores",
-     "decimals": 1,
-     "type": "weighted",
-     "geographies": [
-         "blockgroup"
-     ]
+    "metric": "PROXCF",
+    "category": "Infrastructure and Amenities",
+    "suffix": "%",
+    "raw_label": "households",
+    "title": "Homes Near Fast Food & Convenience Stores",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "blockgroup",
+    ],
   },
   "mPROXGR": {
     "metric": "PROXGR",
@@ -1251,8 +1251,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPROXPH": {
     "metric": "PROXPH",
@@ -1263,8 +1263,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPRUNSD": {
     "metric": "PRUNSD",
@@ -1463,8 +1463,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mPTLAT": {
     "metric": "PTLAT",
@@ -1735,8 +1735,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mRAVGYR": {
     "metric": "RAVGYR",
@@ -1746,8 +1746,8 @@ let dataConfig = {
     "commas": false,
     "type": "mean",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mRCODE": {
     "metric": "RCODE",
@@ -1758,8 +1758,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mREDIV": {
     "metric": "REDIV",
@@ -1768,8 +1768,8 @@ let dataConfig = {
     "decimals": 2,
     "type": "mean",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mREVAL": {
     "metric": "REVAL",
@@ -1779,8 +1779,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "mean",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mRPMTS": {
     "metric": "RPMTS",
@@ -1792,8 +1792,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
 //  "mSTROKE_ASIAN": {
 //   "metric": "STROKE_ASIAN",
@@ -1811,28 +1811,28 @@ let dataConfig = {
   "mSTROKE_BLACK": {
     "metric": "STROKE_BLACK",
     "category": "Health",
-   "title": "Stroke (Black or African American Population)",
-    "suffix":"%",
+    "title": "Stroke (Black or African American Population)",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.79,"y_2017":3.34},
+    "world_val": {"y_2015": 3.79, "y_2017": 3.34},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mSTROKE_FEMALE": {
     "metric": "STROKE_FEMALE",
     "category": "Health",
     "title": "Stroke (Female)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 2.89,"y_2017":2.45},
+    "world_val": {"y_2015": 2.89, "y_2017": 2.45},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
 //  "mSTROKE_HISPANIC": {
 //    "metric": "STROKE_HISPANIC",
@@ -1849,42 +1849,42 @@ let dataConfig = {
 //  },
   "mSTROKE_MALE": {
     "metric": "STROKE_MALE",
-   "category": "Health",
+    "category": "Health",
     "title": "Stroke (Male)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.78,"y_2017":3.23},
+    "world_val": {"y_2015": 3.78, "y_2017": 3.23},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mSTROKE_TOTAL": {
     "metric": "STROKE_TOTAL",
     "category": "Health",
     "title": "Stroke (Adult Population)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
-   "type": "weighted",
-    "world_val": {"y_2015": 3.24,"y_2017":2.76},
+    "type": "weighted",
+    "world_val": {"y_2015": 3.24, "y_2017": 2.76},
     "geographies": [
-      "tract"
-        ]
+      "tract",
+    ],
   },
   "mSTROKE_WHITE": {
     "metric": "STROKE_WHITE",
     "category": "Health",
     "title": "Stroke (White Population)",
-    "suffix":"%",
+    "suffix": "%",
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
-    "world_val": {"y_2015": 3.52,"y_2017":2.95},
+    "world_val": {"y_2015": 3.52, "y_2017": 2.95},
     "geographies": [
-      "tract"
-       ]
+      "tract",
+    ],
   },
   "mSUMEJECT": {
     "metric": "SUMEJECT",
@@ -1895,9 +1895,9 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"//,
-//        "tract"
-    ]
+      "blockgroup",
+      "tract",
+    ],
   },
   "mSWTORD": {
     "metric": "SWTORD",
@@ -1908,8 +1908,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mUNFOWN": {
     "metric": "UNFOWN",
@@ -1947,8 +1947,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mV_SQM": {
     "metric": "V_SQM",
@@ -1959,8 +1959,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mWCODE": {
     "metric": "WCODE",
@@ -1971,8 +1971,8 @@ let dataConfig = {
     "decimals": 1,
     "type": "weighted",
     "geographies": [
-      "blockgroup"
-    ]
+      "blockgroup",
+    ],
   },
   "mWKHOME": {
     "metric": "WKHOME",
