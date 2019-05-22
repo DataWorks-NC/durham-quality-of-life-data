@@ -1014,8 +1014,8 @@ let dataConfig = {
     "decimals": 0,
     "type": "weighted",
     "geographies": [
-      "blockgroup"//,
-//        "tract"
+      "blockgroup",
+        "tract"
     ]
   },
   "mSWTORD": {
