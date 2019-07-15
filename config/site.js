@@ -25,7 +25,7 @@
 //  contacts "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
 //
 
-let siteConfig = {
+module.exports = {
   gaKey: 'UA-46577629-3',
   keywords:
     'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
@@ -68,24 +68,6 @@ let siteConfig = {
     "<!--End mc_embed_signup-->",
   whatsnew: [
   ],
-  links: [
-    {
-      href: 'http://www.dataworks-nc.org',
-      text: 'About'
-    },
-    {
-      href: 'http://www.opendurham.org/',
-      text: 'Open Durham - Neighborhood Histories'
-    },
-      {
-          href: 'http://www.durhamhoods.com/',
-          text: 'Durham Hoods - Neighborhood Maps and Mailing List Hub'
-      },
-    {
-      href: 'https://opendurham.nc.gov/pages/home/',
-      text: 'City of Durham Open Data Portal'
-    }
-  ],
   geographies: [
     {
       id: 'tract',
@@ -125,5 +107,3 @@ let siteConfig = {
       'mMEDGRENT',
   ]
 };
-
-module.exports = siteConfig;

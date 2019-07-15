@@ -23,17 +23,15 @@
 // neighborhoodsSelectedBefore      the layer id in your map style to drop the selected line before, usually the first labels
 // neighborhoodsBefore      the layer in your map style to drop the polygon fills before, usually buildings
 
-let mapConfig = {
+module.exports = {
     style: "/style/osm-liberty.json",
     zoomEmbed: 9.5,
     zoom: 9.3,
-    centerEmbed: [-78.907222,35.988611],
+  centerEmbed: [-78.907222,35.988611],
     center: [-78.907222, 35.988611],
     maxBounds: [[-80, 35],[-77, 37]],
-    minZoom: 8,
-    preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1,  // fix for Firefox print
-    neighborhoodsSelectedBefore: 'water_name_line',
-    neighborhoodsBefore: 'waterway_river'
+  minZoom: 8,
+  preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') >  -1,  // fix for Firefox print
+  neighborhoodsSelectedBefore: 'water_name_line',
+  neighborhoodsBefore: 'waterway_river'
 };
-
-module.exports = mapConfig;

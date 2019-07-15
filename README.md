@@ -58,7 +58,7 @@ jim,23,432
 suzy,,100
 ```
 
-The file header is `id` and each year of data is expressed as `y_<year>`. No data values are empty, like `suzy,,100`. CSV files are processed into JSON by the consuming applications. Each metric file will be named with a metric number found in `/config/data.js`.
+The file header is `id` and each year of data is expressed as `y_<year>`. No data values are empty, like `suzy,,100`. CSV files are processed into JSON by the consuming applications. Each metric file will be named with a metric number found in `/config/data.json`.
 
 The type of data will decide the files required:
 
@@ -130,3 +130,10 @@ Because we're using those as choppers for layout, adding more of those will scre
 #### Beware weird, non-web safe characters characters in Markdown
 
 Don't edit Markdown in Word. You're welcome.
+
+## Translations
+
+### Where are translations stored
+
+TODO
+
