@@ -730,6 +730,7 @@ let dataConfig = {
   },
   "mPT65UP": {
     "metric": "PT65UP",
+    "accuracy": "true",
     "category": "Demographics",
     "title": "Retirement-Age Population",
     "suffix": "%",
@@ -821,6 +822,7 @@ let dataConfig = {
   },
   "mPTUND18": {
     "metric": "PTUND18",
+    "accuracy": "true",
     "category": "Demographics",
     "title": "Youth Population",
     "suffix": "%",

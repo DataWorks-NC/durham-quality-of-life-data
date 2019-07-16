@@ -7,7 +7,7 @@ This measurement indicates the total youth population of an area. Higher concent
 ### About the Data
 The percent of population under 18 years of age is calculated using the same Decennial Census counts of population as those used for total population, population density, and race and ethnicity. The population under 18 years of age is divided by the total population for each blockgroup.
 
-Source: U.S. Decennial Census 
+Source: U.S. Decennial Census; American Community Survey (ACS) for years between each decennial Census.
 
 ### Additional Resources
 
