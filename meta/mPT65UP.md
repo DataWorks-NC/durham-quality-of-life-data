@@ -7,7 +7,7 @@ This measurement indicates the total 65 and-up population of an area. Higher con
 ### About the Data
 The percent of population 65 years of age and older is calculated using the same Decennial Census counts of population as those used for total population, population density, and race and ethnicity. The population 65 years and older is divided by the total population for each blockgroup.
 
-Source: U.S. Decennial Census 
+Source: U.S. Decennial Census; American Community Survey (ACS) for years between each decennial Census. 
 
 ### Additional Resources
 

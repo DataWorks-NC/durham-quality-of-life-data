@@ -7,7 +7,7 @@ Population density indicates the number of people living in a selected boundary 
 ### About the Data
 This measurement provides the population per square mile based on the 2010 Census using blockgroups. 
 
-Source: U.S. Decennial Census, 2010 
+Source: U.S. Decennial Census, 2010; American Community Survey (ACS) for years between each decennial Census.
 
 ### Additional Resources
 
