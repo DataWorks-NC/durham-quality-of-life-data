@@ -728,19 +728,20 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-//  "mPT65UP": {
-//    "metric": "PT65UP",
-//    "accuracy": "true",
-//    "category": "Demographics",
-//    "title": "Retirement-Age Population",
-//    "suffix": "%",
-//    "raw_label": "people",
-//    "decimals": 1,
-//    "type": "weighted",
-//    "geographies": [
-//      "blockgroup"
-//    ]
-//  },
+  "mPT65UP": {
+    "metric": "PT65UP",
+    "accuracy": "true",
+    "category": "Demographics",
+    "title": "Retirement-Age Population",
+    "suffix": "%",
+    "raw_label": "people",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "blockgroup",
+        "tract"
+    ]
+  },
   "mPTASNL": {
     "metric": "PTASNL",
     "accuracy": "true",
@@ -820,19 +821,20 @@ let dataConfig = {
       "blockgroup"
     ]
   },
-//  "mPTUND18": {
-//    "metric": "PTUND18",
-//    "accuracy": "true",
-//    "category": "Demographics",
-//    "title": "Youth Population",
-//    "suffix": "%",
-//    "raw_label": "young people",
-//    "decimals": 1,
-//    "type": "weighted",
-//    "geographies": [
-//      "blockgroup"
-//    ]
-//  },
+  "mPTUND18": {
+    "metric": "PTUND18",
+    "accuracy": "true",
+    "category": "Demographics",
+    "title": "Youth Population",
+    "suffix": "%",
+    "raw_label": "young people",
+    "decimals": 1,
+    "type": "weighted",
+    "geographies": [
+      "blockgroup",
+        "tract"
+    ]
+  },
   "mPTWHNL": {
     "metric": "PTWHNL",
     "accuracy": "true",
