@@ -98,7 +98,7 @@ The markdown is processed to HTML by the consuming projects, and as there's a lo
 
 There are four configuration files in `/config`:
 
-*   `data.js`: Configuration information for your metrics.
+*   `data.json`: Configuration information for your metrics.
 *   `map.js`: Configuration information for your maps.
 *   `selectgroups.js`: Groups of your geography units that you want to make selectable as a group.
 *   `site.js`: Configuration for the site, like titles etc.
