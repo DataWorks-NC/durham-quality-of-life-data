@@ -5,7 +5,7 @@ Porcentaje de Cambio en los Valores de las Propiedades
 El incremento en los valores de las propiedades en los vecindarios puede tener un efecto mayor en hogares de bajos ingresos o de ingresos fijos. Por cada 100 dólares del valor de la tasación de una propiedad, un residente de la Ciudad paga $1.30 en impuestos combinados para la ciudad y el condado. Si Usted es dueño de una casa valuada en $100,000 y ésta es revaluada a $150,000, el pago anual de impuestos aumentará de $1,301 a $1,952. En 2016, más de 4,000 propiedades aumentaron su valor impositivo en un 100% o más.
 
 ### Sobre los Datos
-Esta tasa de cambio se deriva de datos obtenidos de parcelas puntuales en 2014 (antes de la revaluación del impuesto sobre la propiedad más reciente) y 2016\. Los registros de 2015 no fueron utilizados para comparar el antes y el después porque muchos, aunque no todos, los registros para las parcelas de 2015 ya incluían un estimado de revaluación y el proceso de apelación aún no había comenzado.
+Esta tasa de cambio se deriva de datos obtenidos de parcelas puntuales en 2014 (antes de la revaluación del impuesto sobre la propiedad más reciente) y 2016. Los registros de 2015 no fueron utilizados para comparar el antes y el después porque muchos, aunque no todos, de los registros para las parcelas de 2015 ya incluían un estimado de revaluación y el proceso de apelación aún no había comenzado.
 
 La cifra aquí informada es la mediana de la tasa de cambio para todas las propiedades de un grupo de bloque. Las propiedades con valor cero en 2014 o valor cero en ambos años fueron excluidas de este cálculo para evitar desvíos por valores atípicos.
 

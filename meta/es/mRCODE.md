@@ -2,7 +2,7 @@
 Violaciones al Código de Estándares Mínimos de Vivienda
 
 ### ¿Por qué esto es importante?
-Las violaciones al código mínimo de vivienda de la ciudad puede interferir con la seguridad y la calidad de vida de los residentes y puede tener un impacto negativo en las casas y propiedades circundantes. El cumplimiento del código de estándares mínimo de vivienda de la ciudad de Durham es controlado por el departamento de Mejoramiento de Vecindarios. 
+Las violaciones al código mínimo de vivienda de la ciudad pueden interferir con la seguridad y la calidad de vida de los residentes y puede tener un impacto negativo en las casas y propiedades circundantes. El cumplimiento del código de estándares mínimo de vivienda de la ciudad de Durham es controlado por el departamento de Mejoramiento de Vecindarios. 
 
 ATENCIÓN: Como con los valores de los permisos de construcción residencial, los casos de control de ejecución del código de vivienda son más altos en las áreas donde el Programa de Inspección Proactiva de Unidades de Alquiler (PRIP, por sus siglas en inglés) está activo. Para obtener un mapa de esas áreas, por favor diríjase al enlace de PRIP en los recursos adicionales. Debido a que la ejecución del código de estándares mínimos de vivienda es controlada por la ciudad de Durham dentro de la misma pero no en el resto del condado, esta medición refleja un servicio de la ciudad únicamente y otras partes del condado de Durham no están representadas en esta información. Las unidades de vivienda estimadas para esta medida, por lo tanto, solo cuentan aquellas dentro de los límites administrativos de la ciudad.
 ### Sobre los Datos

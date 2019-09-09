@@ -2,7 +2,7 @@
 Presentaciones de Desalojos Sumarios (Expulsión)
 
 ### ¿Por qué esto es importante?
-Los desalojos sumarios son el primero de los dos procesos a realizar en los tribunales para expulsar formalmente a un inquilino. En 2016, hubo un promedio de 906 desalojos sumarios presentados por mes en el condado de Durham, y bajó a 790 por mes en 2017 (Oficina Administrativa de los Tribunales de Carolina del Norte) Entre 2010 y 2017 el porcentaje de estos que terminó en un juicio en contra de un inquilino bajo del 59% al 51.8% (datos de los tribunales de Carolina del Norte). 
+Los desalojos sumarios son el primero de los dos procesos a realizar en los tribunales para expulsar formalmente a un inquilino. En 2016, hubo un promedio de 906 desalojos sumarios presentados por mes en el condado de Durham, y bajó a 790 por mes en 2017 (Oficina Administrativa de los Tribunales de Carolina del Norte) Entre 2010 y 2017 el porcentaje de estos que terminó en un juicio en contra de un inquilino bajó del 59% al 51.8% (datos de los tribunales de Carolina del Norte). 
 
 El segundo proceso a realizar para sacar a un inquilino y sus pertenencias de una unidad es la orden de posesión, efectuada por el departamento del Sheriff. Las órdenes de posesión son emitidas menos frecuentemente y solo después de que una sentencia ha sido dictada contra un inquilino. En 2017, el departamento del Sheriff emitió 2,564 órdenes de posesión. No queda claro cuántos desalojos “informales” ocurrieron, es decir, cuando el dueño corre a un inquilino por sus propios medios (<i>“self-help” eviction</i>) o sin pasar por un proceso judicial.
 

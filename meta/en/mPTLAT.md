@@ -1,11 +1,11 @@
-## Hispanic or Latino Population
-Hispanic or Latino Population
+## Percent of the Population Identifying as Latino or Hispanic
+Percent of the Population Identifying as Latino or Hispanic
 
 ### Why is this important?
 Information on race is required for many Federal programs and is critical in making policy decisions, particularly for civil rights. States use these data to meet legislative redistricting principles. Race data also are used to promote equal employment opportunities and to assess racial disparities in health and environmental risks.
 
 ### About the Data
-A higher number in this measure reflects both a higher number of race and ethnicity categories present and more people of each race and ethnicity. A diversity measurement of 100 would mean all major race and ethnicity categories are present and equally represented, while a measure of 0 would indicate only one race or ethnicity is present. The calculation of this measurement uses the Simpson Index of Diversity.
+The percent of the total population reporting their ethnicity to be Latino or Hispanic. Ethnicity is a separate characteristic from race and individuals reporting their ethnicity to be Latino or Hispanic may also report a race description such as White or African American.
 
 Source: U.S. Decennial Census, 2010; Source: US 2010, Census 2010 tract-normalized population data; American Community Survey (ACS) for years between each decennial Census.
 
