@@ -76,7 +76,7 @@ npm run test --silent
 
 ### Creating your metadata
 
-Metadata files in markdown format are located in `/meta`. Each metadata file is named in format `m<metric number>.md` with heading tags *exactly* like this:
+Metadata files in markdown format are located in `/meta/en` and `/meta/es`, depending on language. Each metadata file is named in format `m<metric number>.md` with heading tags *exactly* like this:
 
 ``` markdown
 ## Title of Metric

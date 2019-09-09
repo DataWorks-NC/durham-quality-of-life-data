@@ -10,6 +10,7 @@
 //                            weighted: r<metric>.csv and d<metric>.csv
 //        "category"      the category of the metric
 //        "title"         metric descriptive title
+//        "title_es"      Spanish-language title
 //        "accuracy"      [optional] set true if metric has an accuracy file (i.e. m<metric>-accuracy.csv)
 //        "label"         [optional] metric unit information
 //        "decimals"      [optional] number of decimal places to display (default is 0)
@@ -22,27 +23,6 @@
 //                        will look for files in a `geography` subdirectory of `metric` for each `geography`
 // }
 // ***********************************************************
-
-// let dataConfig = {
-//   // m1: {
-//   //     metric: '1',
-//   //     accuracy: 'true',
-//   //     category: 'Character',
-//   //     label: 'Years',
-//   //     title: 'Area',
-//   //     type: 'sum',
-//   //     world_val: {
-//   //         y_2015: 35
-//   //     }
-//   // },
-//     m2: {
-//         metric: '2',
-//         category: 'Housing',
-//         title: 'Summary Ejectments',
-//         type: 'weighted',
-//         geographies: ['blockgroup', 'neighborhood'],
-//     }
-// };
 
 module.exports = {
   'mAVEAGE': {

@@ -26,7 +26,6 @@
 //
 
 module.exports = {
-  gaKey: 'UA-46577629-3',
   keywords:
     'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
   author: 'John Killeen and Tim Stallmann at DataWorks NC',
@@ -110,11 +109,11 @@ module.exports = {
 
   // Report config.
   summaryMetrics: [
-      'mPOP',
-      'mAVEAGE',
-      'mMEDINC',
-      'mSUMEJECT',
-      'mUNFRENT',
-      'mMEDGRENT',
-  ]
+    'mPOP',
+    'mAVEAGE',
+    'mMEDINC',
+    'mSUMEJECT',
+    'mUNFRENT',
+    'mMEDGRENT',
+  ],
 };
