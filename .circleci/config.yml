@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:9.11
+      - image: circleci/node:12-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -23,13 +23,14 @@ jobs:
           path: ~/repo/data
       - run: sed -i "s/MAPBOX_ACCESS_TOKEN/$MAPBOX_ACCESS_TOKEN/" .circleci/config.private.js
       - run: sed -i "s/ROLLBAR_ACCESS_TOKEN/$ROLLBAR_ACCESS_TOKEN/" .circleci/config.private.js
+      - run: sed -i "s/GOOGLE_ANALYTICS_ID/$GOOGLE_ANALYTICS_ID/" .circleci/config.private.js
       - run: cp ./.circleci/config.private.js data/config/private.js
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+            - v2-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v2-dependencies-
 
       - run:
           command: npm install
@@ -39,7 +40,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
+          key: v2-dependencies-{{ checksum "package.json" }}
 
       # run tests!
       - run: npm run build > npm-build-output.txt
@@ -49,7 +50,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - public/*
+            - dist/*
             - .circleci/*
   # Note: Auto-pushes of data only deploy to dev; you will need to manually trigger a rebuild of the master branch
   # of the dashboard to deploy to prod.
@@ -63,7 +64,7 @@ jobs:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
       - run:
-          command: python .circleci/deploy.py /tmp/workspace/public
+          command: python .circleci/deploy.py /tmp/workspace/dist
           working_directory: /tmp/workspace/
           environment:
             AZURE_DESTINATION_BLOB: "dev"
