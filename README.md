@@ -58,7 +58,7 @@ jim,23,432
 suzy,,100
 ```
 
-The file header is `id` and each year of data is expressed as `y_<year>`. No data values are empty, like `suzy,,100`. CSV files are processed into JSON by the consuming applications. Each metric file will be named with a metric number found in `/config/data.js`.
+The file header is `id` and each year of data is expressed as `y_<year>`. No data values are empty, like `suzy,,100`. CSV files are processed into JSON by the consuming applications. Each metric file will be named with a metric number found in `/config/data.json`.
 
 The type of data will decide the files required:
 
@@ -76,7 +76,7 @@ npm run test --silent
 
 ### Creating your metadata
 
-Metadata files in markdown format are located in `/meta`. Each metadata file is named in format `m<metric number>.md` with heading tags *exactly* like this:
+Metadata files in markdown format are located in `/meta/en` and `/meta/es`, depending on language. Each metadata file is named in format `m<metric number>.md` with heading tags *exactly* like this:
 
 ``` markdown
 ## Title of Metric
@@ -98,7 +98,7 @@ The markdown is processed to HTML by the consuming projects, and as there's a lo
 
 There are four configuration files in `/config`:
 
-*   `data.js`: Configuration information for your metrics.
+*   `data.json`: Configuration information for your metrics.
 *   `map.js`: Configuration information for your maps.
 *   `selectgroups.js`: Groups of your geography units that you want to make selectable as a group.
 *   `site.js`: Configuration for the site, like titles etc.
@@ -130,3 +130,10 @@ Because we're using those as choppers for layout, adding more of those will scre
 #### Beware weird, non-web safe characters characters in Markdown
 
 Don't edit Markdown in Word. You're welcome.
+
+## Translations
+
+### Where are translations stored
+
+TODO
+
