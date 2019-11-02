@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "fast-csv": "^2.2.0",
-    "lodash": "^4.16.2",
+    "lodash": "^4.17.13",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.0"
   }
