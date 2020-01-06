@@ -79,7 +79,7 @@ jobs:
           working_directory: /tmp/workspace/
 
       # Copy production robots.txt file.
-      - run: cp /tmp/workspace/.circleci/robots-prod.txt /tmp/workspace/public/robots.txt
+      - run: cp /tmp/workspace/.circleci/robots-prod.txt /tmp/workspace/dist/robots.txt
       - run:
           command: python .circleci/deploy.py /tmp/workspace/dist
           working_directory: /tmp/workspace/
