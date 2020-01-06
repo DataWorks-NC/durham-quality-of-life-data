@@ -1,0 +1,8 @@
+const privateConfig = {
+  mapboxAccessToken: "MAPBOX_ACCESS_TOKEN",
+  rollbarAccessToken: "ROLLBAR_ACCESS_TOKEN",
+  environment: process.env.NODE_ENV,
+  googleAnalyticsId: "GOOGLE_ANALYTICS_ID",
+};
+
+module.exports = privateConfig;
