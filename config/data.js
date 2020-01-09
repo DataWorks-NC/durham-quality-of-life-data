@@ -467,7 +467,7 @@ module.exports = {
   },
   'mHMINC': {
     'metric': 'HMINC',
-    'category': 'Housing',
+    'category': 'Economy',
     'title': 'Median Homebuyer Income',
     'title_es': 'Mediana del Ingreso de los Compradores de Vivienda',
     'prefix': '$',
