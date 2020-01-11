@@ -522,6 +522,7 @@ module.exports = {
     'decimals': 1,
     'type': 'mean',
     'geographies': [
+     'tract',
       'blockgroup',
     ],
   },
