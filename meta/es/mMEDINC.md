@@ -7,7 +7,7 @@ La mediana del ingreso de los hogares proporciona una indicación de qué tan bu
 ### Sobre los Datos
 El ingreso de los hogares en el punto medio de todos los hogares. La mitad de los hogares en esta zona del censo ganan un ingreso anual más alto y la otra mitad ganan un ingreso anual más bajo. Estas cantidades están ajustadas por inflación para el año 2010 usando el Índice de precios al consumidor para todos los ítems, referenciando todas las áreas urbanas en el sur (tabla CUUR0300SA0).
 
-Fuente: EE. UU. 2010, datos de muestra de zonas censales normalizadas del Censo 2010. 
+Fuente: EE. UU. 2010, datos de muestra de zonas censales normalizadas del Censo 2010; Encuesta sobre la Comunidad Estadounidense \[American Community Survey (ACS)] (despues de 2010). 
 ### Recursos Adicionales
 
 |Recurso | Conozca más y tome acción |
