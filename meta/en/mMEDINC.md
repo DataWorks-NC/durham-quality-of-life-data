@@ -7,7 +7,7 @@ The median household income provides an indication of how well people are doing 
 ### About the Data
 The household income at the midpoint of all households. Half of the households in this Census tract earn a higher annual income and half earn a lower annual income. These amounts are inflation-adjusted for 2010 using the Consumer Price Index for all items, referencing the South urban areas (table CUUR0300SA0).
 
-Source: US 2010, Census 2010 tract-normalized sample data. 
+Source: US 2010, Census 2010 tract-normalized sample data; American Community Survey (ACS) (after  2010).
 ### Additional Resources
 
 |Resource | Learn More and Take Action | 
