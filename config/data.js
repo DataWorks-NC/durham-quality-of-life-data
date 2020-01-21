@@ -235,7 +235,7 @@ module.exports = {
     'category': 'Economy',
     'prefix': '$',
     'label': 'permits per sq mi',
-    'raw_label': 'permits',
+    'raw_label': 'in total',
     'title': 'Commercial Building Permit Values Per Sq Mile',
     'title_es': 'Valores de los Permisos de Construcción Comercial por milla cuadrada',
     'decimals': 0,
