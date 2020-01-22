@@ -41,7 +41,6 @@ yarn.lock
 *.sh
 !check-build-output-for-errors.sh
 
-config/private.js
 .DS_Store
 .Rhistory
-
+config/private.js
