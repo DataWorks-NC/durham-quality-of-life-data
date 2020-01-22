@@ -63,7 +63,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
-      'blockgroup',
+      'tract',
     ],
   },
   'mCC45': {
@@ -255,7 +255,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
-      'blockgroup',
+      'tract',
     ],
   },
   'mDIABETES_ASIAN': {
@@ -603,7 +603,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
-      'blockgroup',
+      'tract',
     ],
   },
   'mPCTIMP': {
@@ -1167,7 +1167,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
-      'blockgroup',
+      'tract',
     ],
   },
   'mWLKWK': {
@@ -1181,7 +1181,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
-      'blockgroup',
+      'tract',
     ],
   },
 };
