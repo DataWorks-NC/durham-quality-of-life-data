@@ -15,14 +15,6 @@ Quality of Life Dashboard repository. This project is not meant to stand alone.
 
 Further documentation available in the DataWorks NC Technical Manual.
 
-### Creating private configuration file
-
-The file `private.js` stores your mapbox GL access token and (optionally) rollbar access token. It is not checked into version control.
-Although be aware that this access token will be accessible to users via the javascript debug console.
-
-The first time you check out the repo, copy the file `config/private.js.example` to `config/private.js`, and fill in tokens as required.
-Just delete the rollbar_access_token line entirely if you don't want Rollbar to run locally.
-
 ## Customizing your Data
 
 ![data design](http://i.imgur.com/pRdRkFG.png)
