@@ -165,7 +165,7 @@ module.exports = {
   'mCKD_TOTAL': {
     'metric': 'CKD_TOTAL',
     'category': 'Health',
-    'title': 'Chronic Kidney Disease (Male)',
+    'title': 'Chronic Kidney Disease (Adult Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Adulta)',
     'suffix': '%',
     'raw_label': 'adults',
