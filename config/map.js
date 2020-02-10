@@ -24,14 +24,15 @@
 // neighborhoodsBefore      the layer in your map style to drop the polygon fills before, usually buildings
 
 module.exports = {
-    style: "/style/osm-liberty.json",
-    zoomEmbed: 9.5,
-    zoom: 9.3,
-  centerEmbed: [-78.907222,35.988611],
-    center: [-78.907222, 35.988611],
-    maxBounds: [[-80, 35],[-77, 37]],
+  style: "/style/osm-liberty.json",
+  zoomEmbed: 9.5,
+  zoom: 9.3,
+  centerEmbed: [-78.907222, 35.988611],
+  center: [-78.907222, 35.988611],
+  maxBounds: [[-80, 35], [-77, 37]],
   minZoom: 8,
-  preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') >  -1,  // fix for Firefox print
-  neighborhoodsSelectedBefore: 'water_name_line',
-  neighborhoodsBefore: 'waterway_river'
+  preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1, // fix for Firefox print
+  neighborhoodsSelectedBefore: 'water_name_line', // Selection highlights get drawn just underneath this layer.
+  threeDBefore: 'water_name_line', // 3D view gets drawn just underneath this layer.
+  neighborhoodsBefore: 'waterway_river', // Base choropleth gets drawn just underneath this layer.
 };
