@@ -1156,6 +1156,20 @@ module.exports = {
       'blockgroup',
     ],
   },
+  'mBUSWK': {
+    'metric': 'BUSWK',
+    'accuracy': 'true',
+    'category': 'Infrastructure and Amenities',
+    'suffix': '%',
+    'raw_label': 'people',
+    'title': 'Taking Public Transportation to Work',
+    'title_es': 'Taking Public Transportation to Work',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'tract',
+    ],
+  },
   'mWKHOME': {
     'metric': 'WKHOME',
     'accuracy': 'true',
