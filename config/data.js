@@ -242,6 +242,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract'
     ],
   },
   'mDRALONE': {
@@ -963,6 +964,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract'
     ],
   },
   //  "mSTROKE_ASIAN": {
