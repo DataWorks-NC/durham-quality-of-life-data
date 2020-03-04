@@ -1,22 +1,22 @@
-## Taking Public Transportation to Work
-Taking Public Transportation to Work
+## Viaje al Trabajo en Transporte Público
+Viaje al Trabajo en Transporte Público
 
-### Why is this important?
-Public transportation like buses, trains and light rail are vital functions of our communities. Thousands of folks in Durham who do not have cars (and many who do) have long relied on local transportation options like GoDurham, GoTriangle and services Duke University provides for its staff and students. 
+### ¿Por qué esto es importante?
+El transporte público, como por ejemplo autobuses, trenes tradicionales y ligeros, son fundamentales para nuestra comunidad. Miles de personas en Durham que no tienen automóvil (y muchas que sí lo tienen) por mucho tiempo han dependido y siguen dependiendo de las opciones locales de transporte como GoDurham, GoTriangle y los servicios que Duke University provee para sus estudiantes y su personal. 
 
-What would Durham be like if, in the words of People for Mobility Justice, "People have the freedom and resources to move in public spaces with love and dignity"? Without public transportation, thousands of folks could not get to work, do their shopping and visit others. Given all of the above, public transportation ought to be easy to use, safe, low or no cost, timely and reliable. As a key element of community mobility - traveling to the essential locations of our daily lives - we may even see it is a human right.
+¿Cómo sería Durham si “la gente tuviera la libertad y los recursos para moverse en espacios públicos con amor y dignidad”, como dice People for Mobility Justice? Sin transporte público, miles de personas no podrían llegar al trabajo, hacer las compras y visitar gente. Por todo esto, el transporte público tiene que ser fácil de utilizar, seguro, de bajo costo o gratuito, puntual y confiable. Al ser un elemento clave de la movilidad comunitaria (el poder ir a lugares esenciales para nuestra vida cotidiana), podríamos verlo incluso como un derecho humano.
 
-At the community level, where do families use public transportation most? Is it equally easy to use transit in each of our communities? What are the aspects of our neighborhoods that make it easier or harder to use buses and other transit options?
+A nivel comunitario, ¿dónde hay un mayor uso del transporte público por parte de las familias? ¿Es este igualmente fácil de utilizar en cada una de nuestras comunidades? ¿Cuáles son las características de tu vecindario que facilitan o dificultan el uso de autobuses y otras opciones de transporte público?
 
-### About the Data
-"Public transportation" in this national data set refers to buses, trolleys, streetcars, subways and el trains, railroads, or ferryboats. As with all measurements from the American Community Survey in the Neighborhood Compass, this data represents 5 years' worth of surveying. With each annual update, the 5-year period advances by dropping one year and incorporating the next. For this reason, annual releases of this ACS product are not suitable for true time series comparison until no overlap exists among the survey periods.
+### Sobre los datos
+“Transporte público” en este conjunto de datos nacionales se refiere a autobuses, tranvías, trenes (subterráneos, en superficie, larga distancia), o <i>ferrys</i>. Como con todas las mediciones de la Encuesta sobre la Comunidad Estadounidense \[American Community Survey] en el <i>Neighborhood Compass</i>, estos datos representan 5 años de encuestas. Con cada actualización anual, el período de 5 años avanza quitando un año e incorporando el siguiente. Por esta razón, las publicaciones anuales de este producto no son adecuadas para una verdadera comparación de series de tiempo hasta que no exista una superposición entre los períodos encuestados.
 
-Source: American Community Survey (ACS) 
+Fuente: Encuesta sobre la Comunidad Estadounidense \[American Community Survey (ACS)] 
 
-### Additional Resources
+### Recursos Adicionales
 
-|Resource | Learn More and Take Action | 
+|Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Triangle Transloc](https://triangle.transloc.com/) | Find where the buses are right now and get to the bus stop on time!
-|[GoDurham](https://godurhamtransit.org/) | Plan a route and learn what's new with the buses.
-|[People for Mobility Justice (Los Angeles)](https://www.peopleformobilityjustice.org/) | "Transportation equity refers to correcting past discrimination in how public transportation benefits and burdens are allocated, maintained, and developed. Those who have had the least should be given the most."
+|[Triangle Transloc](https://triangle.transloc.com/) | Sepa dónde se encuentran los autobuses ahora mismo y llegue a la parada a tiempo!
+|[GoDurham](https://godurhamtransit.org/) | Planifique una ruta y conozca qué hay de nuevo en los autobuses.
+|[People for Mobility Justice (Los Angeles)](https://www.peopleformobilityjustice.org/) | “La equidad en el transporte se trata de corregir la manera discriminatoria en que los beneficios y los perjuicios de transporte público fueron adjudicados, mantenidos y desarrollados en el pasado. Quienes menos recibieron deberían ser los más beneficiados.”
