@@ -1163,7 +1163,7 @@ module.exports = {
     'suffix': '%',
     'raw_label': 'people',
     'title': 'Taking Public Transportation to Work',
-    'title_es': 'Taking Public Transportation to Work',
+    'title_es': 'Viaje al Trabajo en Transporte Público',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
