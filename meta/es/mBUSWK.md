@@ -17,6 +17,6 @@ Fuente: Encuesta sobre la Comunidad Estadounidense \[American Community Survey (
 
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Triangle Transloc](https://triangle.transloc.com/) | Sepa dónde se encuentran los autobuses ahora mismo y llegue a la parada a tiempo!
-|[GoDurham](https://godurhamtransit.org/) | Planifique una ruta y conozca qué hay de nuevo en los autobuses.
-|[People for Mobility Justice (Los Angeles)](https://www.peopleformobilityjustice.org/) | “La equidad en el transporte se trata de corregir la manera discriminatoria en que los beneficios y los perjuicios de transporte público fueron adjudicados, mantenidos y desarrollados en el pasado. Quienes menos recibieron deberían ser los más beneficiados.”
+|[Triangle Transloc](https://triangle.transloc.com/) (en inglés) | Sepa dónde se encuentran los autobuses ahora mismo y llegue a la parada a tiempo!
+|[GoDurham](https://godurhamtransit.org/) (en inglés) | Planifique una ruta y conozca qué hay de nuevo en los autobuses.
+|[People for Mobility Justice (Los Angeles)](https://www.peopleformobilityjustice.org/) (en inglés) | “La equidad en el transporte se trata de corregir la manera discriminatoria en que los beneficios y los perjuicios de transporte público fueron adjudicados, mantenidos y desarrollados en el pasado. Quienes menos recibieron deberían ser los más beneficiados.”
