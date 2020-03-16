@@ -240,9 +240,19 @@ module.exports = {
     'title_es': 'Valores de los Permisos de Construcción Comercial por milla cuadrada',
     'decimals': 0,
     'type': 'weighted',
+    'world_val': {
+      y_2012: 953750.21,
+      y_2013: 1557984.27,
+      y_2014: 1129287.67,
+      y_2015: 1064761.1,
+      y_2016: 1619937.98,
+      y_2017: 1842853.77,
+      y_2018: 2155235.79,
+      y_2019: 2369273.58,
+    },
     'geographies': [
       'blockgroup',
-      'tract'
+      'tract',
     ],
   },
   'mDRALONE': {
@@ -961,10 +971,20 @@ module.exports = {
     'label': 'per sq mi',
     'raw_label': 'total dollars',
     'decimals': 0,
+    'world_val': {
+      y_2012: 1358105.54,
+      y_2013: 1569905.53,
+      y_2014: 1252480.49,
+      y_2015: 1558094.64,
+      y_2016: 2087390.7,
+      y_2017: 2398384.62,
+      y_2018: 2376536.5,
+      y_2019: 2514926.6,
+    },
     'type': 'weighted',
     'geographies': [
       'blockgroup',
-      'tract'
+      'tract',
     ],
   },
   //  "mSTROKE_ASIAN": {
