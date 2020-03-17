@@ -7,6 +7,8 @@ Commercial building permit values reflect active investment in property, whether
 ### About the Data
 The value of commercial, business, and industrial building permits for each boundary divided by the area (in square miles) of each. These permits include new construction as well as renovations and exclude demolitions.
 
+NOTE: Due to earlier discrepancies in permit value summaries, values shown here (as of 3/17/20120) vary in some cases from those released previously. Data improvements made at this time affect both residential and commercial building permit variables.   
+
 Durham City/County Inspections Department  
 
 ### Additional Resources
