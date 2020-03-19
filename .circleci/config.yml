@@ -42,6 +42,9 @@ jobs:
       - run: npm run build-site > npm-build-output.txt
       - run: cat npm-build-output.txt
       - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
+
+      # Generate a sitemap based on what's currently on dev site.
+      - run: npm run build-sitemap-dev
       - run: mkdir /tmp/workspace
       - persist_to_workspace:
           root: .
@@ -73,6 +76,9 @@ jobs:
       - run:
           command: pip install -r .circleci/requirements.txt
           working_directory: /tmp/workspace/
+  
+      # Tweak sitemap URLs
+      - run: sed -i 's/nbhdcompassdev\.azurewebsites\.us/compass\.durhamnc\.gov/g' /tmp/workspace/dist/sitemap.xml
 
       # Copy production robots.txt file.
       - run: cp /tmp/workspace/.circleci/robots-prod.txt /tmp/workspace/dist/robots.txt
