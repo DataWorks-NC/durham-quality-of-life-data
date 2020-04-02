@@ -214,8 +214,8 @@ module.exports = {
       'blockgroup',
     ],
   },
-  'mED-HEALTH-SOCIAL-SVC-JOBS': {
-    'metric': 'ED-HEALTH-SOCIAL-SVC-JOBS',
+  'mEDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS': {
+    'metric': 'EDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS',
     'category': 'Economy',
     'accuracy': 'true',
     'suffix': '%',
@@ -228,8 +228,8 @@ module.exports = {
       'tract',
     ],
   },
-  'mRETAIL-JOBS': {
-    'metric': 'RETAIL-JOBS',
+  'mRETAIL-WORKERS': {
+    'metric': 'RETAIL-WORKERS',
     'category': 'Economy',
     'accuracy': 'true',
     'suffix': '%',
@@ -242,8 +242,8 @@ module.exports = {
       'tract',
     ],
   },
-  'mACCOMMODATION-JOBS': {
-    'metric': 'ACCOMMODATION-JOBS',
+  'mACCOMMODATION-WORKERS': {
+    'metric': 'ACCOMMODATION-WORKERS',
     'category': 'Economy',
     'accuracy': 'true',
     'suffix': '%',
