@@ -70,7 +70,7 @@ module.exports = {
       y_2016: 0.7,
       y_2017: 0.6,
       y_2018: 0.6,
-    },    
+    },
     'type': 'weighted',
     'geographies': [
       'tract',
@@ -212,6 +212,48 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+    ],
+  },
+  'mEDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS': {
+    'metric': 'EDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS',
+    'category': 'Economy',
+    'accuracy': 'true',
+    'suffix': '%',
+    'raw_label': 'workers',
+    'title': 'Percent of Workers in Educational, Health Care and Social Assistance Services',
+    'title_es': 'Porcentaje de Trabajadores en Servicios de Salud, Educativos y de Asistencia Social',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'tract',
+    ],
+  },
+  'mRETAIL-WORKERS': {
+    'metric': 'RETAIL-WORKERS',
+    'category': 'Economy',
+    'accuracy': 'true',
+    'suffix': '%',
+    'raw_label': 'workers',
+    'title': 'Percent of Workers in the Retail Trade Industry',
+    'title_es': 'Porcentaje de Trabajadores en la Industria del Comercio Minorista',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'tract',
+    ],
+  },
+  'mACCOMMODATION-WORKERS': {
+    'metric': 'ACCOMMODATION-WORKERS',
+    'category': 'Economy',
+    'accuracy': 'true',
+    'suffix': '%',
+    'raw_label': 'workers',
+    'title': 'Percent of Workers in the Arts, Entertainment, Recreation, and Accommodation & Food Services',
+    'title_es': 'Porcentaje de Trabajadores de Actividades Artísticas, Entretenimiento, Recreación y Servicios de Alimentación y Alojamiento',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'tract',
     ],
   },
   'mCOB': {
@@ -727,7 +769,7 @@ module.exports = {
     'title_es': 'Seguridad de Ingreso Suplementario',
     'decimals': 1,
     'world_val': {
-      y_2010: 2.8,    
+      y_2010: 2.8,
       y_2011: 3.3,
       y_2012: 3.5,
       y_2013: 3.7,
