@@ -70,14 +70,6 @@ module.exports = {
       },
       description: 'A census blockgroup is made up of several city blocks and usually contains between 600 and 3,000 people. Sometimes a blockgroup is the size of a neighborhood, but most neighborhoods are larger than a single blockgroup.', // Overwritten by strings in the translation document for the Compass.
     },
-    // {
-    //   id: 'neighborhood',
-    //   name: 'Neighborhoods',
-    //   label: function(id) {
-    //     return id;
-    //   },
-    //   description: 'Description of Neighborhoods',
-    // },
   ],
 
   // Report config.
