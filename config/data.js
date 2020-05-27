@@ -733,7 +733,14 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2001: 6.994631263962856,
+      y_2006: 7.737930551747872,
+      y_2011: 8.350512433138704,
+      y_2016: 8.738632850551514,
+    },
   },
   'mPCTRENT': {
     'metric': 'PCTRENT',
@@ -794,7 +801,12 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      'y_2011': 59.12818457776564,
+      'y_2016': 57.4262731894659,
+    },
   },
   'mPOP': {
     'metric': 'POP',
