@@ -729,6 +729,7 @@ module.exports = {
     'title': 'Impervious Area',
     'title_es': 'Áreas Impermeables',
     'suffix': '%',
+    'raw_label': 'square miles',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
@@ -797,6 +798,7 @@ module.exports = {
     'title': 'Tree Coverage',
     'title_es': 'Cobertura arbórea',
     'suffix': '%',
+    'raw_label': 'square miles',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
