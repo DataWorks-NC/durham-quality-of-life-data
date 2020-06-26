@@ -15,6 +15,6 @@ Fuente: Base de Datos Nacional de Cobertura del Suelo (NLCD), accesible a travé
 
 |Recurso | Conozca más y tome acción | 
 |:--- | :--- | 
-|[Multi-Resolution Land Characteristics Consortium (MRLC)](https://www.mrlc.gov/data) | El MRLC es un consorcio, de larga data, de agencias federales que proveen información geoespacial que muestra las características de la cobertura del suelo en todos los Estados Unidos. |
-|[Glosario del EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) | Términos y definiciones usados en el sitio web del EnviroAtlas, hojas de datos, y otros recursos. 
-|[Beneficios de Áreas Arboladas en Vecindarios](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percenttreecover.pdf) | Hoja de datos de la Agencia de Protección Ambiental (EPA, por sus siglas en inglés). |
+|[Multi-Resolution Land Characteristics Consortium (MRLC)](https://www.mrlc.gov/data) (en inglés) | El MRLC es un consorcio, de larga data, de agencias federales que proveen información geoespacial que muestra las características de la cobertura del suelo en todos los Estados Unidos. |
+|[Glosario del EnviroAtlas](http://enviroatlas.epa.gov/enviroatlas/glossary/glossary.html) (en inglés) | Términos y definiciones usados en el sitio web del EnviroAtlas, hojas de datos, y otros recursos. 
+|[Beneficios de Áreas Arboladas en Vecindarios](http://enviroatlas.epa.gov/enviroatlas/DataFactSheets/pdf/ESC/Percenttreecover.pdf) (en inglés) | Hoja de datos de la Agencia de Protección Ambiental (EPA, por sus siglas en inglés). |
