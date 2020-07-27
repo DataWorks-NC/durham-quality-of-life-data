@@ -833,26 +833,15 @@ module.exports = {
       'y_2016': 57.4262731894659,
     },
   },
-  'mPOP': {
-    'metric': 'POP',
-    'accuracy': 'true',
-    'category': 'Demographics',
-    'label': 'people',
-    'title': 'Population',
-    'title_es': 'Población',
-    'decimals': 0,
-    'type': 'sum',
-    'geographies': [
-      'blockgroup',
-      'tract',
-    ],
-  },
+  // Note: Health Indicators App currently uses the raw POP metric, so those metric files should be
+  // preserved for the time being.
   'mPOPDENS': {
     'metric': 'POPDENS',
     'category': 'Demographics',
     'label': 'people per sq mi',
-    'title': 'Population Density',
-    'title_es': 'Densidad de población',
+    'title': 'Population',
+    'title_es': 'Población',
+    'raw_label': 'people',
     'decimals': 0,
     'type': 'weighted',
     'geographies': [
@@ -913,7 +902,7 @@ module.exports = {
   },
   'mPROXPH': {
     'metric': 'PROXPH',
-    'category': 'Infrastructure and Amenities',
+    'category': 'Health',
     'suffix': '%',
     'raw_label': 'households',
     'title': 'Homes Near Pharmacies',
@@ -1317,7 +1306,7 @@ module.exports = {
   },
   'mSWTORD': {
     'metric': 'SWTORD',
-    'category': 'Infrastructure and Amenities',
+    'category': 'Safety',
     'suffix': '%',
     'title': 'Sidewalks to Roadways',
     'title_es': 'Aceras a carreteras',
