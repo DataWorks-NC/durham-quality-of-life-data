@@ -97,6 +97,7 @@ module.exports = {
     'category': 'Health',
     'title': 'Chronic Kidney Disease (Asian Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Asiática)',
+    'subcategory': 'Chronic Kidney Disease',
     'suffix': '%',
     'raw_label': 'adults',
     'decimals': 1,
@@ -111,6 +112,7 @@ module.exports = {
     'category': 'Health',
     'title': 'Chronic Kidney Disease (Black or African American Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Negra o Afroamericana)',
+    'subcategory': 'Chronic Kidney Disease',
     'suffix': '%',
     'raw_label': 'adults',
     'decimals': 1,
@@ -125,6 +127,7 @@ module.exports = {
     'category': 'Health',
     'title': 'Chronic Kidney Disease (Female)',
     'title_es': 'Enfermedad Renal Crónica (Mujeres)',
+    'subcategory': 'Chronic Kidney Disease',
     'suffix': '%',
     'raw_label': 'adults',
     'decimals': 1,
@@ -137,6 +140,7 @@ module.exports = {
   'mCKD_HISPANIC': {
     'metric': 'CKD_HISPANIC',
     'category': 'Health',
+    'subcategory': 'Chronic Kidney Disease',
     'title': 'Chronic Kidney Disease (Hispanic or Latino/a Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Hispana o Latina)',
     'suffix': '%',
@@ -151,6 +155,7 @@ module.exports = {
   'mCKD_MALE': {
     'metric': 'CKD_MALE',
     'category': 'Health',
+    'subcategory': 'Chronic Kidney Disease',
     'title': 'Chronic Kidney Disease (Male)',
     'title_es': 'Enfermedad Renal Crónica (Hombres)',
     'suffix': '%',
@@ -165,6 +170,7 @@ module.exports = {
   'mCKD_TOTAL': {
     'metric': 'CKD_TOTAL',
     'category': 'Health',
+    'subcategory': 'Chronic Kidney Disease',
     'title': 'Chronic Kidney Disease (Adult Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Adulta)',
     'suffix': '%',
@@ -179,6 +185,7 @@ module.exports = {
   'mCKD_WHITE': {
     'metric': 'CKD_WHITE',
     'category': 'Health',
+    'subcategory': 'Chronic Kidney Disease',
     'title': 'Chronic Kidney Disease (White Population)',
     'title_es': 'Enfermedad Renal Crónica (Población Blanca)',
     'suffix': '%',
@@ -272,6 +279,7 @@ module.exports = {
   'mDIABETES_ASIAN': {
     'metric': 'DIABETES_ASIAN',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Asian Population)',
     'title_es': 'Diabetes (Población Asiática)',
     'suffix': '%',
@@ -286,6 +294,7 @@ module.exports = {
   'mDIABETES_BLACK': {
     'metric': 'DIABETES_BLACK',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Black or African American Population)',
     'title_es': 'Diabetes (Población Afroamericana o Negra)',
     'suffix': '%',
@@ -300,6 +309,7 @@ module.exports = {
   'mDIABETES_FEMALE': {
     'metric': 'DIABETES_FEMALE',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Female)',
     'title_es': 'Diabetes (Mujeres)',
     'suffix': '%',
@@ -314,6 +324,7 @@ module.exports = {
   'mDIABETES_HISPANIC': {
     'metric': 'DIABETES_HISPANIC',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Hispanic or Latino/a Population)',
     'title_es': 'Diabetes (Población Hispana o Latina)',
     'suffix': '%',
@@ -328,6 +339,7 @@ module.exports = {
   'mDIABETES_MALE': {
     'metric': 'DIABETES_MALE',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Male)',
     'title_es': 'Diabetes (Hombres)',
     'suffix': '%',
@@ -342,6 +354,7 @@ module.exports = {
   'mDIABETES_TOTAL': {
     'metric': 'DIABETES_TOTAL',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (Adult Population)',
     'title_es': 'Diabetes (Población Adulta)',
     'suffix': '%',
@@ -356,6 +369,7 @@ module.exports = {
   'mDIABETES_WHITE': {
     'metric': 'DIABETES_WHITE',
     'category': 'Health',
+    'subcategory': 'Diabetes',
     'title': 'Diabetes (White Population)',
     'title_es': 'Diabetes (Población Blanca)',
     'suffix': '%',
@@ -396,6 +410,7 @@ module.exports = {
   'mHEARTATTACK_BLACK': {
     'metric': 'HEARTATTACK_BLACK',
     'category': 'Health',
+    'subcategory': 'Heart Attack',
     'title': 'Heart Attack (Black or African American Population)',
     'title_es': 'Ataque Cardíaco (Población Negra o Afroamericana)',
     'suffix': '%',
@@ -410,6 +425,7 @@ module.exports = {
   'mHEARTATTACK_FEMALE': {
     'metric': 'HEARTATTACK_FEMALE',
     'category': 'Health',
+    'subcategory': 'Heart Attack',
     'title': 'Heart Attack (Female)',
     'title_es': 'Ataque Cardíaco (Mujeres)',
     'suffix': '%',
@@ -437,6 +453,7 @@ module.exports = {
   'mHEARTATTACK_MALE': {
     'metric': 'HEARTATTACK_MALE',
     'category': 'Health',
+    'subcategory': 'Heart Attack',
     'title': 'Heart Attack (Male)',
     'title_es': 'Ataque Cardíaco (Hombres)',
     'suffix': '%',
@@ -451,6 +468,7 @@ module.exports = {
   'mHEARTATTACK_TOTAL': {
     'metric': 'HEARTATTACK_TOTAL',
     'category': 'Health',
+    'subcategory': 'Heart Attack',
     'title': 'Heart Attack (Adult Population)',
     'title_es': 'Ataque Cardíaco (Población Adulta)',
     'suffix': '%',
@@ -465,6 +483,7 @@ module.exports = {
   'mHEARTATTACK_WHITE': {
     'metric': 'HEARTATTACK_WHITE',
     'category': 'Health',
+    'subcategory': 'Heart Attack',
     'title': 'Heart Attack (White Population)',
     'title_es': 'Ataque Cardíaco (Población Blanca)',
     'suffix': '%',
@@ -479,6 +498,7 @@ module.exports = {
   'mHMINC': {
     'metric': 'HMINC',
     'category': 'Economy',
+    'subcategory': 'Income',
     'title': 'Median Homebuyer Income',
     'title_es': 'Mediana del Ingreso de los Compradores de Vivienda',
     'prefix': '$',
@@ -589,6 +609,7 @@ module.exports = {
     'metric': 'MEDINC',
     'accuracy': 'true',
     'category': 'Economy',
+    'subcategory': 'Income',
     'prefix': '$',
     'title': 'Median Household Income',
     'title_es': 'Mediana del Ingreso de los Hogares',
@@ -626,6 +647,7 @@ module.exports = {
     'metric': 'PCI',
     'accuracy': 'true',
     'category': 'Economy',
+    'subcategory': 'Income',
     'prefix': '$',
     'title': 'Per Capita Income',
     'title_es': 'Ingreso Per Cápita',
@@ -701,13 +723,14 @@ module.exports = {
     'metric': 'PCTSSI',
     'accuracy': 'true',
     'category': 'Economy',
+    'subcategory': 'Income',
     'suffix': '%',
     'raw_label': 'people receiving SSI',
     'title': 'Supplemental Security Income',
     'title_es': 'Seguridad de Ingreso Suplementario',
     'decimals': 1,
     'world_val': {
-      y_2010: 2.8,    
+      y_2010: 2.8,
       y_2011: 3.3,
       y_2012: 3.5,
       y_2013: 3.7,
@@ -1117,6 +1140,7 @@ module.exports = {
   'mSTROKE_BLACK': {
     'metric': 'STROKE_BLACK',
     'category': 'Health',
+    'subcategory': 'Stroke',
     'title': 'Stroke (Black or African American Population)',
     'title_es': 'Accidente Cerebrovascular (Población Negra o Afroamericana)',
     'suffix': '%',
@@ -1131,6 +1155,7 @@ module.exports = {
   'mSTROKE_FEMALE': {
     'metric': 'STROKE_FEMALE',
     'category': 'Health',
+    'subcategory': 'Stroke',
     'title': 'Stroke (Female)',
     'title_es': 'Accidente Cerebrovascular (Mujeres)',
     'suffix': '%',
@@ -1158,6 +1183,7 @@ module.exports = {
   'mSTROKE_MALE': {
     'metric': 'STROKE_MALE',
     'category': 'Health',
+    'subcategory': 'Stroke',
     'title': 'Stroke (Male)',
     'title_es': 'Accidente Cerebrovascular (Hombres)',
     'suffix': '%',
@@ -1172,6 +1198,7 @@ module.exports = {
   'mSTROKE_TOTAL': {
     'metric': 'STROKE_TOTAL',
     'category': 'Health',
+    'subcategory': 'Stroke',
     'title': 'Stroke (Adult Population)',
     'title_es': 'Accidente Cerebrovascular (Población Adulta)',
     'suffix': '%',
@@ -1186,6 +1213,7 @@ module.exports = {
   'mSTROKE_WHITE': {
     'metric': 'STROKE_WHITE',
     'category': 'Health',
+    'subcategory': 'Stroke',
     'title': 'Stroke (White Population)',
     'title_es': 'Accidente Cerebrovascular (Población Blanca)',
     'suffix': '%',
