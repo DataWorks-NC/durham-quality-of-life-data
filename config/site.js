@@ -25,6 +25,14 @@
 //  contacts "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
 //
 
+function getTractDecimalPart(id) {
+  return id.substring(id.length - 2) ? `.${id.substring(id.length - 2)}` : '';
+}
+
+function getBlockgroupDecimalPart(id) {
+  return id.substring(id.length - 3, id.length - 1) ? `.${id.substring(id.length - 3, id.length - 1)}` : '';
+}
+
 module.exports = {
   keywords:
     'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
@@ -44,30 +52,15 @@ module.exports = {
     {
       id: 'tract',
       name: 'Census Tracts', // Overwritten by strings in the translation document for the Compass.
-      label: (id) => {
-        const decimalPart = id.substring(id.length-2);
-        return `Tract ${Number(id.substring(id.length-6, id.length-2))}${decimalPart ? '.' + decimalPart : ''}`;
-      },
-      label_es: (id) => {
-        const decimalPart = id.substring(id.length-2);
-        return `Zona ${Number(id.substring(id.length-6, id.length-2))}${decimalPart ? '.' + decimalPart : ''}`;
-      },
+      label: (id) => `Tract ${Number(id.substring(id.length - 6, id.length - 2))}${getTractDecimalPart(id)}`,
+      label_es: (id) => `Zona ${Number(id.substring(id.length - 6, id.length - 2))}${getTractDecimalPart(id)}`,
       description: 'Area containing containing between 1,200 and 8,000 people. Census tract boundaries usually follow features like major roads, rivers, or municipal boundaries. Most tracts contain one or two neighborhoods.', // Overwritten by strings in the translation document for the Compass.
     },
     {
       id: 'blockgroup',
       name: 'Census Blockgroups', // Overwritten by strings in the translation document for the Compass.
-      label: (id) => {
-        const decimalPart = id.substring(id.length-3, id.length-1);
-        return `Tract ${Number(id.substring(id.length-7, id.length-3))}${(decimalPart ? "." + decimalPart : '')}, Block Group ${id.substring(id.length-1)}`;
-      },
-      label_es: (id) => {
-        const decimalPart = id.substring(id.length - 3, id.length - 1);
-        return `Zona ${Number(
-          id.substring(id.length - 7, id.length - 3))}${(decimalPart ?
-          "." + decimalPart :
-          '')}, Radio ${id.substring(id.length - 1)}`;
-      },
+      label: (id) => `Tract ${Number(id.substring(id.length - 7, id.length - 3))}${getBlockgroupDecimalPart(id)}, Block Group ${id.substring(id.length-1)}`,
+      label_es: (id) => `Zona ${Number(id.substring(id.length - 7, id.length - 3))}${getBlockgroupDecimalPart(id)}, Radio ${id.substring(id.length - 1)}`,
       description: 'A census blockgroup is made up of several city blocks and usually contains between 600 and 3,000 people. Sometimes a blockgroup is the size of a neighborhood, but most neighborhoods are larger than a single blockgroup.', // Overwritten by strings in the translation document for the Compass.
     },
   ],
