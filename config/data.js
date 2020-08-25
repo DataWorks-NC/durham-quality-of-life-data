@@ -667,19 +667,6 @@ module.exports = {
       'tract',
     ],
   },
-//  'mMEDIAN-HOME-PRICE': {
-//    'metric': 'MEDIAN-HOME-PRICE',
-//    'category': 'Housing',
-//    'title': 'Median Home Price',
-//    'title_es': 'Mediana del Valor de Viviendas',
-//    'prefix': '$',
-//    'decimals': 0,
-//    'type': 'weighted',
-//    'geographies': [
-//      'blockgroup',
-//      'tract',
-//    ],
-//  },
   'mMEDINC': {
     'metric': 'MEDINC',
     'accuracy': 'true',
@@ -706,18 +693,6 @@ module.exports = {
       'tract',
     ],
   },
-  //  "mMEDSV": {
-  //  "metric": "MEDSV",
-  //    "category": "Housing",
-  //    "title": "Median Sale Price",
-  //'title_es': 'TRANSLATE Median Sale Price',
-  //    "prefix": "$",
-  //    "decimals": 0,
-  //    "type": "mean",
-  //    "geographies": [
-  //      "blockgroup"
-  //    ]
-  //  },
   'mPCI': {
     'metric': 'PCI',
     'accuracy': 'true',
@@ -1168,7 +1143,8 @@ module.exports = {
   'mRESIDENTIAL-SALE-PRICE': {
     'metric': 'RESIDENTIAL-SALE-PRICE',
     'category': 'Housing',
-    'title': 'Median Home Price',
+    'title': 'Median Sale Price',
+    'title_es': 'TRANSLATE THIS',
     'prefix': '$',
     'decimals': 2,
     'type': 'mean',
