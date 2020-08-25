@@ -32,7 +32,4 @@ module.exports = {
   maxBounds: [[-80, 35], [-77, 37]],
   minZoom: 8,
   preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1, // fix for Firefox print
-  neighborhoodsSelectedBefore: 'water_name_line', // Selection highlights get drawn just underneath this layer.
-  threeDBefore: 'water_name_line', // 3D view gets drawn just underneath this layer.
-  neighborhoodsBefore: 'waterway_river', // Base choropleth gets drawn just underneath this layer.
 };
