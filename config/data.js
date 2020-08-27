@@ -224,6 +224,7 @@ module.exports = {
   'mEDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS': {
     'metric': 'EDUCATION-HEALTH-CARE-SOCIAL-SERVICE-WORKERS',
     'category': 'Economy',
+    'subcategory': 'Jobs',
     'accuracy': 'true',
     'suffix': '%',
     'raw_label': 'workers',
@@ -238,6 +239,7 @@ module.exports = {
   'mRETAIL-WORKERS': {
     'metric': 'RETAIL-WORKERS',
     'category': 'Economy',
+    'subcategory': 'Jobs',
     'accuracy': 'true',
     'suffix': '%',
     'raw_label': 'workers',
@@ -252,6 +254,7 @@ module.exports = {
   'mACCOMMODATION-WORKERS': {
     'metric': 'ACCOMMODATION-WORKERS',
     'category': 'Economy',
+    'subcategory': 'Jobs',
     'accuracy': 'true',
     'suffix': '%',
     'raw_label': 'workers',
@@ -266,6 +269,7 @@ module.exports = {
   'mCOB': {
     'metric': 'COB',
     'category': 'Economy',
+    'subcategory': 'Building Permits',
     'label': 'certificates per sq mi',
     'raw_label': 'certificates',
     'title': 'Commercial Certificates of Occupancy per Sq Mile',
@@ -279,6 +283,7 @@ module.exports = {
   'mCOR': {
     'metric': 'COR',
     'category': 'Economy',
+    'subcategory': 'Building Permits',
     'label': 'certificates per sq mi',
     'raw_label': 'certificates',
     'title': 'Residential Certificates of Occupancy per Sq Mile',
@@ -292,6 +297,7 @@ module.exports = {
   'mCPMTS': {
     'metric': 'CPMTS',
     'category': 'Economy',
+    'subcategory': 'Building Permits',
     'prefix': '$',
     'label': 'per sq mi',
     'raw_label': 'total dollars',
@@ -323,7 +329,7 @@ module.exports = {
     'suffix': '%',
     'raw_label': 'commuters',
     'decimals': 1,
-        'world_val': {
+    'world_val': {
       y_2011: 75.2,
       y_2012: 75.2,
       y_2013: 75.2,
@@ -584,7 +590,7 @@ module.exports = {
   },
   'mLUDIV': {
     'metric': 'LUDIV',
-    'category': 'Economy',
+    'category': 'Environment',
     'title': 'Land Use Diversity',
     'title_es': 'Diversidad en el Uso de la Tierra',
     'decimals': 1,
@@ -596,6 +602,7 @@ module.exports = {
   'mMEANRPMT': {
     'metric': 'MEANRPMT',
     'category': 'Economy',
+    'subcategory': 'Building Permits',
     'prefix': '$',
     'title': 'Average Residential Building Permit Value',
     'title_es': 'Promedio del Valor de los Permisos de Construcción Residencial',
@@ -609,6 +616,7 @@ module.exports = {
     'metric': 'MEDAGE',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Age',
     'label': 'years',
     'title': 'Median Age',
     'title_es': 'Mediana de Edad',
@@ -626,7 +634,7 @@ module.exports = {
     },
     'type': 'mean',
     'geographies': [
-     'tract',
+      'tract',
       'blockgroup',
     ],
   },
@@ -917,6 +925,7 @@ module.exports = {
   'mPT65UP': {
     'metric': 'PT65UP',
     'category': 'Demographics',
+    'subcategory': 'Age',
     'title': 'Retirement-Age Population',
     'title_es': 'Población en Edad de Jubilación',
     'suffix': '%',
@@ -939,6 +948,7 @@ module.exports = {
     'metric': 'PTASNL',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
     'title': 'Asian',
@@ -961,6 +971,7 @@ module.exports = {
     'metric': 'PTBLKNL',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
     'title': 'Black or African American',
@@ -996,6 +1007,7 @@ module.exports = {
     'metric': 'PTLAT',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
     'title': 'Hispanic/Latino',
@@ -1018,6 +1030,7 @@ module.exports = {
     'metric': 'PTOTHNL',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
     'title': 'Other Race',
@@ -1051,6 +1064,7 @@ module.exports = {
   'mPTUND18': {
     'metric': 'PTUND18',
     'category': 'Demographics',
+    'subcategory': 'Age',
     'title': 'Youth Population',
     'title_es': 'Población menor de 18 años',
     'suffix': '%',
@@ -1066,13 +1080,14 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
-	  'tract',
+      'tract',
     ],
   },
   'mPTWHNL': {
     'metric': 'PTWHNL',
     'accuracy': 'true',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
     'title': 'White or Caucasian',
@@ -1132,6 +1147,7 @@ module.exports = {
   'mREDIV': {
     'metric': 'REDIV',
     'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
     'title': 'Race/Ethnic Diversity',
     'title_es': 'Diversidad Racial/Étnica',
     'decimals': 2,
@@ -1192,6 +1208,7 @@ module.exports = {
   'mRPMTS': {
     'metric': 'RPMTS',
     'category': 'Economy',
+    'subcategory': 'Building Permits',
     'prefix': '$',
     'title': 'Residential Building Permit Value Per Sq Mile',
     'title_es': 'Promedio del Valor de los Permisos de Construcción Residencial por milla cuadrada',
