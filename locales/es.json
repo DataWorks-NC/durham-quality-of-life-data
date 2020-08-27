@@ -19,9 +19,9 @@
       "Income": "Ingreso",
       "Stroke": "Accidente Cerebrovascular",
       "Age": "Edad",
-      "Race/Ethnicity": "Race/Ethnicity",
+      "Race/Ethnicity": "Raza/Etnicidad",
       "Building Permits": "Permisos de Construcción",
-      "Jobs": "Jobs"
+      "Jobs": "Trabajos"
     }
   },
   "selectGroup": {

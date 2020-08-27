@@ -1160,7 +1160,7 @@ module.exports = {
     'metric': 'RESIDENTIAL-SALE-PRICE',
     'category': 'Housing',
     'title': 'Median Sale Price',
-    'title_es': 'TRANSLATE THIS',
+    'title_es': 'Mediana del Precio de Venta',
     'prefix': '$',
     'decimals': 2,
     'type': 'mean',
