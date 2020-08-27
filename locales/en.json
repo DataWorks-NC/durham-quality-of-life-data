@@ -1,0 +1,69 @@
+{
+  "strings": {
+    "metricCategories": {
+      "Civic Engagement": "Civic Engagement",
+      "Demographics": "Demographics",
+      "Economy": "Economy",
+      "Education": "Education",
+      "Environment": "Environment",
+      "Health": "Health",
+      "Housing": "Housing",
+      "Infrastructure and Amenities": "Infrastructure and Amenities",
+      "Safety": "Safety",
+      "Summary": "Summary"
+    },
+    "metricSubCategories": {
+      "Chronic Kidney Disease": "Chronic Kidney Disease",
+      "Diabetes": "Diabetes",
+      "Heart Attack": "Heart Attack",
+      "Income": "Income",
+      "Stroke": "Stroke",
+      "Age": "Age",
+      "Race/Ethnicity": "Race/Ethnicity",
+      "Building Permits": "Building Permits",
+      "Jobs": "Jobs"
+    }
+  },
+  "metricLabels": {
+    "years": "years",
+    "adults": "adults",
+    "people": "people",
+    "centers": "centers",
+    "centers per sq mi": "centers per sq mi",
+    "of households": "of households",
+    "homes near clinics": "homes near clinics",
+    "certificates per sq mi": "certificates per sq mi",
+    "certificates": "certificates",
+    "permits": "permits",
+    "permits per sq mi": "permits per sq mi",
+    "commuters": "commuters",
+    "incidents": "incidents",
+    "incidents per sq mi": "incidents per sq mi",
+    "renter households": "renter households",
+    "people receiving ssi": "people receiving SSI",
+    "people per sq mi": "people per sq mi",
+    "households": "households",
+    "dwelling units in poor or unsound state of repair": "dwelling units in poor or unsound state of repair",
+    "voters": "voters",
+    "young people": "young people",
+    "crimes": "crimes",
+    "crimes per sq mi": "crimes per sq mi",
+    "violations": "violations",
+    "violations per sq mi": "violations per sq mi",
+    "per sq mi": "per sq mi",
+    "evictions per sq mi": "evictions per sq mi",
+    "evictions": "evictions",
+    "ratio of sidewalks to roadways": "ratio of sidewalks to roadways",
+    "total dollars": "in total",
+    "workers": "workers",
+    "square miles": "square miles"
+  },
+  "selectGroup": {
+    "City Council Ward": "City Council Ward",
+    "School Assignment Zone": "School Assignment Zone",
+    "Ward 1": "Ward 1",
+    "Ward 2": "Ward 2",
+    "Ward 3": "Ward 3",
+    "Neighborhood": "Neighborhood"
+  }
+}
