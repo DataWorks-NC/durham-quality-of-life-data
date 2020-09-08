@@ -1187,7 +1187,6 @@ module.exports = {
       y_2016: 245000,
       y_2017: 255000,
       y_2018: 263000,
-      y_2019: 260000,
     },
     'geographies': [
       'blockgroup',
