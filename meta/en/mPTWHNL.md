@@ -1,5 +1,5 @@
-## White or Caucasian Population
-White or Caucasian Population
+## White Population
+White Population
 
 ### Why is this important?
 Information on race is required for many Federal programs and is critical in making policy decisions, particularly for civil rights. States use these data to meet legislative redistricting principles. Race data also are used to promote equal employment opportunities and to assess racial disparities in health and environmental risks.
