@@ -1049,28 +1049,6 @@ module.exports = {
       'tract',
     ],
   },
-  'mPTOTHNL': {
-    'metric': 'PTOTHNL',
-    'accuracy': 'true',
-    'category': 'Demographics',
-    'subcategory': 'Race/Ethnicity',
-    'suffix': '%',
-    'raw_label': 'people',
-    'title': 'Other Race',
-    'title_es': 'Otra raza',
-    'decimals': 1,
-    'world_val': {
-      y_2010: 2.4,
-      y_2015: 2.9,
-      y_2016: 2.8,
-      y_2017: 2.9,
-      y_2018: 2.9,
-    },
-    'type': 'weighted',
-    'geographies': [
-      'blockgroup',
-    ],
-  },
   'mPTPRIM': {
     'metric': 'PTPRIM',
     'category': 'Civic Engagement',
