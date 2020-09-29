@@ -641,7 +641,7 @@ module.exports = {
   },
   'mMEDGRENT': {
     'metric': 'MEDGRENT',
-    'accuracy': 'true',
+    'accuracy': true,
     'category': 'Housing',
     'title': 'Cost of Rent',
     'title_es': 'Costo del Arriendo',
@@ -678,7 +678,7 @@ module.exports = {
   // },
   'mMEDINC': {
     'metric': 'MEDINC',
-    'accuracy': 'true',
+    'accuracy': true,
     'category': 'Economy',
     'subcategory': 'Income',
     'prefix': '$',
@@ -704,7 +704,7 @@ module.exports = {
   },
   'mPCI': {
     'metric': 'PCI',
-    'accuracy': 'true',
+    'accuracy': true,
     'category': 'Economy',
     'subcategory': 'Income',
     'prefix': '$',
@@ -764,7 +764,7 @@ module.exports = {
   },
   'mPCTRENT': {
     'metric': 'PCTRENT',
-    'accuracy': 'true',
+    'accuracy': true,
     'category': 'Housing',
     'title': 'Renter-Occupied Housing',
     'title_es': 'Vivienda Ocupada por Inquilinos',
@@ -927,6 +927,7 @@ module.exports = {
     'metric': 'PT65UP',
     'category': 'Demographics',
     'subcategory': 'Age',
+    'accuracy': true,
     'title': 'Retirement-Age Population',
     'title_es': 'Población en Edad de Jubilación',
     'suffix': '%',
@@ -947,7 +948,7 @@ module.exports = {
   },
   'mPTASNL': {
     'metric': 'PTASNL',
-    'accuracy': 'true',
+    'accuracy': true,
     'category': 'Demographics',
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
@@ -961,6 +962,27 @@ module.exports = {
       y_2016: 4.7,
       y_2017: 4.7,
       y_2018: 4.9,
+    },
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mPTAIAN': {
+    'metric': 'PTAIAN',
+    'accuracy': true,
+    'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
+    'suffix': '%',
+    'raw_label': 'people',
+    'title': 'Indigenous',
+    'title_es': 'TODO',
+    'decimals': 2,
+    'world_val': {
+      y_2010: 1.14,
+      y_2011: 1.32,
+      y_2016: 0.95,
     },
     'type': 'weighted',
     'geographies': [
@@ -1091,8 +1113,8 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'White or Caucasian',
-    'title_es': 'Blanco o caucásico',
+    'title': 'White',
+    'title_es': 'Blanco',
     'decimals': 1,
     'world_val': {
       y_2010: 42.1,
