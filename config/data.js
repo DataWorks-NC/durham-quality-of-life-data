@@ -1107,6 +1107,26 @@ module.exports = {
       'tract',
     ],
   },
+  'mPTPOC': {
+    'metric': 'PTPOC',
+    'accuracy': 'true',
+    'category': 'Demographics',
+    'subcategory': 'Race/Ethnicity',
+    'suffix': '%',
+    'raw_label': 'people',
+    'title': 'People of Color',
+    'title_es': 'People of Color',
+    'decimals': 1,
+    'world_val': {
+      y_2010: 57.9,
+      y_2016: 57.8,
+    },
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
   'mP_SQM': {
     'metric': 'P_SQM',
     'category': 'Safety',
