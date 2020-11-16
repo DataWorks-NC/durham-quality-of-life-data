@@ -610,6 +610,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
   },
   'mMEDAGE': {
