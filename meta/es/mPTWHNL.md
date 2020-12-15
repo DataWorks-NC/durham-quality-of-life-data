@@ -1,5 +1,5 @@
-## Población Blanca o Caucásica
-Población Blanca o Caucásica
+## Población Blanca
+Población Blanca
 
 ### ¿Por qué esto es importante?
 La información sobre raza es requerida por muchos programas federales y es fundamental en la toma de decisiones políticas, particularmente para derechos civiles. Los estados usan esa información para satisfacer los principios de redistribución de distritos legislativos. La raza también se usa para fomentar oportunidades equitativas de empleo y para evaluar disparidades raciales en salud y riesgos medio ambientales.
