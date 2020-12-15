@@ -21,4 +21,4 @@ Source: U.S. Decennial Census, 2010; Source: US 2010, Census 2010 tract-normaliz
 |[US2010](http://www.s4.brown.edu/us2010/Researcher/Bridging.htm) | The Longitudinal Tract Data Base (LTDB) provides public-use tools to create estimates within 2010 tract boundaries for any tract-level data (from the census or other sources) that are available for prior years as early as 1970.
 |[American Community Survey (ACS)](https://www.census.gov/acs/www/) | A primary source of neighborhood-level data for the whole country, provided by the US Census Bureau.
 |[American Community Survey Subject Definitions](https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2019_ACSSubjectDefinitions.pdf) | Specific documentation for the definitions used by the census to categorize folks by race and ethnicity, among other subjects.
-| [Native Lands](http://native-lands.ca) | Interactive map documenting some of the native homelands of Indigenous people in North America.
+| [Native Land](http://native-land.ca) | Interactive map documenting some of the native homelands of Indigenous people in North America.

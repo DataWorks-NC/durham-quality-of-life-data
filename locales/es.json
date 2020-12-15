@@ -13,15 +13,16 @@
       "Summary": "Resumen"
     },
     "metricSubCategories": {
+      "Age": "Edad",
+      "Building Permits": "Permisos de Construcción",
       "Chronic Kidney Disease": "Enfermedad Renal Crónica",
       "Diabetes": "Diabetes",
       "Heart Attack": "Ataque Cardíaco",
       "Income": "Ingreso",
-      "Stroke": "Accidente Cerebrovascular",
-      "Age": "Edad",
+      "Jobs": "Trabajos",
+      "Ownership": "Propiedad",
       "Race/Ethnicity": "Raza/Etnicidad",
-      "Building Permits": "Permisos de Construcción",
-      "Jobs": "Trabajos"
+      "Stroke": "Accidente Cerebrovascular"
     }
   },
   "selectGroup": {
