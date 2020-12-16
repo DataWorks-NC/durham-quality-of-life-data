@@ -67,7 +67,7 @@ module.exports = {
 
   // Report config.
   summaryMetrics: [
-    'mPOPDENS',
+    'mPOP',
     'mAVEAGE',
     'mMEDINC',
     'mSUMEJECT',

@@ -832,12 +832,25 @@ module.exports = {
   },
   // Note: Health Indicators App currently uses the raw POP metric, so those metric files should be
   // preserved for the time being.
+  'mPOP': {
+    'metric': 'POP',
+    'category': 'Demographics',
+    'label': 'people',
+    'title': 'Population',
+    'title_es': 'Población',
+    'decimals': 0,
+    'type': 'sum',
+    'geographies': [
+      'blockgroup',
+    ],
+    'exclude_from_map': true,
+  },
   'mPOPDENS': {
     'metric': 'POPDENS',
     'category': 'Demographics',
     'label': 'people per sq mi',
-    'title': 'Population',
-    'title_es': 'Población',
+    'title': 'Population Density',
+    'title_es': 'Densidad de Población',
     'raw_label': 'people',
     'decimals': 0,
     'type': 'weighted',
@@ -953,8 +966,8 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'Asian',
-    'title_es': 'Asiático/a',
+    'title': 'Asian Population',
+    'title_es': 'Población Asiática',
     'decimals': 1,
     'world_val': {
       y_2010: 4.6,
@@ -976,7 +989,7 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'Indigenous',
+    'title': 'Indigenous Population',
     'title_es': 'Población indígena',
     'decimals': 2,
     'world_val': {
@@ -997,8 +1010,8 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'Black or African American',
-    'title_es': 'Negro o afroamericano',
+    'title': 'Black or African American Population',
+    'title_es': 'Población Negra o afroamericana',
     'decimals': 1,
     'world_val': {
       y_2010: 37.5,
@@ -1033,7 +1046,7 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'Hispanic/Latino',
+    'title': 'Hispanic/Latino Population',
     'title_es': 'Hispano/Latino',
     'decimals': 1,
     'world_val': {
@@ -1091,8 +1104,8 @@ module.exports = {
     'subcategory': 'Race/Ethnicity',
     'suffix': '%',
     'raw_label': 'people',
-    'title': 'White',
-    'title_es': 'Blanco',
+    'title': 'White Population',
+    'title_es': 'Población Blanca',
     'decimals': 1,
     'world_val': {
       y_2010: 42.1,
