@@ -1190,6 +1190,20 @@ module.exports = {
       'blockgroup',
     ],
   },
+  'mRESIDENTIAL-DEMOLITION-PERMITS': {
+    'metric': 'RESIDENTIAL-DEMOLITION-PERMITS',
+    'category': 'Housing',
+    'label': 'per sq mi',
+    'raw_label': 'permits',
+    'title': 'Residential Demolition Permits per Square Mile',
+    'title_es': '',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
   'mRESIDENTIAL-SALE-PRICE': {
     'metric': 'RESIDENTIAL-SALE-PRICE',
     'category': 'Housing',
