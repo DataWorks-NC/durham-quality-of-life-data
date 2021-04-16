@@ -1,19 +1,19 @@
-## Median Household Income (Black Households)
-Median Household Income (Black Households)
+## Mediana del Ingreso de los Hogares (hogares de personas negras)
+Mediana del Ingreso de los Hogares (hogares de personas negras)
 
-### Why is this important?
-The median household income provides an indication of how well people are doing financially in a neighborhood. Lower wage earners may have higher percentages of their income devoted to housing, food and healthcare and less for saving. This creates persistent stress and less access to wellness and safety than exists for wealthier households. American communities - and Durham is no exception - are fundamentally stratified by income and by race. Median household income is a primary Census Bureau variable that reflects in its simplicity the essential divergence of economic opportunity for Americans. 
+### ¿Por qué esto es importante?
+La mediana del ingreso de los hogares proporciona una indicación de qué tan buena es la situación financiera de un vecindario. Las personas con menores ingresos pueden tener mayores porcentajes de su ingreso destinado a la vivienda, comida y servicios de salud y menos destinados al ahorro. Esto crea un estrés constante y un menor acceso al bienestar y la seguridad que tienen los hogares más pudientes. Las comunidades estadounidenses - y Durham no es la excepción - están estratificadas fundamentalmente por ingreso y raza. La Mediana del Ingreso de los Hogares es una variable principal de la Oficina del Censo que refleja en su simplicidad la divergencia fundamental en las oportunidades económicas de los estadounidenses.
 
-### About the Data
-This metric value shows the household income at the midpoint of all households with householders who were identified as Black by the census. In most cases, the householder is the person or one of the people in whose name the home is owned, being bought, or rented. Within each census area, half of the households with Black householders earn an annual income that’s greater than the median, and half earn an annual income lower than the median.
+### Sobre los datos
+Este valor de medición muestra el ingreso de los hogares en el punto medio de todos los hogares cuya cabeza de familia se identificó como de raza negra en el censo. En la mayoría de los casos, la cabeza de familia es la persona, o una de las personas, que figura como propietaria, compradora o arrendataria del hogar. Dentro de cada área censal, la mitad de los hogares cuya cabeza de familia se identificó como de raza negra ganan un ingreso anual que es mayor que la mediana, y la mitad ganan un ingreso anual que es menor que la mediana.
 
-As with all measurements from the American Community Survey in the Neighborhood Compass, this data represents 5 years' worth of surveying. With each annual update, the 5-year period advances by dropping one year and incorporating the next. For this reason, annual releases of this measurement are not suitable for true time series comparison until no overlap exists among the survey periods.
+Como con todas las mediciones de la Encuesta sobre la Comunidad Estadounidense [American Community Survey] en el Neighborhood Compass, estos datos representan 5 años de encuestas. Con cada actualización anual, el período de 5 años avanza quitando un año e incorporando el siguiente. Por esta razón, las publicaciones anuales de esta medición no son adecuadas para una verdadera comparación de series de tiempo hasta que no exista una superposición entre los períodos encuestados.
 
-Source: American Community Survey (ACS)
+Fuente: Encuesta sobre la Comunidad Estadounidense [American Community Survey (ACS)]
 
-### Additional Resources
 
-|Resource | Learn More and Take Action | 
+### Recursos Adicionales
+|Recurso | Conozca más y tome acción  | 
 |:--- | :--- |
-|[Final Recommendations of Durham’s Racial Equity Task Force](https://docs.google.com/document/d/1rDUZyJtM6RlND8WYQhP8W-gl0Ga8HCFTgr2rD2Cnxq4/edit) | In a city born during Reconstruction and reared under Jim Crow, shocking inequities between white people and people of color are still evident in 21st century Durham. If we reject the notion that these disparities are normal, due to differences in capability or culture, it is imperative that we take significant strides to undo the negative legacies that haunt our local and national history. We need to be not merely anti-racist in thought, but actively and continuously anti-racist in deed.
-|[Stratification economics: the role of intergroup inequality, by William A. Darity Jr.](https://www.researchgate.net/publication/226437749_Stratification_economics_The_role_of_intergroup_inequality) | The foundations of stratification economics, explaining how the intergenrational accumulation of wealth by race continues to drive the growing gaps between dominant groups (white people) and subordinate groups (all other groups).
+|[Recomendaciones finales del Equipo de Trabajo de Equidad Racial de Durham.](https://durhamnc.gov/DocumentCenter/View/33255/Final-Report-RETF-Spanish_82020) | En una ciudad nacida durante la Reconstrucción y criada bajo las leyes de Jim Crow, las impactantes desigualdades entre las personas blancas y de color en Durham son aún evidentes en el siglo 21. Si rechazamos la noción de que estas disparidades son algo normal, dadas por diferencias en las capacidades o la cultura, es fundamental que tomemos un paso significativo hacia la deconstrucción de ese legado negativo que ronda nuestra historia local y nacional. Necesitamos no ser simplemente antirracistas en nuestras ideas, si no serlo activa y continuamente con nuestros hechos.
+|[Economía de estratificación: el rol de la desigualdad intergrupal, por William A. Darity Jr. (en inglés)](https://www.researchgate.net/publication/226437749_Stratification_economics_The_role_of_intergroup_inequality) | Las bases para la economía de estratificación, que explica cómo la acumulación de riqueza intergeneracional por raza continúa siendo el motivo de la creciente brecha entre los grupos dominantes (personas blancas) y los grupos dominados (el resto de los grupos).
