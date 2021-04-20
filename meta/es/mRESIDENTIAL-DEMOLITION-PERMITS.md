@@ -15,7 +15,7 @@ Fuente: Departamento de Inspecciones de la Ciudad/Condado de Durham
 ### Recursos Adicionales
 |Recurso | Conozca más y tome acción  | 
 |:--- | :--- |
-|[Root Shock, Dr. Mindy Fullilove. (en inglés)](https:/www.rootshock.org/)] | “Las personas que han sido desplazadas sufren un "root shock," la reacción por estrés traumático ante la pérdida, parcial o total, del propio ecosistema emocional. El root shock puede deberse a una catástrofe natural, a un desplazamiento causado por un desarrollo inmobiliario, a una guerra y a cambios que se dan lentamente, como aquellos que acompañan la gentrificación.”
+|[Root Shock, Dr. Mindy Fullilove. (en inglés)](https:/www.rootshock.org/) | “Las personas que han sido desplazadas sufren un "root shock," la reacción por estrés traumático ante la pérdida, parcial o total, del propio ecosistema emocional. El root shock puede deberse a una catástrofe natural, a un desplazamiento causado por un desarrollo inmobiliario, a una guerra y a cambios que se dan lentamente, como aquellos que acompañan la gentrificación.”
 |[Departamento de Planificación de la Ciudad/Condado de Durham: Expanding Housing Choices (EHC)](https://durhamnc.gov/3679/Expanding-Housing-Choices) 
 |[Efectos del polvo de plomo en el aire por demoliciones (EPA)](https://www.epa.gov/large-scale-residencial-demolition/lead-based-paint-and-demolition).
 |[Departamento de Inspecciones de la Ciudad/Condado](https://durhamnc.gov/293/City-County-Inspections) 
