@@ -67,7 +67,7 @@ jobs:
   # of the dashboard to deploy to prod.
   deploy_dev:
     docker:
-      - image: microsoft/azure-cli
+      - image: mcr.microsoft.com/azure-cli
     steps:
       - attach_workspace:
           at: /tmp/workspace
