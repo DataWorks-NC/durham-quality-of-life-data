@@ -84,7 +84,7 @@ jobs:
             AZURE_DESTINATION_BLOB: "dev"
   deploy_prod:
     docker:
-      - image: microsoft/azure-cli
+      - image: mcr.microsoft.com/azure-cli
     steps:
       - attach_workspace:
           at: /tmp/workspace
