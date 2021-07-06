@@ -56,7 +56,10 @@ jobs:
       - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
 
       # Generate a sitemap based on what's currently on dev site.
-      - run: npm run build-sitemap-dev
+      - run: |
+          if [ "$CIRCLE_BRANCH" = "main" ]; then
+            npm run build-sitemap-dev
+          fi
       - run: mkdir /tmp/workspace
       - persist_to_workspace:
           root: .

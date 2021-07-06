@@ -5,7 +5,9 @@ Certificados de Ocupación Residencial por milla cuadrada
 Los certificados de ocupación son emitidos para nuevas construcciones o renovaciones totales. Los CO recién completados indican una inversión reciente en bienes raíces y lleva a un incremento en el valor de las propiedades. En general, esto refleja una mejora en los valores de las viviendas, pero también puede indicar las áreas donde la población está aumentando y que nuevas casas están disponibles. Las áreas de gran población con bajos ingresos y que alquilan, y que reciben significativas inversiones, pueden ser vulnerables al desplazamiento.
 
 ### Sobre los Datos
-Los CO incluidos aquí son de las siguientes clases: residencial, vivienda unifamiliar, casa adosada, condominio, dúplex, casas prefabricadas, y uso residencial mixto. La cantidad de estos por vecindario o grupo de bloque está dividida por el área en millas cuadradas dentro de los distritos del departamento de Inspecciones de la ciudad/condado
+Los CO incluidos aquí son de las siguientes clases: residencial, vivienda unifamiliar, casa adosada, condominio, dúplex, casas prefabricadas, y uso residencial mixto. La cantidad de estos por vecindario o grupo de bloque está dividida por el área en millas cuadradas dentro de los distritos del departamento de Inspecciones de la ciudad/condado.
+
+Nota: En junio de 2021, DataWorks NC realizó una leve modificación en la metodología para calcular este indicador, que puede resultar en pequeñas diferencias en el valor asociado al compararse con datos generados por el Compass antes de junio 2021.
 
 Fuente: Departamento de Inspecciones de la ciudad/condado  
 
