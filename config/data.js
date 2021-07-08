@@ -54,7 +54,6 @@ module.exports = {
   },
   'mBIKEWK': {
     'metric': 'BIKEWK',
-    'accuracy': 'true',
     'category': 'Infrastructure and Amenities',
     'suffix': '%',
     'raw_label': 'people',
