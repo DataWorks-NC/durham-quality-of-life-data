@@ -11,6 +11,7 @@ We calculate median home price as the median sale price for single-family reside
 
 We count as a sale any qualified real estate transaction with a non-zero sale price. This metric excludes, for example, foreclosure sales, sales between related parties, and multi-parcel sales. It only includes single-family residential properties.
  
+Note: Because this metric is calculated using a 3-year average, and because we try to publish current data as quickly as possible, metric values for the current year and the previous year may change as new data is added. For example, if the current year is 2021, then values for 2019 and before are the final values, but the metric values for 2020 are provisional and may change as new 2021 sales are added.
 
 Source: Durham County Tax Administration
 
