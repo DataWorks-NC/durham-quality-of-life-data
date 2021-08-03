@@ -288,7 +288,8 @@ module.exports = {
       y_2017: 1.5209202349219554,
       y_2018: 1.9003109336993968,
       y_2019: 1.6787199060948735,
-    }
+      y_2020: 1.4067672813075040,
+    },
   },
   'mCOR': {
     'metric': 'COR',
@@ -313,7 +314,8 @@ module.exports = {
       y_2017: 9.8406560895281483,
       y_2018: 11.7678265417250630,
       y_2019: 12.1069279627562275,
-    }
+      y_2020: 12.2546553144925763,
+    },
   },
   'mCPMTS': {
     'metric': 'CPMTS',
@@ -335,13 +337,14 @@ module.exports = {
       y_2017: 1842853.77,
       y_2018: 2155235.79,
       y_2019: 2369273.58,
+      y_2020: 5017096.06,
     },
     'geographies': [
       'blockgroup',
       'tract',
     ],
   },
-    'mRESIDENTIAL-DEMOLITION-PERMITS': {
+  'mRESIDENTIAL-DEMOLITION-PERMITS': {
     'metric': 'RESIDENTIAL-DEMOLITION-PERMITS',
     'category': 'Economy',
     'subcategory': 'Building Permits',
@@ -360,6 +363,7 @@ module.exports = {
       y_2017: 0.47004157370656457214,
       y_2018: 0.39282045802620039243,
       y_2019: 0.52711805051379027019,
+      y_2020: 0.28538238403612849023,
     },
     'geographies': [
       'blockgroup',
@@ -1397,6 +1401,7 @@ module.exports = {
       y_2017: 2398384.62,
       y_2018: 2376536.5,
       y_2019: 2514926.6,
+      y_2020: 2583725.62,
     },
     'type': 'weighted',
     'geographies': [
