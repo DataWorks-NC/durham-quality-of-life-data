@@ -659,6 +659,7 @@ module.exports = {
       y_2016: 34.6,
       y_2017: 35,
       y_2018: 35.2,
+      y_2019: 35.4,
     },
     'type': 'mean',
     'geographies': [
@@ -684,6 +685,7 @@ module.exports = {
       y_2016: 921,
       y_2017: 966,
       y_2018: 1014,
+      
     },
     'type': 'weighted',
     'geographies': [
