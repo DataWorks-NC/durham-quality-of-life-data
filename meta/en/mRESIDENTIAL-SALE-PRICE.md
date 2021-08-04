@@ -2,7 +2,7 @@
 Median Sale Price
 
 ### Why is this important?
-The influence of racial and wealth segregation - as well as the displacement of Durham’s communities of color and low income - can be seen in the recent history of residential sale values. Communities like Southside, Walltown, West End, Lyon Park and Braggtown have all seen home sale prices and property taxes rise rapidly. But for many long-time residents household income has not. This poses a threat to community members who have grown up here, and whose families have long called Durham home. How do they participate in one of the few processes of family wealth building in this country? 
+The influence of racial and wealth segregation - as well as the displacement of Durham’s communities of color and low income - can be seen in the recent history of residential sale values. Communities like Southside, Walltown, West End, Lyon Park and Bragtown have all seen home sale prices and property taxes rise rapidly. But for many long-time residents household income has not. This poses a threat to community members who have grown up here, and whose families have long called Durham home. How do they participate in one of the few processes of family wealth building in this country? 
 
 This measure can be compared with median household income, median homebuyer income and changes in tax value change to get a sense of how wealth and opportunity for home ownership vary by neighborhood.
  
