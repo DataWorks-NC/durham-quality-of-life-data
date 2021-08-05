@@ -871,6 +871,7 @@ module.exports = {
     'raw_label': 'commuters',
     'decimals': 1,
     'type': 'weighted',
+    'world_val': {'y_2019},
     'geographies': [
       'tract',
     ],
