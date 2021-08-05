@@ -10,7 +10,8 @@ Esta medición se puede comparar con la mediana del ingreso de los hogares, la m
 Calculamos la mediana del precio de los hogares tomando la mediana del precio de venta para propiedades residenciales unifamiliares durante un período de tres años, formado por el año a medir y el año anterior y posterior al mismo, con un total de más de cinco ventas en ese lapso. Por ejemplo, para el año 2019, el valor métrico será la mediana del precio de venta de cualquier venta residencial que haya ocurrido entre el 1 de enero del 2018 y el 31 de diciembre del 2020. Si hubo cinco, o menos, ventas durante ese período dentro del área de censo seleccionada, el valor métrico no mostrará ningún dato.
 
 Consideramos que una venta es cualquier transacción inmobiliaria calificada con un precio de venta no equivalente a cero. Esta métrica excluye, por ejemplo, ventas de ejecución hipotecaria, ventas entre partes asociadas y ventas de parcelas múltiples. Solo incluye propiedades residenciales unifamiliares.
- 
+
+Nota: Debido a que este indicador se calcula utilizando un promedio de 3 años, y a que intentamos publicar los datos vigentes tan pronto como sea posible, los valores asociados para el año en curso y el año anterior pueden variar a medida que se vayan agregando nuevos datos. Por ejemplo, si el año en curso es 2021, los valores de 2019 y años anteriores son definitivos, pero los valores de 2020 son provisorios y pueden cambiar a medida que se vayan agregando nuevas ventas de 2021.
 
 Fuente: Administración de Impuestos del Condado de Durham
 
