@@ -262,7 +262,9 @@ module.exports = {
     'title_es': 'Porcentaje de Trabajadores de Actividades Artísticas, Entretenimiento, Recreación y Servicios de Alimentación y Alojamiento',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2019': 9.5},
+    'world_val': {
+        y_2019: 9.5,
+    },
     'geographies': [
       'tract',
     ],
