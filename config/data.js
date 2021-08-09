@@ -1171,6 +1171,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract'
     ],
   },
   'mPTLAT': {
@@ -1207,6 +1208,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
   },
   'mPTUND18': {
