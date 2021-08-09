@@ -13,5 +13,5 @@ Source: GoTriangle and City-County GIS
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[GoTriangle](http://http://www.gotriangle.org/) | The public transit agency linking Durham and the Triangle.
+|[GoTriangle](httsp://www.gotriangle.org/) | The public transit agency linking Durham and the Triangle.
 |[Triangle Transloc](https://triangle.transloc.com/)| Real-time maps and bus locations for each bus route in Durham, Chapel Hill, Cary and Raleigh.

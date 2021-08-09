@@ -13,5 +13,5 @@ Source: City of Durham Parks and Recreation
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Durham Parks and Recreation](http://durhamnc.gov/753/Parks-Recreation) | Durham Parks and Recreation provides opportunities for the Durham community to Play More: Connecting our whole community to wellness, the outdoors, and lifelong learning. 
+|[Durham Parks and Recreation](https://www.dprplaymore.org/) | Durham Parks and Recreation provides opportunities for the Durham community to Play More: Connecting our whole community to wellness, the outdoors, and lifelong learning. 
 

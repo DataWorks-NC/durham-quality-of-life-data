@@ -18,4 +18,4 @@ Source: Durham County Tax Administration
 ### Additional Resources
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Durham County Tax Administration](http://dconc.gov/government/departments-f-z/tax-administration)| The mission of this Office is to ensure that all citizens are provided a fair, accurate and equitable ad valorem taxation process.
+|[Durham County Tax Administration](https://www.dconc.gov/county-departments/departments-f-z/tax-administration)| The mission of this Office is to ensure that all citizens are provided a fair, accurate and equitable ad valorem taxation process.

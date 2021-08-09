@@ -12,5 +12,5 @@ Fuente: Administración de Impuestos del Condado de Durham
 ### Recursos Adicionales
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Administración de Impuestos del Condado de Durham](http://dconc.gov/government/departments-f-z/tax-administration) (en inglés)| La misión de esta oficina es asegurar que todos los ciudadanos tengan un proceso impositivo justo, preciso y equitativo, basado en el valor de su propiedad.
+|[Administración de Impuestos del Condado de Durham](https://www.dconc.gov/county-departments/departments-f-z/tax-administration) (en inglés)| La misión de esta oficina es asegurar que todos los ciudadanos tengan un proceso impositivo justo, preciso y equitativo, basado en el valor de su propiedad.
 

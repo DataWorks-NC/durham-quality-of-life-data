@@ -13,5 +13,5 @@ Fuente: GoTriangle y SIG del condado/ciudad
 
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[GoTriangle](http://www.gotriangle.org/) (en inglés) | La agencia de transporte público uniendo Durham y el Triángulo.
+|[GoTriangle](https://www.gotriangle.org/) (en inglés) | La agencia de transporte público uniendo Durham y el Triángulo.
 |[Triangle Transloc](https://triangle.transloc.com/) (en inglés) | Mapas y ubicaciones de paradas para cada recorrido de autobús en Durham, Chapel Hill, Cary y Raleigh, en tiempo real.

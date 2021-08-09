@@ -19,7 +19,7 @@ Source: Duke Health and Lincoln Community Health Center
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[American Diabetes Association Asian, Native Hawaiian and Pacific Islander Diabetes Programs](http://www.diabetes.org/in-my-community/awareness-programs/aanhpi/?loc=imc-slabnav)| This site provides diabetes awareness and management information specific to the Asian, Native Hawaiian and Pacific Islander populations. 
+|[American Diabetes Association Asian, Native Hawaiian and Pacific Islander Diabetes Programs](https://www.diabetes.org/asian-americans)| This site provides diabetes awareness and management information specific to the Asian, Native Hawaiian and Pacific Islander populations. 
 |[The influence of stress on diabetes](http://www.diabetes.org/living-with-diabetes/complications/mental-health/stress.html)| The American Diabetes Association website focusing on physical and emotional stressors and their short and long term impacts on your health.
 |[Infographic: Obesity, Diabetes and Food Access](http://healthydurham.org/cms/wp-content/uploads/2018/06/Obesity-Diabetes-Food-Access-FINAL.pdf)| In 2017 African American or Black patients were 80% more likely to have diabetes than whites. Why do these inequities exist? This infographic also highlights resident ideas for making neighborhoods better for healthy living.
 |[Duke Health Diabetes Resources](https://www.dukehealth.org/treatments/endocrinology/diabetes)| Information on comprehensive care strategies and resources for learning more about how to manage diabetes.

@@ -15,7 +15,7 @@ Source: Durham City-County Inspections Department
 ### Additional Resources
 |Resource | Learn More and Take Action  | 
 |:--- | :--- |
-|[Root Shock, Dr. Mindy Fullilove.](https:/www.rootshock.org/) | “People who have been displaced experience "root shock," the traumatic stress reaction to the loss of some or all of one's emotional ecosystem. Root shock can follow natural disaster, development-induced displacement, war, and changes that play out slowly, such as those that accompany gentrification.”
+|[Root Shock, Dr. Mindy Fullilove.](http://www.rootshock.org/) | “People who have been displaced experience "root shock," the traumatic stress reaction to the loss of some or all of one's emotional ecosystem. Root shock can follow natural disaster, development-induced displacement, war, and changes that play out slowly, such as those that accompany gentrification.”
 |[Durham City-County Planning: Expanding Housing Choices (EHC)](https://durhamnc.gov/3679/Expanding-Housing-Choices) 
-|[Effects of Airborne Lead Dust from Demolitions (EPA)](https://www.epa.gov/large-scale-residencial-demolition/lead-based-paint-and-demolition).
+|[Effects of Airborne Lead Dust from Demolitions (EPA)](https://www.epa.gov/large-scale-residential-demolition/lead-based-paint-and-demolition) (en inglés)
 |[City-County Inspections Department](https://durhamnc.gov/293/City-County-Inspections) 

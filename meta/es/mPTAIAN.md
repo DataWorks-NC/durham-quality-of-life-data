@@ -2,7 +2,7 @@
 Población indígena
 
 ### ¿Por qué esto es importante?
-En 2019, las cuatro principales tribus a las cuales residentes del condado de Durham han reportado pertenecer fueron Cherokee, Chippewa, Navajo y Sioux. El condado de Durham está establecido sobre tierras que históricamente pertenecían a los pueblos Eno, Tuscarora y Occaneechi, entre otros. Hoy en día, la banda Occaneechi de la nación Saponi está activa y [trabajando para volver a comprar partes de sus tierras ancestrales en el condado de Alamance](https://obsn.org/homeland-preservation-project/).
+En 2019, las cuatro principales tribus a las cuales residentes del condado de Durham han reportado pertenecer fueron Cherokee, Chippewa, Navajo y Sioux. El condado de Durham está establecido sobre tierras que históricamente pertenecían a los pueblos Eno, Tuscarora y Occaneechi, entre otros. Hoy en día, [la banda Occaneechi de la nación Saponi](https://obsn.org/) está activa y trabajando para volver a comprar partes de sus tierras ancestrales en el condado de Alamance.
 
 Aunque Durham, como ciudad, fue fundada mucho después de las olas de desplazamiento forzado que arrancaron a las poblaciones nativas de todo Carolina del Norte de sus tierras, todo el sistema de propiedad de la ciudad y del condado [ todavía se asienta sobre esa fundación de violencia y robo](https://www.bullcity150.org/uneven_ground/violence_theft/).
 

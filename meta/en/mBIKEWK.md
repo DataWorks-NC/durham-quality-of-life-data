@@ -14,7 +14,7 @@ Source: American Community Survey (ACS)
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[durhamBikeMap](http://gisweb.durhamnc.gov/durhambikemap/index.html) | An interactive map of Durham's bike lanes and trails.
+|[durhamBikeMap](https://durhamnc.gov/1031/Durham-Bike-Hike-Map) | An interactive map of Durham's bike lanes and trails.
 |[Bike Durham](http://bikedurham.org/)| A coalition of individuals and organizations working for bicycle-friendly change in Durham.
 |[Durham Bicycle and Pedestrian Advisory Commission (BPAC)](http://www.bikewalkdurham.org/) | A citizens group whose purpose it is to advise Durham's City Council and Board of County Commissioners on bicycle and pedestrian issues.
 |[American Community Survey (ACS)](https://www.census.gov/acs/www/) | A primary source of neighborhood-level data for the whole country, provided by the US Census Bureau.

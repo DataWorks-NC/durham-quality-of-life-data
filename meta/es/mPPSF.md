@@ -13,5 +13,5 @@ Fuente: Administración de Impuestos del Condado de Durham, Oficina de Estadíst
 
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Administración de impuestos del Condado de Durham](http://dconc.gov/government/departments-f-z/tax-administration) (en inglés) | En el condado de Durham, la tasación y la recolección de impuestos se combinan en una sola oficina responsable de listar, valuar y tasar los bienes inmuebles y personales.
+|[Administración de impuestos del Condado de Durham](https://www.dconc.gov/county-departments/departments-f-z/tax-administration) (en inglés) | En el condado de Durham, la tasación y la recolección de impuestos se combinan en una sola oficina responsable de listar, valuar y tasar los bienes inmuebles y personales.
 |[Tablas de datos de la Oficina de Estadísticas Laborales ](http://www.bls.gov/data/) (en inglés) | Las tablas permiten búsquedas de índices de precios al consumidor, empleo y desempleo, salarios/jornales y beneficios, y productividad. 

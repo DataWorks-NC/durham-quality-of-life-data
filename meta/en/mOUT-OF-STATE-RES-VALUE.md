@@ -12,6 +12,6 @@ This dataset is sourced from parcel ownership information acquired from the Durh
 ### Additional Resources
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Durham County Tax Administration](http://dconc.gov/government/departments-f-z/tax-administration)| The mission of this Office is to ensure that all citizens are provided a fair, accurate and equitable ad valorem taxation process.
+|[Durham County Tax Administration](https://www.dconc.gov/county-departments/departments-f-z/tax-administration)| The mission of this Office is to ensure that all citizens are provided a fair, accurate and equitable ad valorem taxation process.
 |[Durham Real Property Record Search](https://property.spatialest.com/nc/durham/)|Simple way to look up property information in Durham by address or owner name.|
 |[Navigating the Hedge Maze of Out-of-State Money that Owns More of Durham Than Ever](https://indyweek.com/news/durham/durham-out-of-state-ownership-gentrification/)|Reporting in 2020 which delves more into the landscape of out-of-state property ownership in NC.|

@@ -12,6 +12,6 @@ Este conjunto de datos proviene de la información de propiedad de parcelas, obt
 ### Recursos Adicionales
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Administración de Impuestos del Condado de Durham](http://dconc.gov/government/departments-f-z/tax-administration)| La misión de esta oficina es asegurar que todos los ciudadanos tengan un proceso impositivo justo, preciso y equitativo, basado en el valor de su propiedad.
+|[Administración de Impuestos del Condado de Durham](https://www.dconc.gov/county-departments/departments-f-z/tax-administration)| La misión de esta oficina es asegurar que todos los ciudadanos tengan un proceso impositivo justo, preciso y equitativo, basado en el valor de su propiedad.
 |[Búsqueda de Registros Inmobiliarios de Durham](https://property.spatialest.com/nc/durham/) (en inglés) |Una forma fácil de buscar información sobre propiedades en Durham con una dirección o con el nombre del propietario.|
 |[Navegando el laberinto del dinero de fuera del estado que posee propiedades en Durham como nunca antes](https://indyweek.com/news/durham/durham-out-of-state-ownership-gentrification/) (en inglés) |Investigación del 2020 que profundiza aún más en el panorama de los propietarios de fuera del estado en Carolina del Norte.|

@@ -17,5 +17,5 @@ Fuente: Administración de Impuestos del Condado de Durham
 
 |Recurso | Conozca más y tome acción |
 |:--- | :--- |
-|[Revaluación - Administración de impuestos del Condado de Durham](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/general-reappraisal-revaluation) (en inglés) | Un recurso completo para entender los valores de las propiedades, impuestos y revaluación en el condado de Durham.
-|[Programas de Ayuda para el Pago de Impuestos](http://dconc.gov/government/departments-f-z/tax-administration/tax-payment-help-programs) (en inglés) | Asistencia del gobierno del condado para el pago de impuestos antes de entrar en moratoria.
+|[Revaluación - Administración de impuestos del Condado de Durham](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/2019-general-reappraisal-revaluation) | Un recurso completo para entender los valores de las propiedades, impuestos y revaluación en el condado de Durham.
+|[Programas de Ayuda para el Pago de Impuestos](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/property-tax-relief-programs/property-tax-relief-for-homeowners) | Asistencia del gobierno del condado para el pago de impuestos antes de entrar en moratoria.

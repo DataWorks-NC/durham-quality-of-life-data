@@ -13,8 +13,8 @@ Source: NC Division of Child Care and Early Development
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[About Licensing for Child Care Centers](http://ncchildcare.nc.gov/providers/pv_sn2_rcc.asp) | Who is regulated by the Division of Child Development and Early Education?
+|[About Licensing for Child Care Centers](https://ncchildcare.ncdhhs.gov/Parent/Child-Care-Licensing-Requirements) | Who is regulated by the Division of Child Development and Early Education?
 |[Child Care Services Association](http://www.childcareservices.org/)| Child Care Services Association (CCSA) is a nationally recognized nonprofit working to ensure affordable, accessible, high quality child care for all families through research, services and advocacy.
 |[Durham's Partnership for Children](http://www.dpfc.net/) | Mobilizing and unifying the Durham community to create and support innovative and successful collaborative approaches to serving the needs of young children birth to age 5 and their families.
-|[More About Star Ratings](http://ncchildcare.nc.gov/providers/pv_sn2_hpae.asp) | How does the star rating system work?
+|[More About Star Ratings](https://ncchildcare.ncdhhs.gov/Services/Licensing/Star-Rated-License/How-Points-are-Earned) | How does the star rating system work?
 |[Smart Start NC](http://www.smartstart.org/) | Smart Start brings together all the people involved in a young child’s life—families, teachers, doctors, caregivers, social workers, and many others—to ensure every child has all they need for healthy growth and development.

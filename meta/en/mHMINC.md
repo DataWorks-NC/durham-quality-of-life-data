@@ -12,4 +12,4 @@ Source: Home Mortgage Disclosure Act Database, Consumer Financial Protection Bur
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Consumer Financial Protection Bureau](http://cfpb.org) | Use data, learn about borrowing, or make a complaint about unfair lending practices.
+|[Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) | Use data, learn about borrowing, or make a complaint about unfair lending practices.

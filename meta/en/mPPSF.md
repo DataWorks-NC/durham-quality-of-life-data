@@ -13,5 +13,5 @@ Source: Durham County Tax Administration, Bureau of Labor Statistics
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Durham County Tax Administration](http://dconc.gov/government/departments-f-z/tax-administration) | In Durham County, Tax Assessor and Tax Collector are combined into a single office responsible for listing, appraising and assessing real and personal property. 
+|[Durham County Tax Administration](https://www.dconc.gov/county-departments/departments-f-z/tax-administration) | In Durham County, Tax Assessor and Tax Collector are combined into a single office responsible for listing, appraising and assessing real and personal property. 
 |[Bureau of Labor Statistics Data Tables](http://www.bls.gov/data/) | Table queries for Consumer Price Indices, employment and unemployment, pay and benefits, and productivity. 

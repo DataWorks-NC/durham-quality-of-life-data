@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data#readme",
   "dependencies": {
+    "linkinator": "^2.14.0",
     "node-rest-client": "^3.1.0"
   },
   "devDependencies": {

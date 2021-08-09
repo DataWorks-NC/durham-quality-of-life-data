@@ -2,7 +2,7 @@
 Indigenous Population
 
 ### Why is this important?
-The top four tribal affiliations reported by Durham County residents in 2019 were Cherokee, Chippewa, Navajo and Sioux in 2019. Durham County sits on land that historically belonged to the Eno, Tuscarora and Occcaneechi peoples, among others. Today, the Occaneechi band of the Saponi nation is active and [working to buy back parts of their ancestral lands in Alamance County](https://obsn.org/homeland-preservation-project/).
+The top four tribal affiliations reported by Durham County residents in 2019 were Cherokee, Chippewa, Navajo and Sioux in 2019. Durham County sits on land that historically belonged to the Eno, Tuscarora and Occcaneechi peoples, among others. Today, the [Occaneechi band of the Saponi nation](https://obsn.org/) is active and working to buy back parts of their ancestral lands in Alamance County.
 
 While Durham as a city was founded long after the waves of forced displacement that tore native people across NC from their land, the entire system of land ownership in the city and county [still rests on that foundation of violence and theft](https://www.bullcity150.org/uneven_ground/violence_theft/).
 

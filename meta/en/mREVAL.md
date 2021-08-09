@@ -17,5 +17,5 @@ Source: Durham County Tax Administration
 
 |Resource | Learn More and Take Action | 
 |:--- | :--- |
-|[Revaluation - Durham County Tax Administration](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/general-reappraisal-revaluation) | A comprehensive resource for understanding property values, taxes and revaluation in Durham County.
-|[Tax Payment Help Programs](http://dconc.gov/government/departments-f-z/tax-administration/tax-payment-help-programs) | County government assistance for paying taxes before they are delinquent.
+|[Revaluation - Durham County Tax Administration](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/2019-general-reappraisal-revaluation) | A comprehensive resource for understanding property values, taxes and revaluation in Durham County.
+|[Tax Payment Help Programs](https://www.dconc.gov/county-departments/departments-f-z/tax-administration/property-tax-relief-programs/property-tax-relief-for-homeowners) | County government assistance for paying taxes before they are delinquent.
