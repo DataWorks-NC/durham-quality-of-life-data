@@ -1087,6 +1087,7 @@ module.exports = {
       y_2016: 9.6,
       y_2017: 11.6,
       y_2018: 12.1,
+      y_2019: 12.6,
     },
     'type': 'weighted',
     'geographies': [
