@@ -1622,7 +1622,7 @@ module.exports = {
   },
   'mSWTORD': {
     'metric': 'SWTORD',
-    'category': 'Safety',
+    'category': 'Infrastructure and Amenities',
     'suffix': '%',
     'title': 'Sidewalk Coverage',
     'title_es': 'Aceras a carreteras',
