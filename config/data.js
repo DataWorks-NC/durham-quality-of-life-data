@@ -86,7 +86,18 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2013: 0.73,
+      y_2014: 0.71,
+      y_2015: 0.72,
+      y_2016: 0.72,
+      y_2017: 0.67,
+      y_2018: 0.67,
+      y_2019: 0.65,
+      y_2020: 0.63,
+    },
   },
   'mCCC': {
     'metric': 'CCC',
@@ -99,7 +110,18 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2013: 1.19,
+      y_2014: 1.13,
+      y_2015: 1.11,
+      y_2016: 1.11,
+      y_2017: 1.04,
+      y_2018: 0.97,
+      y_2019: 0.95,
+      y_2020: 0.91,
+    },
   },
   'mCKD_ASIAN': {
     'metric': 'CKD_ASIAN',
