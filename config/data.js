@@ -33,7 +33,7 @@ module.exports = {
     'title_es': 'Edad Promedio de Muerte',
     'decimals': 1,
     'type': 'mean',
-    'world_val': {'y_2009': 69.1, 'y_2014': 69.6},
+    'world_val': { 'y_2009': 69.1, 'y_2014': 69.6 },
     'geographies': [
       'blockgroup',
       'tract',
@@ -111,7 +111,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.08, 'y_2017': 3.7},
+    'world_val': { 'y_2015': 3.08, 'y_2017': 3.7 },
     'geographies': [
       'tract',
     ],
@@ -126,7 +126,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 9.11, 'y_2017': 9.87},
+    'world_val': { 'y_2015': 9.11, 'y_2017': 9.87 },
     'geographies': [
       'tract',
     ],
@@ -141,7 +141,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 8.41, 'y_2017': 9.38},
+    'world_val': { 'y_2015': 8.41, 'y_2017': 9.38 },
     'geographies': [
       'tract',
     ],
@@ -156,7 +156,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 2.53, 'y_2017': 3.11},
+    'world_val': { 'y_2015': 2.53, 'y_2017': 3.11 },
     'geographies': [
       'tract',
     ],
@@ -171,7 +171,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 8.51, 'y_2017': 9.13},
+    'world_val': { 'y_2015': 8.51, 'y_2017': 9.13 },
     'geographies': [
       'tract',
     ],
@@ -186,7 +186,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 8.43, 'y_2017': 9.26},
+    'world_val': { 'y_2015': 8.43, 'y_2017': 9.26 },
     'geographies': [
       'tract',
     ],
@@ -201,7 +201,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.27, 'y_2017': 10.75},
+    'world_val': { 'y_2015': 3.27, 'y_2017': 10.75 },
     'geographies': [
       'tract',
     ],
@@ -262,7 +262,7 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'world_val': {
-        y_2019: 9.5,
+      y_2019: 9.5,
     },
     'geographies': [
       'tract',
@@ -408,7 +408,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 8.32, 'y_2017': 7.81},
+    'world_val': { 'y_2015': 8.32, 'y_2017': 7.81 },
     'geographies': [
       'tract',
     ],
@@ -423,7 +423,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 18.99, 'y_2017': 18.36},
+    'world_val': { 'y_2015': 18.99, 'y_2017': 18.36 },
     'geographies': [
       'tract',
     ],
@@ -438,7 +438,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 12.36, 'y_2017': 12.04},
+    'world_val': { 'y_2015': 12.36, 'y_2017': 12.04 },
     'geographies': [
       'tract',
     ],
@@ -453,7 +453,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 13.95, 'y_2017': 13.25},
+    'world_val': { 'y_2015': 13.95, 'y_2017': 13.25 },
     'geographies': [
       'tract',
     ],
@@ -468,7 +468,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 14.67, 'y_2017': 14.15},
+    'world_val': { 'y_2015': 14.67, 'y_2017': 14.15 },
     'geographies': [
       'tract',
     ],
@@ -483,7 +483,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 13.42, 'y_2017': 12.86},
+    'world_val': { 'y_2015': 13.42, 'y_2017': 12.86 },
     'geographies': [
       'tract',
     ],
@@ -498,7 +498,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 9.69, 'y_2017': 9.23},
+    'world_val': { 'y_2015': 9.69, 'y_2017': 9.23 },
     'geographies': [
       'tract',
     ],
@@ -539,7 +539,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 2.38, 'y_2017': 2.16},
+    'world_val': { 'y_2015': 2.38, 'y_2017': 2.16 },
     'geographies': [
       'tract',
     ],
@@ -554,7 +554,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 1.47, 'y_2017': 1.31},
+    'world_val': { 'y_2015': 1.47, 'y_2017': 1.31 },
     'geographies': [
       'tract',
     ],
@@ -582,7 +582,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.02, 'y_2017': 2.70},
+    'world_val': { 'y_2015': 3.02, 'y_2017': 2.70 },
     'geographies': [
       'tract',
     ],
@@ -597,7 +597,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 2.08, 'y_2017': 1.86},
+    'world_val': { 'y_2015': 2.08, 'y_2017': 1.86 },
     'geographies': [
       'tract',
     ],
@@ -612,7 +612,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 2.33, 'y_2017': 2.08},
+    'world_val': { 'y_2015': 2.33, 'y_2017': 2.08 },
     'geographies': [
       'tract',
     ],
@@ -1184,7 +1184,7 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
-      'tract'
+      'tract',
     ],
   },
   'mPTLAT': {
@@ -1543,7 +1543,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 2.89, 'y_2017': 2.45},
+    'world_val': { 'y_2015': 2.89, 'y_2017': 2.45 },
     'geographies': [
       'tract',
     ],
@@ -1571,7 +1571,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.78, 'y_2017': 3.23},
+    'world_val': { 'y_2015': 3.78, 'y_2017': 3.23 },
     'geographies': [
       'tract',
     ],
@@ -1586,7 +1586,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.24, 'y_2017': 2.76},
+    'world_val': { 'y_2015': 3.24, 'y_2017': 2.76 },
     'geographies': [
       'tract',
     ],
@@ -1601,7 +1601,7 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': {'y_2015': 3.52, 'y_2017': 2.95},
+    'world_val': { 'y_2015': 3.52, 'y_2017': 2.95 },
     'geographies': [
       'tract',
     ],

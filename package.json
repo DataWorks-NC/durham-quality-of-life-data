@@ -1,7 +1,7 @@
 {
-  "name": "qol-data-mecklenburg",
+  "name": "Durham Neighborhood Compass Data",
   "version": "1.0.0",
-  "description": "data for the quality of life dashboard",
+  "description": "Data repository for Durham Neighborhood Compass",
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/*.js | tap-spec",
@@ -11,16 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobinbradley/mecklenburg-quality-of-life-data.git"
+    "url": "git@github.com:DataWorks-NC/durham-quality-of-life-data.git"
   },
-  "author": "Tobin Bradley",
+  "author": "DataWorks NC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data/issues"
-  },
-  "homepage": "https://github.com/tobinbradley/mecklenburg-quality-of-life-data#readme",
+  "homepage": "https://github.com/DataWorks-NC/durham-quality-of-life-data",
   "dependencies": {
-    "node-rest-client": "^3.1.0"
   },
   "devDependencies": {
     "fast-csv": "^2.5.0",
