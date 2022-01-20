@@ -7,7 +7,7 @@ Median household income provides a general indication of how much money househol
 The median household income provides an approximation of how well people are doing financially in a neighborhood. However, when thinking about this statement from an anti-racist perspective, we question its validity. That is, how do these values represent financial wellbeing? Household income is the amount earned annually. It is one aspect of the neighborhood’s general financial characteristics, but the median household income does not reflect existing debt, wealth, or other salient aspects of financial wellbeing.  Neither does the neighborhood median reflect disparities in income. To give a sense of these disparities, the Compass includes median household income estimates for some specific race groups ([Black](https://compass.durhamnc.gov/en/compass/MEDINC-BLACK/tract), [LatinX](https://compass.durhamnc.gov/es/compass/MEDINC-HISPANIC/tract), and [white](https://compass.durhamnc.gov/es/compass/MEDINC-WHITE/tract)).
 
 ### About the Data
-The household income at the midpoint of all households. Half of the households in this Census tract earn a higher annual income and half earn a lower annual income. These amounts are inflation-adjusted for 2010 using the Consumer Price Index for all items, referencing the South urban areas (table CUUR0300SA0).
+The household income at the midpoint of all households. Half of the households in this Census tract earn a higher annual income and half earn a lower annual income.
 
 Source: US 2010, Census 2010 tract-normalized sample data; American Community Survey (ACS) (after  2010).
 
