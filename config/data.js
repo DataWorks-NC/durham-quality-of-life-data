@@ -25,6 +25,66 @@
 // ***********************************************************
 
 module.exports = {
+  'mAFTERNOON-TEMPERATURE': {
+    'metric': 'AFTERNOON-TEMPERATURE',
+    'category': 'Environment',
+    'label': 'degrees Fahrenheit',
+    'subcategory': 'Climate',
+    'title': 'Afternoon Temperature',
+    'title_es': '',
+    'decimals': 1,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 83.7 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mAFTERNOON-TEMPERATURE-DIFFERENTIAL': {
+    'metric': 'AFTERNOON-TEMPERATURE-DIFFERENTIAL',
+    'category': 'Environment',
+    'label': 'degrees Fahrenheit',
+    'subcategory': 'Climate',
+    'title': 'Afternoon Temperature Differential',
+    'title_es': '',
+    'decimals': 2,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 0 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mEVENING-TEMPERATURE-DIFFERENTIAL': {
+    'metric': 'EVENING-TEMPERATURE-DIFFERENTIAL',
+    'category': 'Environment',
+    'label': 'degrees Fahrenheit',
+    'subcategory': 'Climate',
+    'title': 'Evening Temperature Differential',
+    'title_es': '',
+    'decimals': 2,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 0 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mMORNING-TEMPERATURE-DIFFERENTIAL': {
+    'metric': 'MORNING-TEMPERATURE-DIFFERENTIAL',
+    'category': 'Environment',
+    'label': 'degrees Fahrenheit',
+    'subcategory': 'Climate',
+    'title': 'Morning Temperature Differential',
+    'title_es': '',
+    'decimals': 2,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 0 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
   'mAVEAGE': {
     'metric': 'AVEAGE',
     'category': 'Health',
