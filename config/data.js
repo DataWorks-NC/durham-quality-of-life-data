@@ -25,6 +25,37 @@
 // ***********************************************************
 
 module.exports = {
+  'mAFTERNOON-HEAT-ISLANDS': {
+    'metric': 'AFTERNOON-HEAT-ISLANDS',
+    'category': 'Environment',
+    'label': '%',
+    'subcategory': 'Climate',
+    'title': 'Heat Islands (Summer Afternoon)',
+    'title_es': '',
+    'decimals': 1,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 15.1 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+
+  'mAFTERNOON-COOL-ISLANDS': {
+    'metric': 'AFTERNOON-COOL-ISLANDS',
+    'category': 'Environment',
+    'label': '%',
+    'subcategory': 'Climate',
+    'title': 'Cool Oases (Summer Afternoon)',
+    'title_es': '',
+    'decimals': 1,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 39.7 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
   'mAFTERNOON-TEMPERATURE': {
     'metric': 'AFTERNOON-TEMPERATURE',
     'category': 'Environment',
@@ -35,65 +66,6 @@ module.exports = {
     'decimals': 1,
     'type': 'weighted',
     'world_val': { 'y_2021': 83.7 },
-    'geographies': [
-      'blockgroup',
-      'tract',
-    ],
-  },
-  'mAFTERNOON-HEAT-ISLANDS': {
-    'metric': 'AFTERNOON-HEAT-ISLANDS',
-    'category': 'Environment',
-    'label': '%',
-    'subcategory': 'Climate',
-    'title': 'Heat Islands (Summer Afternoon)',
-    'title_es': '',
-    'decimals': 2,
-    'type': 'weighted',
-    'world_val': { 'y_2021': 0 },
-    'geographies': [
-      'tract',
-    ],
-  },
-  'mAFTERNOON-TEMPERATURE-DIFFERENTIAL': {
-    'metric': 'AFTERNOON-TEMPERATURE-DIFFERENTIAL',
-    'category': 'Environment',
-    'label': 'degrees Fahrenheit',
-    'subcategory': 'Climate',
-    'title': 'Afternoon Temperature Differential',
-    'title_es': '',
-    'decimals': 2,
-    'type': 'weighted',
-    'world_val': { 'y_2021': 0 },
-    'geographies': [
-      'blockgroup',
-      'tract',
-    ],
-  },
-  'mEVENING-TEMPERATURE-DIFFERENTIAL': {
-    'metric': 'EVENING-TEMPERATURE-DIFFERENTIAL',
-    'category': 'Environment',
-    'label': 'degrees Fahrenheit',
-    'subcategory': 'Climate',
-    'title': 'Evening Temperature Differential',
-    'title_es': '',
-    'decimals': 2,
-    'type': 'weighted',
-    'world_val': { 'y_2021': 0 },
-    'geographies': [
-      'blockgroup',
-      'tract',
-    ],
-  },
-  'mMORNING-TEMPERATURE-DIFFERENTIAL': {
-    'metric': 'MORNING-TEMPERATURE-DIFFERENTIAL',
-    'category': 'Environment',
-    'label': 'degrees Fahrenheit',
-    'subcategory': 'Climate',
-    'title': 'Morning Temperature Differential',
-    'title_es': '',
-    'decimals': 2,
-    'type': 'weighted',
-    'world_val': { 'y_2021': 0 },
     'geographies': [
       'blockgroup',
       'tract',
