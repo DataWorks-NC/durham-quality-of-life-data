@@ -1381,8 +1381,14 @@ module.exports = {
     'title_es': 'Diversidad Racial/Étnica',
     'decimals': 2,
     'type': 'mean',
+    'world_val': {
+      y_2010: .66,
+      y_2015: .66,
+      y_2019: .67,
+    },
     'geographies': [
       'blockgroup',
+      'tract',
     ],
   },
   'mRESIDENTIAL-SALE-PRICE': {
