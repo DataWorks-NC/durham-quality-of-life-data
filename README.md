@@ -42,7 +42,11 @@ For serving and rendering GeoJSON, smaller is better, but watch out for topologi
 
 ### Creating your data files
 
-Data files are simple CSV's in the format:
+The Compass supports 2 types of data files, "classic" and "new". Some metrics are better suited to the classic format,
+some are better suited to the new format.
+
+#### Classic format
+In the "classic" format, data files are simple CSV's in the format:
 
 ``` csv
 id,y_2000,y_2010
@@ -52,11 +56,15 @@ suzy,,100
 
 The file header is `id` and each year of data is expressed as `y_<year>`. No data values are empty, like `suzy,,100`. CSV files are processed into JSON by the consuming applications. Each metric file will be named with a metric number found in `/config/data.json`.
 
+#### New format
+New-style metric files have only three columns: `year,fips,value`. Each row contains the metric value for a single combination of data year + fips code.
+
+#### Filenames
 The type of data will decide the files required:
 
-*   `sum`: The data is summed when polygons are selected. This will require a `r<metric>.csv` file.
-*   `mean`: The data is averaged when polygons are selected. This will require a `n<metric>.csv` file.
-*   `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` and a denominator for weighting/calculations in `d<metric>.csv`. r/d is each individual polygon value.
+*   `sum`: The data is summed when polygons are selected. This will require a `r<metric>.csv` (old-style) or `<metric>_numerator.csv` (new-style) file.
+*   `mean`: The data is averaged when polygons are selected. This will require a `m<metric>.csv` (classic) or `<metric>_value.csv` (new-style) file.
+*   `weighted`: A weighted average is calculated when polygons are selected. This requires the raw data in `r<metric>.csv` / `<metric>_numerator.csv` and a denominator for weighting/calculations in `d<metric>.csv` (classic) or `<metric>_denominator.csv` (new-style). r/d is each individual polygon value.
 
 After creating your data files, run the test suite to make sure the basics check out.
 
