@@ -135,7 +135,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.08, 'y_2017': 3.7 },
+    'world_val': {
+      'y_2015': 3.08,
+      'y_2017': 3.7,
+      y_2018: 3.94,
+      y_2019: 3.61,
+    },
     'geographies': [
       'tract',
     ],
@@ -150,7 +155,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 9.11, 'y_2017': 9.87 },
+    'world_val': {
+      'y_2015': 9.11,
+      'y_2017': 9.87,
+      y_2018: 9.94,
+      y_2019: 10.47,
+    },
     'geographies': [
       'tract',
     ],
@@ -165,7 +175,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 8.41, 'y_2017': 9.38 },
+    'world_val': {
+      'y_2015': 8.41,
+      'y_2017': 9.38,
+      y_2018: 9.43,
+      y_2019: 9.20,
+    },
     'geographies': [
       'tract',
     ],
@@ -180,7 +195,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 2.53, 'y_2017': 3.11 },
+    'world_val': {
+      'y_2015': 2.53,
+      'y_2017': 3.11,
+      y_2018: 3.03,
+      y_2019: 3.02,
+    },
     'geographies': [
       'tract',
     ],
@@ -195,7 +215,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 8.51, 'y_2017': 9.13 },
+    'world_val': {
+      'y_2015': 8.51,
+      'y_2017': 9.13,
+      y_2018: 9.17,
+      y_2019: 9.06,
+    },
     'geographies': [
       'tract',
     ],
@@ -210,7 +235,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 8.43, 'y_2017': 9.26 },
+    'world_val': {
+      'y_2015': 8.43,
+      'y_2017': 9.26,
+      y_2018: 9.31,
+      y_2019: 9.13,
+    },
     'geographies': [
       'tract',
     ],
@@ -225,7 +255,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.27, 'y_2017': 10.75 },
+    'world_val': {
+      'y_2015': 3.27,
+      'y_2017': 10.75,
+      y_2018: 10.77,
+      y_2019: 10.26,
+    },
     'geographies': [
       'tract',
     ],
@@ -432,7 +467,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 8.32, 'y_2017': 7.81 },
+    'world_val': {
+      'y_2015': 8.32,
+      'y_2017': 7.81,
+      y_2018: 8.03,
+      y_2019: 8.13,
+    },
     'geographies': [
       'tract',
     ],
@@ -447,7 +487,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 18.99, 'y_2017': 18.36 },
+    'world_val': {
+      'y_2015': 18.99,
+      'y_2017': 18.36,
+      y_2018: 18.45,
+      y_2019: 18.62,
+    },
     'geographies': [
       'tract',
     ],
@@ -462,7 +507,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 12.36, 'y_2017': 12.04 },
+    'world_val': {
+      'y_2015': 12.36,
+      'y_2017': 12.04,
+      y_2018: 12.05,
+      y_2019: 12.11,
+    },
     'geographies': [
       'tract',
     ],
@@ -477,7 +527,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 13.95, 'y_2017': 13.25 },
+    'world_val': {
+      'y_2015': 13.95,
+      'y_2017': 13.25,
+      y_2018: 13.25,
+      y_2019: 13.18,
+    },
     'geographies': [
       'tract',
     ],
@@ -492,7 +547,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 14.67, 'y_2017': 14.15 },
+    'world_val': {
+      'y_2015': 14.67,
+      'y_2017': 14.15,
+      y_2018: 14.14,
+      y_2019: 14.10,
+    },
     'geographies': [
       'tract',
     ],
@@ -507,7 +567,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 13.42, 'y_2017': 12.86 },
+    'world_val': {
+      'y_2015': 13.42,
+      'y_2017': 12.86,
+      y_2018: 12.86,
+      y_2019: 12.9,
+    },
     'geographies': [
       'tract',
     ],
@@ -522,7 +587,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 9.69, 'y_2017': 9.23 },
+    'world_val': {
+      'y_2015': 9.69,
+      'y_2017': 9.23,
+      y_2018: 9.18,
+      y_2019: 9.25,
+    },
     'geographies': [
       'tract',
     ],
@@ -563,7 +633,9 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 2.38, 'y_2017': 2.16 },
+    'world_val': {
+      'y_2015': 2.38, 'y_2017': 2.16, 'y_2018': 2.08, 'y_2019': 2.32,
+    },
     'geographies': [
       'tract',
     ],
@@ -578,7 +650,9 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 1.47, 'y_2017': 1.31 },
+    'world_val': {
+      'y_2015': 1.47, 'y_2017': 1.31, 'y_2018': 1.26, 'y_2019': 1.38,
+    },
     'geographies': [
       'tract',
     ],
@@ -606,7 +680,9 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.02, 'y_2017': 2.70 },
+    'world_val': {
+      'y_2015': 3.02, 'y_2017': 2.70, 'y_2018': 2.62, 'y_2019': 2.82,
+    },
     'geographies': [
       'tract',
     ],
@@ -621,7 +697,9 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 2.08, 'y_2017': 1.86 },
+    'world_val': {
+      'y_2015': 2.08, 'y_2017': 1.86, 'y_2018': 1.80, 'y_2019': 1.96,
+    },
     'geographies': [
       'tract',
     ],
@@ -636,7 +714,9 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 2.33, 'y_2017': 2.08 },
+    'world_val': {
+      'y_2015': 2.33, 'y_2017': 2.08, 'y_2018': 2.02, 'y_2019': 2.20,
+    },
     'geographies': [
       'tract',
     ],
@@ -1383,9 +1463,9 @@ module.exports = {
     'decimals': 2,
     'type': 'mean',
     'world_val': {
-      y_2010: .66,
-      y_2015: .66,
-      y_2019: .67,
+      y_2010: 0.66,
+      y_2015: 0.66,
+      y_2019: 0.67,
     },
     'geographies': [
       'blockgroup',
@@ -1550,7 +1630,9 @@ module.exports = {
   //    "raw_label": "adults",
   //    "decimals": 1,
   //    "type": "weighted",
-  //    "world_val": {"y_2015": 1.22,"y_2017":1.21},
+  //    "world_val": {"y_2015": 1.22,"y_2017":1.21,
+  //    'y_2018': 1.24,
+  //       'y_2019': 0.96,},
   //    "geographies": [
   //      "tract"
   //        ]
@@ -1568,6 +1650,8 @@ module.exports = {
     'world_val': {
       'y_2015': 3.79,
       'y_2017': 3.34,
+      'y_2018': 3.32,
+      'y_2019': 3.54,
     },
     'geographies': [
       'tract',
@@ -1583,7 +1667,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 2.89, 'y_2017': 2.45 },
+    'world_val': {
+      'y_2015': 2.89,
+      'y_2017': 2.45,
+      'y_2018': 2.42,
+      'y_2019': 2.55,
+    },
     'geographies': [
       'tract',
     ],
@@ -1596,7 +1685,9 @@ module.exports = {
   //    "raw_label": "adults",
   //    "decimals": 1,
   //    "type": "weighted",
-  //   "world_val": {"y_2015": 0.82,"y_2017":0.65},
+  //   "world_val": {"y_2015": 0.82,"y_2017":0.65,
+  //         'y_2018': 0.65,
+  //       'y_2019': 0.84,},
   //    "geographies": [
   //      "tract"
   //        ]
@@ -1611,7 +1702,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.78, 'y_2017': 3.23 },
+    'world_val': {
+      'y_2015': 3.78,
+      'y_2017': 3.23,
+      'y_2018': 3.16,
+      'y_2019': 3.28,
+    },
     'geographies': [
       'tract',
     ],
@@ -1626,7 +1722,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.24, 'y_2017': 2.76 },
+    'world_val': {
+      'y_2015': 3.24,
+      'y_2017': 2.76,
+      'y_2018': 2.72,
+      'y_2019': 2.84,
+    },
     'geographies': [
       'tract',
     ],
@@ -1641,7 +1742,12 @@ module.exports = {
     'raw_label': 'adults',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2015': 3.52, 'y_2017': 2.95 },
+    'world_val': {
+      'y_2015': 3.52,
+      'y_2017': 2.95,
+      'y_2018': 2.88,
+      'y_2019': 3.03,
+    },
     'geographies': [
       'tract',
     ],
