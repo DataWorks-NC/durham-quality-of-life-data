@@ -529,7 +529,7 @@ module.exports = {
   },
   'mD_SQM': {
     'metric': 'D_SQM',
-    'category': 'Safety',
+    'category': 'Crime',
     'title': 'Drug Crimes per Square Mile',
     'title_es': 'Delitos relacionados con drogas por milla cuadrada',
     'label': 'incidents per sq mi',
@@ -1327,7 +1327,7 @@ module.exports = {
   },
   'mP_SQM': {
     'metric': 'P_SQM',
-    'category': 'Safety',
+    'category': 'Crime',
     'title': 'Property Crimes per Square Mile',
     'title_es': 'Delitos a la propiedad por milla cuadrada',
     'label': 'crimes per sq mi',
@@ -1384,9 +1384,9 @@ module.exports = {
     'decimals': 2,
     'type': 'mean',
     'world_val': {
-      y_2010: .66,
-      y_2015: .66,
-      y_2019: .67,
+      y_2010: 0.66,
+      y_2015: 0.66,
+      y_2019: 0.67,
     },
     'geographies': [
       'blockgroup',
@@ -1753,7 +1753,7 @@ module.exports = {
   },
   'mV_SQM': {
     'metric': 'V_SQM',
-    'category': 'Safety',
+    'category': 'Crime',
     'title': 'Violent Crimes per Square Mile',
     'title_es': 'Delitos violentos por milla cuadrada',
     'label': 'incidents per sq mi',
