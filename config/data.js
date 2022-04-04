@@ -28,7 +28,7 @@ module.exports = {
   'mAFTERNOON-HEAT-ISLANDS': {
     'metric': 'AFTERNOON-HEAT-ISLANDS',
     'category': 'Environment',
-    'label': '%',
+    'suffix': '%',
     'subcategory': 'Climate',
     'title': 'Heat Islands (Summer Afternoon)',
     'title_es': 'Islas de calor por la tarde',
@@ -43,7 +43,7 @@ module.exports = {
   'mAFTERNOON-COOL-ISLANDS': {
     'metric': 'AFTERNOON-COOL-ISLANDS',
     'category': 'Environment',
-    'label': '%',
+    'suffix': '%',
     'subcategory': 'Climate',
     'title': 'Cool Oases (Summer Afternoon)',
     'title_es': 'Oasis de frescura por la tarde',
@@ -57,7 +57,8 @@ module.exports = {
   'mAFTERNOON-TEMPERATURE': {
     'metric': 'AFTERNOON-TEMPERATURE',
     'category': 'Environment',
-    'label': 'degrees Fahrenheit',
+    'label': 'fahrenheit',
+    "suffix": '°',
     'subcategory': 'Climate',
     'title': 'Summer Afternoon Temperature',
     'title_es': 'Temperatura por la tarde',
@@ -72,7 +73,7 @@ module.exports = {
   'mEVENING-HEAT-ISLANDS': {
     'metric': 'EVENING-HEAT-ISLANDS',
     'category': 'Environment',
-    'label': '%',
+    'suffix': '%',
     'subcategory': 'Climate',
     'title': 'Heat Islands (Summer Evening)',
     'title_es': 'Islas de calor por la noche',
@@ -87,7 +88,7 @@ module.exports = {
   'mEVENING-COOL-ISLANDS': {
     'metric': 'EVENING-COOL-ISLANDS',
     'category': 'Environment',
-    'label': '%',
+    'suffix': '%',
     'subcategory': 'Climate',
     'title': 'Cool Oases (Summer Evening)',
     'title_es': 'Oasis de frescura por la noche',
@@ -101,7 +102,8 @@ module.exports = {
   'mEVENING-TEMPERATURE': {
     'metric': 'EVENING-TEMPERATURE',
     'category': 'Environment',
-    'label': 'degrees Fahrenheit',
+    'label': 'fahrenheit',
+    "suffix": '°',
     'subcategory': 'Climate',
     'title': 'Summer Evening Temperature',
     'title_es': 'Temperatura por la noche',
