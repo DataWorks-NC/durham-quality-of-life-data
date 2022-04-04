@@ -31,7 +31,7 @@ module.exports = {
     'label': '%',
     'subcategory': 'Climate',
     'title': 'Heat Islands (Summer Afternoon)',
-    'title_es': '',
+    'title_es': 'Islas de calor por la tarde',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
@@ -46,7 +46,7 @@ module.exports = {
     'label': '%',
     'subcategory': 'Climate',
     'title': 'Cool Oases (Summer Afternoon)',
-    'title_es': '',
+    'title_es': 'Oasis de frescura por la tarde',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
@@ -60,7 +60,7 @@ module.exports = {
     'label': 'degrees Fahrenheit',
     'subcategory': 'Climate',
     'title': 'Summer Afternoon Temperature',
-    'title_es': '',
+    'title_es': 'Temperatura por la tarde',
     'decimals': 1,
     'type': 'weighted',
     'world_val': { 'y_2021': 83.7 },
@@ -75,7 +75,7 @@ module.exports = {
     'label': '%',
     'subcategory': 'Climate',
     'title': 'Heat Islands (Summer Evening)',
-    'title_es': '',
+    'title_es': 'Islas de calor por la noche',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
@@ -90,7 +90,7 @@ module.exports = {
     'label': '%',
     'subcategory': 'Climate',
     'title': 'Cool Oases (Summer Evening)',
-    'title_es': '',
+    'title_es': 'Oasis de frescura por la noche',
     'decimals': 1,
     'type': 'weighted',
     'geographies': [
@@ -104,7 +104,7 @@ module.exports = {
     'label': 'degrees Fahrenheit',
     'subcategory': 'Climate',
     'title': 'Summer Evening Temperature',
-    'title_es': '',
+    'title_es': 'Temperatura por la noche',
     'decimals': 1,
     'type': 'weighted',
     'world_val': { 'y_2021': 80.3 },
