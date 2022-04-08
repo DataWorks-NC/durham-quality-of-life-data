@@ -11,6 +11,8 @@ Para obtener más información sobre las influencias a nivel comunitario en la s
 ### Sobre los Datos
 Esta información surge de Duke Health y el Lincoln Community Health Center, y fue provista por el [Centro para el mejoramiento de la salud de la comunidad y la población \[Center for Community and Population Health Improvement] de Duke](http://www.dukehealthimprovement.org/) (en inglés) . Estas tasas de enfermedad renal crónica se basan en las visitas de atención médica documentadas en este conjunto combinado de datos, que incluye 169,115 adultos de un total de 245,572 en el condado (2017). Las tasas seleccionadas para ser incluidas en este sitio son aquellas que coinciden con las pautas del CDC según lo informado por Duke Health.
 
+Con el fin de mantener la privacidad, los datos informados en el Compass para este indicador excluyen las zonas censales con una cantidad de casos (numerador) o una cantidad total de pacientes (denominador) inferior a 10.
+
 Cada interacción entre un paciente y un proveedor de cuidado de salud se denomina un encuentro. Un encuentro puede ser un evento breve, de una sola vez, (como una cita de cuidados primarios) o puede darse a lo largo de múltiples días (como una estadía en el hospital). Para determinar los indicadores para un año en particular, Duke Health Technology solo incluye pacientes adultos que hayan tenido un encuentro en ese mismo año calendario. Si un paciente tuvo una hospitalización que duró múltiples días abarcando dos años calendarios (por ej. 12/15/15 – 1/15/16), DHT usó la fecha de alta para determinar cuando incluirlo.
 
 Fuente: Duke Health y Lincoln Community Health Center

@@ -13,6 +13,8 @@ To learn more about the community-level influences on chronic conditions like st
 ### About the Data
 This information is from Duke Health and Lincoln Community Health Center, provided by Duke's [Center for Community and Population Health Improvement](http://www.dukehealthimprovement.org/). These stroke rates are based on health care visits documented in this combined dataset, including a total of 169,115 adults of a countywide total of 245,572 (2017).
 
+In order to preserve privacy, the data reported in the compass for this metric excludes census areas with either case counts (numerator) or total patient counts (denominator) less than 10.
+
 When a patient has an interaction with a healthcare provider, this is called an encounter. An encounter can be a single, brief event (such as a regular primary care appointment) or it can be across multiple days (such as a hospital stay). To determine metrics for a particular year, Duke Health Technology only includes adult patients who had an encounter in that same calendar year. If a patient had a hospitalization that lasted multiple days across two calendar years (e.g. 12/15/15 – 1/15/16), DHT used the discharge date to determine their inclusion.
 
 Source: Duke Health and Lincoln Community Health Center

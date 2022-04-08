@@ -163,6 +163,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mCKD_FEMALE': {
@@ -183,6 +184,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mCKD_HISPANIC': {
@@ -223,6 +225,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mCKD_TOTAL': {
@@ -243,6 +246,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mCKD_WHITE': {
@@ -263,6 +267,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mCLINIC': {
@@ -495,6 +500,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mDIABETES_FEMALE': {
@@ -515,6 +521,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mDIABETES_HISPANIC': {
@@ -535,6 +542,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mDIABETES_MALE': {
@@ -555,6 +563,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mDIABETES_TOTAL': {
@@ -575,6 +584,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mDIABETES_WHITE': {
@@ -595,6 +605,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mD_SQM': {
@@ -638,6 +649,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mHEARTATTACK_FEMALE': {
@@ -655,6 +667,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   //  "mHEARTATTACK_HISPANIC": {
@@ -685,6 +698,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mHEARTATTACK_TOTAL': {
@@ -702,6 +716,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mHEARTATTACK_WHITE': {
@@ -719,6 +734,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mHMINC': {
@@ -1656,6 +1672,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mSTROKE_FEMALE': {
@@ -1676,6 +1693,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   //  "mSTROKE_HISPANIC": {
@@ -1711,6 +1729,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mSTROKE_TOTAL': {
@@ -1731,6 +1750,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mSTROKE_WHITE': {
@@ -1751,6 +1771,7 @@ module.exports = {
     },
     'geographies': [
       'tract',
+      'blockgroup',
     ],
   },
   'mSUMEJECT': {
