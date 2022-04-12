@@ -25,6 +25,96 @@
 // ***********************************************************
 
 module.exports = {
+  'mAFTERNOON-HEAT-ISLANDS': {
+    'metric': 'AFTERNOON-HEAT-ISLANDS',
+    'category': 'Environment',
+    'suffix': '%',
+    'subcategory': 'Climate',
+    'title': 'Heat Islands (Summer Afternoon)',
+    'title_es': 'Islas de calor por la tarde',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+
+  'mAFTERNOON-COOL-ISLANDS': {
+    'metric': 'AFTERNOON-COOL-ISLANDS',
+    'category': 'Environment',
+    'suffix': '%',
+    'subcategory': 'Climate',
+    'title': 'Cool Oases (Summer Afternoon)',
+    'title_es': 'Oasis de frescura por la tarde',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mAFTERNOON-TEMPERATURE': {
+    'metric': 'AFTERNOON-TEMPERATURE',
+    'category': 'Environment',
+    'label': 'fahrenheit',
+    "suffix": '°',
+    'subcategory': 'Climate',
+    'title': 'Summer Afternoon Temperature',
+    'title_es': 'Temperatura por la tarde',
+    'decimals': 1,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 83.7 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mEVENING-HEAT-ISLANDS': {
+    'metric': 'EVENING-HEAT-ISLANDS',
+    'category': 'Environment',
+    'suffix': '%',
+    'subcategory': 'Climate',
+    'title': 'Heat Islands (Summer Evening)',
+    'title_es': 'Islas de calor por la noche',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+
+  'mEVENING-COOL-ISLANDS': {
+    'metric': 'EVENING-COOL-ISLANDS',
+    'category': 'Environment',
+    'suffix': '%',
+    'subcategory': 'Climate',
+    'title': 'Cool Oases (Summer Evening)',
+    'title_es': 'Oasis de frescura por la noche',
+    'decimals': 1,
+    'type': 'weighted',
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
+  'mEVENING-TEMPERATURE': {
+    'metric': 'EVENING-TEMPERATURE',
+    'category': 'Environment',
+    'label': 'fahrenheit',
+    "suffix": '°',
+    'subcategory': 'Climate',
+    'title': 'Summer Evening Temperature',
+    'title_es': 'Temperatura por la noche',
+    'decimals': 1,
+    'type': 'weighted',
+    'world_val': { 'y_2021': 80.3 },
+    'geographies': [
+      'blockgroup',
+      'tract',
+    ],
+  },
   'mAVEAGE': {
     'metric': 'AVEAGE',
     'category': 'Health',
