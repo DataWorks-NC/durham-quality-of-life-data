@@ -13,7 +13,7 @@ This metric reports the percentage of area in each census blockgroup or tract wh
 
 Volunteers collected temperature samples throughout Durham which were then used to model temperature variations across the city. More about the project as a whole and data produced by Durham and Raleigh volunteers can be found [here](https://osf.io/4tkvs/).
 
-The CAPA study focused on downtown Durham and surrounding neighborhoods; in the compass this metric omits census areas which had less than 50% of their area included in the study.
+The CAPA study focused on downtown Durham and surrounding neighborhoods; in the Compass this metric omits census areas which had less than 50% of their area included in the study.
 
 ### Additional Resources
 | Resource                                                      | Learn More and Take Action | 
