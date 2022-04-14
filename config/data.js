@@ -1384,7 +1384,7 @@ module.exports = {
     'metric': 'RESIDENTIAL-SALE-PRICE-SQFT',
     'category': 'Housing',
     'title': 'Sale Price per Square Foot',
-    'title_es': '<UPDATE>>',
+    'title_es': 'Mediana del Precio de Venta por Pie Cuadrado',
     'prefix': '$',
     'decimals': 0,
     'type': 'mean',
