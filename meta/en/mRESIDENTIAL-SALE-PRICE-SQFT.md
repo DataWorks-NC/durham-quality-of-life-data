@@ -1,0 +1,23 @@
+## Median Sale Price per Square Foot
+Median Sale Price per Square Foot
+
+### Why is this important?
+The influence of racial and wealth segregation - as well as the displacement of Durham’s communities of color and low income - can be seen in the recent history of residential sale values. Communities like Southside, Walltown, West End, Lyon Park and Bragtown have all seen home sale prices and property taxes rise rapidly. But for many long-time residents household income has not. This poses a threat to community members who have grown up here, and whose families have long called Durham home. How do they participate in one of the few processes of family wealth building in this country? 
+
+This measure can be compared with median household income, median homebuyer income and changes in tax value change to get a sense of how wealth and opportunity for home ownership vary by neighborhood.
+
+Sale price **per square foot** is particularly useful as a way to compare how real estate prices are changing in different neighborhoods or in comparison with different cities, since it is such a commonly-used metric in real estate data.
+ 
+### About the Data
+We calculate median home price as the median sale price per heated square foot for single-family residential properties over a three year period, centered on the metric year, for time periods with more than five sales total. For example, for the year 2019, the metric value will be the median sale price for any residential sales which occurred between Jan 1, 2018 and Dec 31, 2020. If there were five or fewer sales during that time period within the selected census area, the metric value will show no data.
+
+We count as a sale any qualified real estate transaction with a non-zero sale price. This metric excludes, for example, foreclosure sales, sales between related parties, and multi-parcel sales. It only includes single-family residential properties.
+ 
+Note: Because this metric is calculated using a 3-year average, and because we try to publish current data as quickly as possible, metric values for the current year and the previous year may change as new data is added. For example, if the current year is 2021, then values for 2019 and before are the final values, but the metric values for 2020 are provisional and may change as new 2021 sales are added.
+
+Source: Durham County Tax Administration
+
+### Additional Resources
+|Resource | Learn More and Take Action | 
+|:--- | :--- |
+|[Durham County Tax Administration](http://dconc.gov/government/departments-f-z/tax-administration)| The mission of this Office is to ensure that all citizens are provided a fair, accurate and equitable ad valorem taxation process.
