@@ -51,8 +51,12 @@ jobs:
           key: v3-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm run build-site > npm-build-output.txt
-      - run: cat npm-build-output.txt
+      - run: npm run build-data 2>&1 | tee npm-build-output-data.txt
+      - store_artifacts:
+          path: ~/repo/npm-build-output-data.txt
+      - run: npm run build 2>&1 | tee npm-build-output.txt
+      - store_artifacts:
+          path: ~/repo/npm-build-output.txt
       - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
 
       # Generate a sitemap based on what's currently on dev site.
@@ -66,6 +70,7 @@ jobs:
           paths:
             - dist/*
             - .circleci/*
+
   # Note: Auto-pushes of data only deploy to dev; you will need to manually trigger a rebuild of the main branch
   # of the dashboard to deploy to prod.
   deploy_dev:
