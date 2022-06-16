@@ -861,11 +861,19 @@ module.exports = {
     'category': 'Environment',
     'title': 'Land Use Diversity',
     'title_es': 'Diversidad en el Uso de la Tierra',
-    'decimals': 1,
+    'decimals': 2,
     'type': 'mean',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2001: 0.7947,
+      y_2005: 0.7702,
+      y_2010: 0.7594,
+      y_2015: 0.7612,
+      y_2020: 0.7835,
+    },
   },
   'mMEANRPMT': {
     'metric': 'MEANRPMT',
