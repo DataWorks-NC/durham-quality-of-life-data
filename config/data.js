@@ -1239,7 +1239,13 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2014: 13.2,
+      y_2018: 14.0,
+      y_2020: 19.0,
+    },
   },
   'mPROXBUS': {
     'metric': 'PROXBUS',
