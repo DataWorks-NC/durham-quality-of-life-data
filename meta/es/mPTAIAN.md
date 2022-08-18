@@ -11,6 +11,8 @@ Esta información proviene del Censo Decenal de los EE.UU. y la Encuesta sobre l
 
 En el Compass, mostramos la raza “AIAN sola o en combinación con una o más de las otras razas” que el censo contempla, lo que incluye un número importante de personas que han reportado que sus razas son blanca y AIAN (1,376 en 2019) y negra y AIAN (829 en 2019), junto con otros que solo se identificaron como AIAN (375 en 2019).
 
+_Los límites censales cambiaron en 2020. Los datos de 2020 están ajustados para mantener los límites de 2010 utilizando [la metodología y tablas cruzadas del IPUMS NHGIS (Sistema Nacional del Información Geográfica Histórica)](https://www.nhgis.org/geographic-crosswalks)._
+
 Fuente: Censo Decenal de los EE. UU., 2010; Fuente: EE. UU. 2010, datos de zonas-normalizadas de población del Censo 2010; Encuesta sobre la Comunidad Estadounidense \[American Community Survey (ACS)] para los años entre cada censo decenal.
 
 ### Recursos Adicionales

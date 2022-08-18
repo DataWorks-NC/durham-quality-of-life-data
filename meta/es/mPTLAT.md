@@ -7,6 +7,8 @@ La información sobre raza es requerida por muchos programas federales y es fund
 ### Sobre los Datos
 El porcentaje de la población que informa que su etnicidad es latina o hispana. Etnicidad es una característica separada de raza y los individuos que reportan que su etnicidad es latina o hispana pueden también reportar una descripción racial, como blanco o afroamericano.
 
+_Los límites censales cambiaron en 2020. Los datos de 2020 están ajustados para mantener los límites de 2010 utilizando [la metodología y tablas cruzadas del IPUMS NHGIS (Sistema Nacional del Información Geográfica Histórica)](https://www.nhgis.org/geographic-crosswalks)._
+
 Fuente: Estados Unidos Censo Decenal 2010, Fuente: EE. UU. 2010, datos de zonas-normalizadas de población del Censo 2010; Encuesta sobre la Comunidad Estadounidense \[American Community Survey (ACS)] para los años entre cada censo decenal.
 
 ### Recursos Adicionales

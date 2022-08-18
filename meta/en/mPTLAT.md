@@ -7,6 +7,8 @@ Information on race is required for many Federal programs and is critical in mak
 ### About the Data
 The percent of the total population reporting their ethnicity to be Latino or Hispanic. Ethnicity is a separate characteristic from race and individuals reporting their ethnicity to be Latino or Hispanic may also report a race description such as White or African American.
 
+_Census boundaries changed in 2020. Data from 2020 are weighted to maintain the boundaries from 2010 using [methodology and crosswalks from IPUMS NHGIS](https://www.nhgis.org/geographic-crosswalks)._
+
 Source: U.S. Decennial Census, 2010; Source: US 2010, Census 2010 tract-normalized population data; American Community Survey (ACS) for years between each decennial Census.
 
 ### Additional Resources

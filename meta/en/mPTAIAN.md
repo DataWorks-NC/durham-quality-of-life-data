@@ -11,6 +11,8 @@ These data come from the U.S. Decennial Census and the American Community Survey
 
 In the Compass, we display the "AIAN alone or in combination with one or more other races" census count, which includes a significant number of people who reported their race as white and AIAN (1,376 in 2019) and Black and AIAN (829 in 2019), alongside folks who were identified only as AIAN (375 in 2019).
 
+_Census boundaries changed in 2020. Data from 2020 are weighted to maintain the boundaries from 2010 using [methodology and crosswalks from IPUMS NHGIS](https://www.nhgis.org/geographic-crosswalks)._
+
 Source: U.S. Decennial Census, 2010; Source: US 2010, Census 2010 tract-normalized population data; American Community Survey (ACS) for years between each decennial Census.
 
 ### Additional Resources
