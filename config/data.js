@@ -1297,7 +1297,13 @@ module.exports = {
     'type': 'weighted',
     'geographies': [
       'blockgroup',
+      'tract',
     ],
+    'world_val': {
+      y_2014: 10.1,
+      y_2018: 13.1,
+      y_2020: 8.7,
+    },
   },
   'mPRUNSD': {
     'metric': 'PRUNSD',
