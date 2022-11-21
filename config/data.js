@@ -24,7 +24,7 @@
 // }
 // ***********************************************************
 
-module.exports = {
+export default {
   'mAFTERNOON-HEAT-ISLANDS': {
     'metric': 'AFTERNOON-HEAT-ISLANDS',
     'category': 'Environment',
@@ -1278,6 +1278,7 @@ module.exports = {
     'category': 'Infrastructure and Amenities',
     'suffix': '%',
     'raw_label': 'households',
+    'label': 'of households',
     'title': 'Homes Near Grocery Stores',
     'title_es': 'Viviendas cerca de supermercados',
     'decimals': 1,
@@ -1291,6 +1292,7 @@ module.exports = {
     'category': 'Health',
     'suffix': '%',
     'raw_label': 'households',
+    'label': 'of households',
     'title': 'Homes Near Pharmacies',
     'title_es': 'Viviendas cerca de farmacias',
     'decimals': 1,
