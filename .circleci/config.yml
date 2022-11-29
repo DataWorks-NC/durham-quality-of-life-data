@@ -27,7 +27,7 @@ jobs:
       - run: npm run build-data 2>&1 | tee npm-build-output-data.txt
       - store_artifacts:
           path: ~/repo/npm-build-output-data.txt
-      - run: npm run build 2>&1 | tee npm-build-output.txt
+      - run: NODE_OPTIONS=--openssl-legacy-provider npm run build 2>&1 | tee npm-build-output.txt
       - store_artifacts:
           path: ~/repo/npm-build-output.txt
       - run: ~/repo/data/.circleci/check-build-output-for-errors.sh
