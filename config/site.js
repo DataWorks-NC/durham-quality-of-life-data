@@ -33,7 +33,7 @@ function getBlockgroupDecimalPart(id) {
   return id.substring(id.length - 3, id.length - 1) ? `.${id.substring(id.length - 3, id.length - 1)}` : '';
 }
 
-module.exports = {
+export default {
   keywords:
     'GIS,Durham County,parks,libraries,schools,environment,impervious surface,floodplain,zoning,assessment,tax,photos,government',
   author: 'John Killeen and Tim Stallmann at DataWorks NC',
