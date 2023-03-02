@@ -5,6 +5,7 @@ jobs:
       - image: cimg/node:lts-browsers
 
     working_directory: ~/repo
+    resource_class: large
 
     steps:
       - run: git clone https://github.com/DataWorks-NC/quality-of-life-dashboard.git .
@@ -54,8 +55,8 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v4-dependencies-
 
-      # Generate a sitemap based on what's currently on dev site.
-      - run: npm run build-sitemap-dev
+      # Generate a sitemap.
+      - run: npm run build-sitemap
 
       - persist_to_workspace:
           root: .
