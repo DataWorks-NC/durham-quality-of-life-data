@@ -137,6 +137,15 @@ export default {
     'title_es': 'Porcentaje de adultos con licenciaturas o más',
     'title': 'Percent of Adults with a Bachelors Degree or More',
     'decimals': 1,
+    'world_val': {
+      y_1990: 33.40,
+      y_2000: 40.14,
+      y_2010: 44.12,
+      y_2018: 47.50,
+      y_2019: 48.22,
+      y_2020: 49.46,
+      y_2021: 50.72,
+    },
     'type': 'weighted',
     'geographies': [
       'tract',
@@ -161,6 +170,8 @@ export default {
       y_2017: 0.6,
       y_2018: 0.6,
       y_2019: 0.5,
+      y_2020: 0.5,
+      y_2021: 0.4,
     },
     'type': 'weighted',
     'geographies': [
@@ -909,6 +920,8 @@ export default {
       y_2017: 35,
       y_2018: 35.2,
       y_2019: 35.4,
+      y_2020: 27,
+      y_2021: 27.2,
     },
     'type': 'mean',
     'geographies': [
@@ -1105,6 +1118,8 @@ export default {
       y_2017: 27.3,
       y_2018: 27.6,
       y_2019: 27.9,
+      y_2020: 25.6,
+      y_2021: 23.5,
     },
     'geographies': [
       'tract',
@@ -1176,6 +1191,8 @@ export default {
       y_2017: 4.1,
       y_2018: 4.0,
       y_2019: 3.9,
+      y_2020: 3.6,
+      y_2021: 3.5,
     },
     'type': 'weighted',
     'geographies': [
@@ -1209,6 +1226,17 @@ export default {
     'title': 'Population',
     'title_es': 'Población',
     'decimals': 0,
+    ,
+    'world_val': {
+      y_2010: 267583,
+      y_2015: 288817,
+      y_2016: 294618,
+      y_2017: 300865,
+      y_2018: 306457,
+      y_2019: 311848,
+      y_2020: 317185;
+      y_2021: 319715,
+    },
     'type': 'sum',
     'geographies': [
       'blockgroup',
@@ -1223,6 +1251,16 @@ export default {
     'title_es': 'Densidad de Población',
     'raw_label': 'people',
     'decimals': 0,
+     'world_val': {
+      y_2010: 932.5,
+      y_2015: 1006.5,
+      y_2016: 1026.7,
+      y_2017: 1048.4,
+      y_2018: 1067.9,
+      y_2019: 1086.7,
+      y_2020: 1105.3;
+      y_2021: 1114.1,
+    },
     'type': 'weighted',
     'geographies': [
       'blockgroup',
@@ -1337,6 +1375,8 @@ export default {
       y_2017: 11.6,
       y_2018: 12.1,
       y_2019: 12.6,
+      y_2020: 13.1,
+      y_2021: 13.3,
     },
     'type': 'weighted',
     'geographies': [
@@ -1360,6 +1400,9 @@ export default {
       y_2016: 4.7,
       y_2017: 4.7,
       y_2018: 4.9,
+      y_2019: 4.9,
+      y_2020: 5.2,
+      y_2021: 4.9,
     },
     'type': 'weighted',
     'geographies': [
@@ -1382,6 +1425,8 @@ export default {
       y_2011: 1.32,
       y_2016: 0.95,
       y_2019: 0.98,
+      y_2020: 0.70,
+      y_2021: 0.22,
     },
     'type': 'weighted',
     'geographies': [
@@ -1405,6 +1450,9 @@ export default {
       y_2016: 37.2,
       y_2017: 36.9,
       y_2018: 36.5,
+      y_2019: 35.9,
+      y_2020: 34.1,
+      y_2021: 34.8,
     },
     'type': 'weighted',
     'geographies': [
@@ -1442,6 +1490,9 @@ export default {
       y_2016: 13.3,
       y_2017: 13.5,
       y_2018: 13.4,
+      y_2019: 13.5,
+      y_2020: 15.4,
+      y_2021: 13.7,
     },
     'type': 'weighted',
     'geographies': [
@@ -1479,6 +1530,8 @@ export default {
       y_2017: 21.7,
       y_2018: 21.4,
       y_2019: 21.1,
+      y_2020: 20.8,
+      y_2021: 20.6,
     },
     'type': 'weighted',
     'geographies': [
@@ -1502,6 +1555,9 @@ export default {
       y_2016: 42.0,
       y_2017: 42.1,
       y_2018: 42.2,
+      y_2019: 42.5,
+      y_2020: 42.9,
+      y_2021: 42.5,
     },
     'type': 'weighted',
     'geographies': [
@@ -1530,6 +1586,8 @@ export default {
       y_2017: 57.9,
       y_2018: 57.8,
       y_2019: 57.5,
+      y_2020: 57.1,
+      y_2021: 57.5,
     },
     'type': 'weighted',
     'geographies': [
@@ -1599,6 +1657,8 @@ export default {
       y_2010: 0.66,
       y_2015: 0.66,
       y_2019: 0.67,
+      y_2020: 0.67,
+      y_2021: 0.67,
     },
     'geographies': [
       'blockgroup',
@@ -1977,6 +2037,8 @@ export default {
       y_2017: 22.7,
       y_2018: 22.8,
       y_2019: 22.0,
+      y_2020: 20.9,
+      y_2021: 20.9,
     },
     'type': 'weighted',
     'geographies': [
@@ -2003,6 +2065,8 @@ export default {
       y_2017: 51.2,
       y_2018: 51.6,
       y_2019: 50.8,
+      y_2020: 50.1,
+      y_2021: 49.5,
     },
     'type': 'weighted',
     'geographies': [
