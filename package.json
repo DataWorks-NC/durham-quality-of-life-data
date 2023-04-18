@@ -17,6 +17,7 @@
   "license": "MIT",
   "homepage": "https://github.com/DataWorks-NC/durham-quality-of-life-data",
   "dependencies": {
+    "node": "^19.8.1"
   },
   "devDependencies": {
     "fast-csv": "^2.5.0",

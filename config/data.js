@@ -839,7 +839,7 @@ export default {
     'title_es': 'Mediana del Ingreso de los Compradores de Vivienda',
     'prefix': '$',
     'decimals': 0,
-    'type': 'mean',
+    'type': 'weighted',
     'geographies': [
       'tract',
     ],
