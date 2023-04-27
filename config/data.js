@@ -1226,7 +1226,6 @@ export default {
     'title': 'Population',
     'title_es': 'Población',
     'decimals': 0,
-    ,
     'world_val': {
       y_2010: 258578,
       y_2015: 288817,
