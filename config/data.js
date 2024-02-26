@@ -1027,6 +1027,7 @@ export default {
       y_2019: 44099,
       y_2020: 45261,
       y_2021: 46350,
+      y_2022: 55970,
     },
     'type': 'weighted',
     'geographies': [
@@ -1083,6 +1084,7 @@ export default {
       y_2019: 47587,
       y_2020: 50306,
       y_2021: 51508,
+      y_2022: 56936,
     },
     'type': 'weighted',
     'geographies': [
@@ -1111,6 +1113,7 @@ export default {
       y_2019: 35398,
       y_2020: 36759,
       y_2021: 39602,
+      y_2022: 43945,
     },
     'type': 'weighted',
     'geographies': [
