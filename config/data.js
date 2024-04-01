@@ -868,6 +868,7 @@ export default {
       y_2019: 87000,
       y_2020: 95000,
       y_2021: 97000,
+      y_2022: 115000,
     },
     'type': 'weighted',
     'geographies': [
