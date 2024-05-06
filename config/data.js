@@ -1203,6 +1203,7 @@ export default {
       y_2019: 45.6,
       y_2020: 44.6,
       y_2021: 44.7,
+      y_2022: 44.6,
     },
     'type': 'weighted',
     'geographies': [
