@@ -172,6 +172,7 @@ export default {
       y_2019: 0.5,
       y_2020: 0.5,
       y_2021: 0.4,
+      y_2022: 0.4,
     },
     'type': 'weighted',
     'geographies': [
@@ -563,6 +564,7 @@ export default {
       y_2019: 77.7,
       y_2020: 75.4,
       y_2021: 71.4,
+      y_2022: 67.8,
     },
     'type': 'weighted',
     'geographies': [
@@ -1156,6 +1158,7 @@ export default {
       y_2019: 27.9,
       y_2020: 25.6,
       y_2021: 23.5,
+      y_2022: 22.2,
     },
     'geographies': [
       'tract',
@@ -2250,6 +2253,7 @@ export default {
       y_2019: 5.7,
       y_2020: 9.4,
       y_2021: 14.2,
+      y_2022: 17.7,
     },
     'type': 'weighted',
     'geographies': [
@@ -2277,6 +2281,7 @@ export default {
       y_2019: 2.4,
       y_2020: 2.1,
       y_2021: 2.1,
+      Y_2022: 2.5,
     },
     'type': 'weighted',
     'geographies': [
