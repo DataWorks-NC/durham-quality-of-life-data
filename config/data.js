@@ -1468,6 +1468,8 @@ export default {
       y_2019: 4.9,
       y_2020: 4.9,
       y_2021: 4.9,
+      y_2022: 5.2,
+      y_2023: 5.2,
     },
     'type': 'weighted',
     'geographies': [
@@ -1492,6 +1494,8 @@ export default {
       y_2019: 0.21,
       y_2020: 0.19,
       y_2021: 0.22,
+      y_2022: 0.22,
+      y_2023: 0.22,
     },
     'type': 'weighted',
     'geographies': [
@@ -1524,6 +1528,8 @@ export default {
       y_2019: 35.9,
       y_2020: 35.2,
       y_2021: 34.8,
+      y_2022: 34.0,
+      y_2023: 32.8,
     },
     'type': 'weighted',
     'geographies': [
@@ -1569,6 +1575,8 @@ export default {
       y_2019: 13.5,
       y_2020: 13.6,
       y_2021: 13.7,
+      y_2022: 13.8,
+      y_2023: 15.3,
     },
     'type': 'weighted',
     'geographies': [
@@ -1640,6 +1648,8 @@ export default {
       y_2019: 42.5,
       y_2020: 42.6,
       y_2021: 42.6,
+      y_2022: 42.6,
+      y_2023: 41.9,
     },
     'type': 'weighted',
     'geographies': [
@@ -1670,6 +1680,8 @@ export default {
       y_2019: 57.5,
       y_2020: 57.4,
       y_2021: 57.4,
+      y_2022: 57.4,
+      y_2023: 58.1,
     },
     'type': 'weighted',
     'geographies': [
