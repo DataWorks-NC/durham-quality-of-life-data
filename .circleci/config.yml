@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/node:lts-browsers
+      - image: cimg/node:20.18.2-browsers
 
     working_directory: ~/repo
     resource_class: large
@@ -41,7 +41,7 @@ jobs:
 
   sitemap:
     docker:
-      - image: cimg/node:lts-browsers
+      - image: cimg/node:20.18.2-browsers
 
     working_directory: /tmp/workspace/
 
@@ -67,7 +67,7 @@ jobs:
   # of the dashboard to deploy to prod.
   deploy_dev:
     docker:
-      - image: mcr.microsoft.com/azure-cli
+      - image: cimg/azure:2025.01
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -81,7 +81,7 @@ jobs:
             AZURE_DESTINATION_BLOB: "dev"
   deploy_prod:
     docker:
-      - image: mcr.microsoft.com/azure-cli
+      - image: cimg/azure:2025.01
     steps:
       - attach_workspace:
           at: /tmp/workspace
