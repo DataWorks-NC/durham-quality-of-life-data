@@ -1438,6 +1438,8 @@ export default {
       y_2019: 12.6,
       y_2020: 12.2,
       y_2021: 12.4,
+      y_2022: 13.8,
+      y_2023: 14.0,
     },
     'type': 'weighted',
     'geographies': [
@@ -1616,6 +1618,8 @@ export default {
       y_2019: 21.1,
       y_2020: 20.8,
       y_2021: 20.6,
+      y_2022: 20.0,
+      y_2023: 20.1,
     },
     'type': 'weighted',
     'geographies': [
@@ -1754,6 +1758,8 @@ export default {
       y_2019: 0.67,
       y_2020: 0.67,
       y_2021: 0.67,
+      y_2022: 0.67,
+      y_2023: 0.68,
     },
     'geographies': [
       'blockgroup',
