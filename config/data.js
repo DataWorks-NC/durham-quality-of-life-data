@@ -1884,12 +1884,22 @@ export default {
     ],
   },
   'mOUT-OF-STATE-VALUE': {
+    /**
+     * World value SQL
+     *
+     * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
+     * from (select data_year,
+     *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
+     *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
+     *       from housing.parcels
+     *       group by data_year) p;
+     */
     'metric': 'OUT-OF-STATE-VALUE',
     'category': 'Housing',
     'subcategory': 'Ownership',
     'title': 'Out of state ownership (all properties)',
     'suffix': '%',
-    'title_es': 'Propietarios con residencia fuera del estado\n',
+    'title_es': 'Propietarios con residencia fuera del estado',
     'raw_label': 'total dollars',
     'decimals': 1,
     'type': 'weighted',
@@ -1918,9 +1928,22 @@ export default {
       y_2019: 22.7549922639719,
       y_2020: 23.4461127193014,
       y_2021: 23.87,
+      y_2022: 24.644,
+      y_2023: 25.173,
+      y_2024: 25.272,
     },
   },
   'mOUT-OF-STATE-RES-VALUE': {
+     /**
+   * World value sql:
+    * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
+    * from (select data_year,
+    *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
+    *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
+    *       from housing.parcels parcels
+    *       where (land_use LIKE 'RES%' OR land_use = '*RESIDENTIAL*' OR land_use LIKE 'COM/ APARTMENT%' OR land_use LIKE 'COM/ APT%')
+    *       group by data_year) p;
+   */
     'metric': 'OUT-OF-STATE-RES-VALUE',
     'category': 'Housing',
     'subcategory': 'Ownership',
@@ -1955,6 +1978,9 @@ export default {
       y_2019: 15.4139301597914,
       y_2020: 16.3489370173807,
       y_2021: 17.10,
+      y_2022: 17.623,
+      y_2023: 18.179,
+      y_2024: 18.461,
     },
   },
   //  "mSTROKE_ASIAN": {
