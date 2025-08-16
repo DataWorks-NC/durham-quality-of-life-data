@@ -58,13 +58,13 @@ export default {
     'metric': 'AFTERNOON-TEMPERATURE',
     'category': 'Environment',
     'label': 'fahrenheit',
-    "suffix": '°',
+    'suffix': '°',
     'subcategory': 'Climate',
     'title': 'Summer Afternoon Temperature',
     'title_es': 'Temperatura por la tarde',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2021': 83.7 },
+    'world_val': {'y_2021': 83.7},
     'geographies': [
       'blockgroup',
       'tract',
@@ -103,13 +103,13 @@ export default {
     'metric': 'EVENING-TEMPERATURE',
     'category': 'Environment',
     'label': 'fahrenheit',
-    "suffix": '°',
+    'suffix': '°',
     'subcategory': 'Climate',
     'title': 'Summer Evening Temperature',
     'title_es': 'Temperatura por la noche',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2021': 80.3 },
+    'world_val': {'y_2021': 80.3},
     'geographies': [
       'blockgroup',
       'tract',
@@ -123,7 +123,7 @@ export default {
     'title_es': 'Edad Promedio de Muerte',
     'decimals': 1,
     'type': 'mean',
-    'world_val': { 'y_2009': 69.1, 'y_2014': 69.6 },
+    'world_val': {'y_2009': 69.1, 'y_2014': 69.6},
     'geographies': [
       'blockgroup',
       'tract',
@@ -455,16 +455,33 @@ export default {
       'blockgroup',
       'tract',
     ],
+    /**
+     * world val:
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from housing.certificates_of_occupancy
+     * where occupancy_description in
+     *       ('Business', 'Factory Industrial (1)', 'Factory Industrial (2)', 'Hazardous (2)', 'Hazardous (3)',
+     *        'Hazardous (4)', 'Mercantile', 'Mixed Use Commercial')
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 1.7626559013996171,
-      y_2013: 1.8264472578312223,
-      y_2014: 1.6921496653436325,
-      y_2015: 2.2125528362330432,
-      y_2016: 1.8130174985824633,
-      y_2017: 1.5209202349219554,
-      y_2018: 1.9003109336993968,
-      y_2019: 1.6787199060948735,
-      y_2020: 1.4067672813075040,
+      y_2008: 1.175,
+      y_2009: 1.534,
+      y_2010: 1.910,
+      y_2011: 1.944,
+      y_2012: 1.763,
+      y_2013: 1.826,
+      y_2014: 1.692,
+      y_2015: 2.213,
+      y_2016: 1.813,
+      y_2017: 1.521,
+      y_2018: 1.900,
+      y_2019: 1.679,
+      y_2020: 1.407,
+      y_2021: 1.289,
+      y_2022: 1.225,
+      y_2023: 1.058,
+      y_2024: 1.118,
     },
   },
   'mCOR': {
@@ -481,16 +498,33 @@ export default {
       'blockgroup',
       'tract',
     ],
+    /**
+     * world val:
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from housing.certificates_of_occupancy
+     * where occupancy_description in
+     *       ('Condominiums', 'Duplex', 'Residential (1)', 'Residential (2)', 'Residential (3)', 'Residential (4)',
+     *        'Manufactured Home Park', 'Mixed Use Residential', 'Multi-Family', 'Single Family', 'Townhouse')
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 6.8659644159280325,
-      y_2013: 7.9873493131994080,
-      y_2014: 7.8463368410874386,
-      y_2015: 9.4814100296238454,
-      y_2016: 10.8277433943119339,
-      y_2017: 9.8406560895281483,
-      y_2018: 11.7678265417250630,
-      y_2019: 12.1069279627562275,
-      y_2020: 12.2546553144925763,
+      y_2008: 4.788,
+      y_2009: 5.812,
+      y_2010: 6.631,
+      y_2011: 7.121,
+      y_2012: 6.866,
+      y_2013: 7.987,
+      y_2014: 7.846,
+      y_2015: 9.481,
+      y_2016: 10.828,
+      y_2017: 9.841,
+      y_2018: 11.768,
+      y_2019: 12.107,
+      y_2020: 12.255,
+      y_2021: 12.785,
+      y_2022: 12.943,
+      y_2023: 12.134,
+      y_2024: 14.185,
     },
   },
   'mCPMTS': {
@@ -1312,7 +1346,7 @@ export default {
     'title_es': 'Densidad de Población',
     'raw_label': 'people',
     'decimals': 0,
-     'world_val': {
+    'world_val': {
       y_2010: 875.9,
       y_2015: 978.4,
       y_2016: 998.0,
@@ -1934,16 +1968,16 @@ export default {
     },
   },
   'mOUT-OF-STATE-RES-VALUE': {
-     /**
-   * World value sql:
-    * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
-    * from (select data_year,
-    *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
-    *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
-    *       from housing.parcels parcels
-    *       where (land_use LIKE 'RES%' OR land_use = '*RESIDENTIAL*' OR land_use LIKE 'COM/ APARTMENT%' OR land_use LIKE 'COM/ APT%')
-    *       group by data_year) p;
-   */
+    /**
+     * World value sql:
+     * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
+     * from (select data_year,
+     *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
+     *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
+     *       from housing.parcels parcels
+     *       where (land_use LIKE 'RES%' OR land_use = '*RESIDENTIAL*' OR land_use LIKE 'COM/ APARTMENT%' OR land_use LIKE 'COM/ APT%')
+     *       group by data_year) p;
+     */
     'metric': 'OUT-OF-STATE-RES-VALUE',
     'category': 'Housing',
     'subcategory': 'Ownership',
