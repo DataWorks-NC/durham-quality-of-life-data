@@ -564,16 +564,34 @@ export default {
     'title_es': 'Demoliciones de casas por milla cuadrada',
     'decimals': 2,
     'type': 'weighted',
+    /**
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from (select permit_number,
+     *              issue_date,
+     *              min(data_year) as data_year
+     *       from housing.permits__demolition__residential
+     *       where data_year >= 2008 and data_year < date_part('year', CURRENT_DATE)
+     *       group by permit_number, issue_date) d
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 0.28873982384831823717,
-      y_2013: 0.21151870816795405746,
-      y_2014: 0.40289277746276963326,
-      y_2015: 0.33910142103116444133,
-      y_2016: 0.39617789783839013938,
-      y_2017: 0.47004157370656457214,
-      y_2018: 0.39282045802620039243,
-      y_2019: 0.52711805051379027019,
-      y_2020: 0.28538238403612849023,
+      y_2008: 0.279,
+      y_2009: 0.453,
+      y_2010: 0.326,
+      y_2011: 0.433,
+      y_2012: 0.282,
+      y_2013: 0.212,
+      y_2014: 0.400,
+      y_2015: 0.339,
+      y_2016: 0.396,
+      y_2017: 0.467,
+      y_2018: 0.393,
+      y_2019: 0.527,
+      y_2020: 0.285,
+      y_2021: 0.356,
+      y_2022: 0.487,
+      y_2023: 0.430,
+      y_2024: 0.413,
     },
     'geographies': [
       'blockgroup',
