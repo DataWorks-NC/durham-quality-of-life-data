@@ -58,13 +58,13 @@ export default {
     'metric': 'AFTERNOON-TEMPERATURE',
     'category': 'Environment',
     'label': 'fahrenheit',
-    "suffix": '°',
+    'suffix': '°',
     'subcategory': 'Climate',
     'title': 'Summer Afternoon Temperature',
     'title_es': 'Temperatura por la tarde',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2021': 83.7 },
+    'world_val': {'y_2021': 83.7},
     'geographies': [
       'blockgroup',
       'tract',
@@ -103,13 +103,13 @@ export default {
     'metric': 'EVENING-TEMPERATURE',
     'category': 'Environment',
     'label': 'fahrenheit',
-    "suffix": '°',
+    'suffix': '°',
     'subcategory': 'Climate',
     'title': 'Summer Evening Temperature',
     'title_es': 'Temperatura por la noche',
     'decimals': 1,
     'type': 'weighted',
-    'world_val': { 'y_2021': 80.3 },
+    'world_val': {'y_2021': 80.3},
     'geographies': [
       'blockgroup',
       'tract',
@@ -123,7 +123,7 @@ export default {
     'title_es': 'Edad Promedio de Muerte',
     'decimals': 1,
     'type': 'mean',
-    'world_val': { 'y_2009': 69.1, 'y_2014': 69.6 },
+    'world_val': {'y_2009': 69.1, 'y_2014': 69.6},
     'geographies': [
       'blockgroup',
       'tract',
@@ -455,16 +455,33 @@ export default {
       'blockgroup',
       'tract',
     ],
+    /**
+     * world val:
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from housing.certificates_of_occupancy
+     * where occupancy_description in
+     *       ('Business', 'Factory Industrial (1)', 'Factory Industrial (2)', 'Hazardous (2)', 'Hazardous (3)',
+     *        'Hazardous (4)', 'Mercantile', 'Mixed Use Commercial')
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 1.7626559013996171,
-      y_2013: 1.8264472578312223,
-      y_2014: 1.6921496653436325,
-      y_2015: 2.2125528362330432,
-      y_2016: 1.8130174985824633,
-      y_2017: 1.5209202349219554,
-      y_2018: 1.9003109336993968,
-      y_2019: 1.6787199060948735,
-      y_2020: 1.4067672813075040,
+      y_2008: 1.175,
+      y_2009: 1.534,
+      y_2010: 1.910,
+      y_2011: 1.944,
+      y_2012: 1.763,
+      y_2013: 1.826,
+      y_2014: 1.692,
+      y_2015: 2.213,
+      y_2016: 1.813,
+      y_2017: 1.521,
+      y_2018: 1.900,
+      y_2019: 1.679,
+      y_2020: 1.407,
+      y_2021: 1.289,
+      y_2022: 1.225,
+      y_2023: 1.058,
+      y_2024: 1.118,
     },
   },
   'mCOR': {
@@ -481,16 +498,33 @@ export default {
       'blockgroup',
       'tract',
     ],
+    /**
+     * world val:
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from housing.certificates_of_occupancy
+     * where occupancy_description in
+     *       ('Condominiums', 'Duplex', 'Residential (1)', 'Residential (2)', 'Residential (3)', 'Residential (4)',
+     *        'Manufactured Home Park', 'Mixed Use Residential', 'Multi-Family', 'Single Family', 'Townhouse')
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 6.8659644159280325,
-      y_2013: 7.9873493131994080,
-      y_2014: 7.8463368410874386,
-      y_2015: 9.4814100296238454,
-      y_2016: 10.8277433943119339,
-      y_2017: 9.8406560895281483,
-      y_2018: 11.7678265417250630,
-      y_2019: 12.1069279627562275,
-      y_2020: 12.2546553144925763,
+      y_2008: 4.788,
+      y_2009: 5.812,
+      y_2010: 6.631,
+      y_2011: 7.121,
+      y_2012: 6.866,
+      y_2013: 7.987,
+      y_2014: 7.846,
+      y_2015: 9.481,
+      y_2016: 10.828,
+      y_2017: 9.841,
+      y_2018: 11.768,
+      y_2019: 12.107,
+      y_2020: 12.255,
+      y_2021: 12.785,
+      y_2022: 12.943,
+      y_2023: 12.134,
+      y_2024: 14.185,
     },
   },
   'mCPMTS': {
@@ -530,16 +564,34 @@ export default {
     'title_es': 'Demoliciones de casas por milla cuadrada',
     'decimals': 2,
     'type': 'weighted',
+    /**
+     * select 'y_' || data_year || ': ' || round(count(*) / 297.84599454898125, 3) || ','
+     * from (select permit_number,
+     *              issue_date,
+     *              min(data_year) as data_year
+     *       from housing.permits__demolition__residential
+     *       where data_year >= 2008 and data_year < date_part('year', CURRENT_DATE)
+     *       group by permit_number, issue_date) d
+     * group by data_year order by data_year;
+     */
     'world_val': {
-      y_2012: 0.28873982384831823717,
-      y_2013: 0.21151870816795405746,
-      y_2014: 0.40289277746276963326,
-      y_2015: 0.33910142103116444133,
-      y_2016: 0.39617789783839013938,
-      y_2017: 0.47004157370656457214,
-      y_2018: 0.39282045802620039243,
-      y_2019: 0.52711805051379027019,
-      y_2020: 0.28538238403612849023,
+      y_2008: 0.279,
+      y_2009: 0.453,
+      y_2010: 0.326,
+      y_2011: 0.433,
+      y_2012: 0.282,
+      y_2013: 0.212,
+      y_2014: 0.400,
+      y_2015: 0.339,
+      y_2016: 0.396,
+      y_2017: 0.467,
+      y_2018: 0.393,
+      y_2019: 0.527,
+      y_2020: 0.285,
+      y_2021: 0.356,
+      y_2022: 0.487,
+      y_2023: 0.430,
+      y_2024: 0.413,
     },
     'geographies': [
       'blockgroup',
@@ -1312,7 +1364,7 @@ export default {
     'title_es': 'Densidad de Población',
     'raw_label': 'people',
     'decimals': 0,
-     'world_val': {
+    'world_val': {
       y_2010: 875.9,
       y_2015: 978.4,
       y_2016: 998.0,
@@ -1884,12 +1936,22 @@ export default {
     ],
   },
   'mOUT-OF-STATE-VALUE': {
+    /**
+     * World value SQL
+     *
+     * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
+     * from (select data_year,
+     *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
+     *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
+     *       from housing.parcels
+     *       group by data_year) p;
+     */
     'metric': 'OUT-OF-STATE-VALUE',
     'category': 'Housing',
     'subcategory': 'Ownership',
     'title': 'Out of state ownership (all properties)',
     'suffix': '%',
-    'title_es': 'Propietarios con residencia fuera del estado\n',
+    'title_es': 'Propietarios con residencia fuera del estado',
     'raw_label': 'total dollars',
     'decimals': 1,
     'type': 'weighted',
@@ -1918,9 +1980,22 @@ export default {
       y_2019: 22.7549922639719,
       y_2020: 23.4461127193014,
       y_2021: 23.87,
+      y_2022: 24.644,
+      y_2023: 25.173,
+      y_2024: 25.272,
     },
   },
   'mOUT-OF-STATE-RES-VALUE': {
+    /**
+     * World value sql:
+     * select data_year, case when total_value > 0 then round((100* oos_value * 1.0 / total_value)::numeric, 3) else 0 end as oos_pct
+     * from (select data_year,
+     *              sum(case when owner__state <> 'NC' then total_value else 0 end)                            as oos_value,
+     *              sum(case when owner__state is not null and owner__state <> '' then total_value else 0 end) as total_value
+     *       from housing.parcels parcels
+     *       where (land_use LIKE 'RES%' OR land_use = '*RESIDENTIAL*' OR land_use LIKE 'COM/ APARTMENT%' OR land_use LIKE 'COM/ APT%')
+     *       group by data_year) p;
+     */
     'metric': 'OUT-OF-STATE-RES-VALUE',
     'category': 'Housing',
     'subcategory': 'Ownership',
@@ -1955,6 +2030,9 @@ export default {
       y_2019: 15.4139301597914,
       y_2020: 16.3489370173807,
       y_2021: 17.10,
+      y_2022: 17.623,
+      y_2023: 18.179,
+      y_2024: 18.461,
     },
   },
   //  "mSTROKE_ASIAN": {
