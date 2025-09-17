@@ -9,7 +9,11 @@ Increases in residential property value can make a major impact on low-income or
 How have values changed in your neighborhood? Are your neighbors having difficulty keeping up with costs?
 
 ### About the Data
-Data here show the median rate of tax value change for each residential parcel in the census area. Half the residential properties in each census area changed at a rate higher than that shown and half at a rate lower than that shown.
+Data here show the median rate of tax value change for each (non-vacant) residential parcel in the census area. Half the residential properties in each census area changed at a rate higher than that shown and half at a rate lower than that shown.
+
+For this metric, we do not include vacant residential properties or apartment buildings in the calculation. Tax value change is only counted for parcels which were residential both before and after the revaluation.
+
+Tract-level data is only available for 2025.
 
 Source: Durham County Tax Administration
 
