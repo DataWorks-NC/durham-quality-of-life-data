@@ -1906,7 +1906,6 @@ export default {
     'type': 'mean',
     'geographies': [
       'blockgroup',
-      'tract'
     ],
     'world_val': {
       // N.b. 2016 and 2019 world vals are not computed from actual medians
