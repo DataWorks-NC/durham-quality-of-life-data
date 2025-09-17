@@ -1907,6 +1907,13 @@ export default {
     'geographies': [
       'blockgroup',
     ],
+    'world_val': {
+      // N.b. 2016 and 2019 world vals are not computed from actual medians
+      // rather they're just copied from the compass values for those years.
+      y_2016: 12.8,
+      y_2019: 26.6,
+      y_2025: 78.37
+    },
   },
   'mRPMTS': {
     'metric': 'RPMTS',
